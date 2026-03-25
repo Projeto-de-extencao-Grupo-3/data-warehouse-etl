@@ -1,1 +1,1 @@
-Repositório destinado para o diagram as a code da arquitetura do projeto.
+Repositório destinado para a ETL do projeto que futuramente vamos subir na infra.
