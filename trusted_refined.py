@@ -1,33 +1,55 @@
 import pandas as pd
 import os
 
-def refine_data():
+def refinar_feriados() -> None:
     df = pd.read_csv("./trusted/trusted_feriados.csv")
 
-    df["DATA"] = pd.to_datetime(df["DATA"])
-
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
     df["ANO"] = df["DATA"].dt.year
     df["MES"] = df["DATA"].dt.month
     df["DIA"] = df["DATA"].dt.day
     df["NOME_MES"] = df["DATA"].dt.month_name()
 
-    df["FERIADO_NACIONAL"] = df["TIPO"].apply(
-        lambda x: "Sim" if x == "NACIONAL" else "Não"
-    )
+    df["FERIADO_NACIONAL"] = df["TIPO"].astype(str).str.upper().eq("NACIONAL").map({True: "Sim", False: "Não"})
 
     df.to_csv("./refined/refined_feriados_nacional.csv", index=False)
+    df.to_csv("./refined/refined_feriados_mes.csv", index=False)  
 
-    feriados_estado = df.groupby("ESTADO").size().reset_index(name="Quantidade_Feriados")
-    feriados_estado.to_csv("./refined/refined_feriados_por_estado.csv", index=False)
+    df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")] \
+        .to_csv("./refined/refined_feriados_sp.csv", index=False)
 
-    feriados_mes = df.groupby("MES").size().reset_index(name="Quantidade_Feriados")
-    feriados_mes.to_csv("./refined/refined_feriados_por_mes.csv", index=False)
+    df.groupby("ESTADO", dropna=False).size().reset_index(name="Quantidade_Feriados") \
+        .to_csv("./refined/refined_feriados_por_estado.csv", index=False)
 
-    feriados_categoria = df.groupby("TIPO").size().reset_index(name="Quantidade_Feriados")
-    feriados_categoria.to_csv("./refined/refined_feriados_por_categoria.csv", index=False)
+    df.groupby("MES", dropna=False).size().reset_index(name="Quantidade_Feriados") \
+        .to_csv("./refined/refined_feriados_por_mes.csv", index=False)
 
-    print("Arquivos refined gerados")
+    df.groupby("TIPO", dropna=False).size().reset_index(name="Quantidade_Feriados") \
+        .to_csv("./refined/refined_feriados_por_categoria.csv", index=False)
 
+    print("Refinamento FERIADOS concluído.")
+
+
+
+def refinar_datatran() -> None:
+    df = pd.read_csv("./trusted/trusted_datatran.csv")
+
+    # SP
+    df_sp = df[df["ESTADO"].astype(str).str.upper().str.strip() == "SP"].copy()
+    df_sp.to_csv("./refined/refined_datatran_sp.csv", index=False)
+
+    # SP + falhas mecânicas/elétricas
+    df_sp_falhas = df_sp[
+        df_sp["CAUSA_ACIDENTE"].astype(str).str.contains("falhas mec", case=False, na=False)
+    ].copy()
+    df_sp_falhas.to_csv("./refined/refined_datatran_sp_falhas_mecanicas.csv", index=False)
+
+    print("Refinamento DATATRAN concluído.")
+
+def main() -> None:
+    refinar_feriados()
+    refinar_datatran()
+    print("Refinamento finalizado.")
 
 if __name__ == "__main__":
-    refine_data()
+    main()

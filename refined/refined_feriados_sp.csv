@@ -1,1354 +1,1354 @@
-DATA,DIA,TIPO,DESCRICAO,ESTADO,CODIGO_MUNICIPIO,MES
-09/07/2021,Revolução Constitucionalista,ESTADUAL,A Revolução Constitucionalista de 1932 foi um movimento armado que tinha por objetivo a derrubada do Governo Provisório de Getúlio Vargas e a promulgação de uma nova constituição para o Brasil.,SP,,7
-14/12/2021,Aniversário de Jundiaí,FACULTATIVO,Data comemorativa e ponto facultativo,SP,3525904.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3500105.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3500105.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3500204.0,3
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3500204.0,11
-06/08/2021,Aniversário,MUNICIPAL,Aniversário de Aguaí,SP,3500303.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal Nº 2130, de 10.12.2008",SP,3500303.0,11
-11/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3500402.0,2
-03/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3500402.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1818, de 2009",SP,3500402.0,11
-02/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3500501.0,7
-16/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3500501.0,11
-20/04/2021,Feriado Municipal,MUNICIPAL,,SP,3500550.0,4
-04/12/2021,Feriado Municipal,MUNICIPAL,,SP,3500550.0,12
-25/07/2021,Feriado Municipal,MUNICIPAL,,SP,3500600.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 1354 de 21/11/2006,SP,3500600.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3500600.0,12
-27/07/2021,Feriado Municipal,MUNICIPAL,,SP,3500709.0,7
-04/04/2021,Feriado Municipal,MUNICIPAL,,SP,3500808.0,4
-20/11/2021,Consciência Negra,MUNICIPAL, Lei Municipal nº 2.533/2010,SP,3500808.0,11
-24/12/2021,Feriado Municipal,MUNICIPAL,,SP,3500808.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3500907.0,1
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3500907.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3500907.0,12
-31/12/2021,Feriado Municipal,MUNICIPAL,,SP,3500907.0,12
-09/03/2021,Feriado Municipal,MUNICIPAL,,SP,3501004.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3501004.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal no 1.586, de 13/11/2007",SP,3501004.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3501103.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3501103.0,8
-02/04/2021,Feriado Municipal,MUNICIPAL,,SP,3501152.0,4
-10/04/2021,Feriado Municipal,MUNICIPAL,,SP,3501202.0,4
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3501202.0,6
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3501301.0,3
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3501301.0,11
-22/11/2021,Feriado Municipal,MUNICIPAL,,SP,3501400.0,11
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3501509.0,6
-08/08/2021,Feriado Municipal,MUNICIPAL,,SP,3501509.0,8
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3501608.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Dia de Corpus Christi,SP,3501608.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3501608.0,6
-21/11/2021,Consciência Negra,MUNICIPAL,Comemorações do Dia da Consciência Negra em Americana ocorrem no Terceiro Domingo do mês de Novembro,SP,3501608.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3501707.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 00022/2007,SP,3501707.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3501806.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3501806.0,11
-08/04/2021,Feriado Municipal,MUNICIPAL,,SP,3501905.0,4
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3501905.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 03043/2004,SP,3501905.0,11
-21/06/2021,Feriado Municipal,MUNICIPAL,,SP,3502002.0,6
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3502002.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3502002.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3502002.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3502101.0,1
-11/07/2021,Feriado Municipal,MUNICIPAL,,SP,3502101.0,7
-11/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3502200.0,3
-15/04/2021,Feriado Municipal,MUNICIPAL,,SP,3502309.0,4
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3502309.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3502309.0,11
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3502408.0,8
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3502408.0,12
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 03410/2006,SP,3502507.0,11
-17/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3502507.0,12
-22/03/2021,Feriado Municipal,MUNICIPAL,,SP,3502606.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3502705.0,6
-14/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3502705.0,8
-19/05/2021,Feriado Municipal,MUNICIPAL,,SP,3502754.0,5
-16/09/2021,Feriado Municipal,MUNICIPAL,,SP,3502754.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 06924/07,SP,3502804.0,11
-02/12/2021,Aniversário,MUNICIPAL,Aniversário de Araçatuba,SP,3502804.0,12
-07/04/2021,Feriado Municipal,MUNICIPAL,,SP,3502903.0,4
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3502903.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No. 1.675 DE 14 de setembro de 2009,SP,3502903.0,11
-04/04/2021,Feriado Municipal,MUNICIPAL,,SP,3503000.0,4
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3503000.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3503000.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3503109.0,3
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3503109.0,8
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3503109.0,11
-22/08/2021,Feriado Municipal,MUNICIPAL,,SP,3503208.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 06633/07,SP,3503208.0,11
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3503307.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No. 4.258/2009,SP,3503307.0,11
-01/04/2021,Feriado Municipal,MUNICIPAL,,SP,3503406.0,4
-25/11/2021,Feriado Municipal,MUNICIPAL,,SP,3503406.0,11
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3503604.0,8
-14/09/2021,Feriado Municipal,MUNICIPAL,,SP,3503604.0,9
-10/04/2021,Feriado Municipal,MUNICIPAL,,SP,3503703.0,4
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3503703.0,6
-10/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3503802.0,4
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3503802.0,9
-08/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3503901.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3503901.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3503901.0,11
-01/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3504008.0,7
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,"Sexta-Feira Santa conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"Corpus Christi conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,6
-24/06/2021,Aniversário da Cidade,MUNICIPAL,"Aniversário de Atibaia, conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,6
-02/11/2021,Finados,MUNICIPAL,"Dia de Finados, conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3504206.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3504305.0,1
-02/12/2021,Feriado Municipal,MUNICIPAL,,SP,3504305.0,12
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3504404.0,12
-29/12/2021,Feriado Municipal,MUNICIPAL,,SP,3504404.0,12
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3504503.0,9
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3504602.0,1
-18/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3504602.0,2
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3504602.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3504701.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3504701.0,12
-17/11/2021,Feriado Municipal,MUNICIPAL,,SP,3504800.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3504800.0,12
-10/07/2021,Feriado Municipal,MUNICIPAL,,SP,3504909.0,7
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3504909.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 0004 de 03/03/2009,SP,3504909.0,11
-31/01/2021,Feriado Municipal,MUNICIPAL,,SP,3505104.0,1
-29/08/2021,Feriado Municipal,MUNICIPAL,,SP,3505104.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3505104.0,11
-16/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3505203.0,6
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3505203.0,9
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3505302.0,3
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3505401.0,3
-19/08/2021,Feriado Municipal,MUNICIPAL,,SP,3505401.0,8
-25/08/2021,Feriado Municipal,MUNICIPAL,,SP,3505500.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 4151, de 04.02.2009",SP,3505500.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3505609.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3505609.0,11
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3505609.0,12
-24/06/2021,São João Batista (Padroeiro),MUNICIPAL,conforme Lei Municipal nº 354 de 16/03/1982,SP,3505708.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1639, de 01/03/2007",SP,3505708.0,11
-18/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3505807.0,6
-03/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3505807.0,12
-14/03/2021,Feriado Municipal,MUNICIPAL,,SP,3505906.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3505906.0,8
-01/08/2021,Aniversário da Cidade,MUNICIPAL,conforme Lei Municipal nº 1.401 de 16/08/1968,SP,3506003.0,8
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3506102.0,5
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3506102.0,6
-27/03/2021,Feriado Municipal,MUNICIPAL,,SP,3506201.0,3
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3506201.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3506201.0,11
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3506300.0,8
-09/10/2021,Aniversário do município,MUNICIPAL,,SP,3506300.0,10
-19/05/2021,Emancipação,MUNICIPAL,Emancipação Político-administrativo,SP,3506359.0,5
-24/06/2021,São João,MUNICIPAL,"Dia de São João Batista, padroeiro do município",SP,3506359.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3506359.0,11
-18/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3506409.0,4
-08/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3506409.0,9
-08/12/2021,Nossa Sra da Conceição,MUNICIPAL,Dia da Padroeira da Cidade,SP,3506508.0,12
-05/05/2021,Feriado Municipal,MUNICIPAL,,SP,3506607.0,5
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3506706.0,1
-21/07/2021,Feriado Municipal,MUNICIPAL,,SP,3506706.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3506706.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3506805.0,6
-08/12/2021,Nossa Sra. Conceição,MUNICIPAL,Feriado de Nossa Senhora da Conceição,SP,3506805.0,12
-09/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3506904.0,9
-20/11/2021,Consciência Negra - Lei no 1.914 de 04 de dezembro de 2007,MUNICIPAL,,SP,3506904.0,11
-16/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3507001.0,8
-06/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3507001.0,9
-22/05/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade de Bom Jesus dos Perdões,SP,3507100.0,5
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3507100.0,8
-31/03/2021,Feriado Municipal,MUNICIPAL,,SP,3507209.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3507209.0,6
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3507407.0,1
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3507407.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 2471, de 10.10.2008",SP,3507407.0,11
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3507506.0,4
-14/04/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade,SP,3507506.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3507506.0,6
-26/07/2021,SantAnna,MUNICIPAL,Dia de SantAnna,SP,3507506.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3507605.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3507605.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3507704.0,1
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3507704.0,11
-22/08/2021,Feriado Municipal,MUNICIPAL,,SP,3507803.0,8
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3507803.0,12
-03/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3507902.0,5
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3507902.0,9
-25/01/2021,Feriado Municipal,MUNICIPAL,,SP,3508009.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3508009.0,6
-16/08/2021,Feriado Municipal,MUNICIPAL,,SP,3508009.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3508009.0,11
-24/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3508108.0,8
-20/11/2021,"Consciência Negra - Lei No. 3.249, de 18 de novembro de 2008",MUNICIPAL,,SP,3508108.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3508108.0,12
-28/07/2021,Feriado Municipal,MUNICIPAL,,SP,3508207.0,7
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3508207.0,9
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3508306.0,8
-26/12/2021,Feriado Municipal,MUNICIPAL,,SP,3508306.0,12
-24/03/2021,Feriado Municipal,MUNICIPAL,,SP,3508405.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3508405.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 1765 de 09 11 2006,SP,3508405.0,11
-14/04/2021,Feriado Municipal,MUNICIPAL,,SP,3508504.0,4
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3508504.0,6
-09/03/2021,Feriado Municipal,MUNICIPAL,,SP,3508603.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3508603.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3508603.0,11
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3508702.0,4
-27/04/2021,Aniversário Ranieri Mazzilli,MUNICIPAL," Aniversário de Ranieri Mazzilli. Lei Municipal nº 2255, de 14 de dezembro de 2005",SP,3508702.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"conforme Lei Municipal nº 950, de 30 de setembro de 1969",SP,3508702.0,6
-08/12/2021,Aniversário da Cidade,MUNICIPAL,Aniversário do Município. Lei Municipal nº 841 de 31 de agosto de 1967,SP,3508702.0,12
-11/04/2021,Feriado Municipal,MUNICIPAL,,SP,3508801.0,4
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3508801.0,8
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3508900.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3508900.0,12
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3508900.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,Dia do Padroeiro da Cidade,SP,3509007.0,6
-14/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3509007.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3509106.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3509106.0,6
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3509205.0,1
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3509205.0,2
-19/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3509254.0,5
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3509254.0,6
-13/05/2021,Feriado Municipal,MUNICIPAL,,SP,3509304.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3509304.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 1.993 de 20 de setembro de 2010,SP,3509304.0,11
-20/01/2021,São Sebastião,MUNICIPAL,São Sebastião,SP,3509403.0,1
-11/07/2021,Padroeiro,MUNICIPAL,"Dia de São Bento, padroeiro",SP,3509403.0,7
-18/08/2021,Aniversário,MUNICIPAL,Aniversário da Cidade de Cajuru,SP,3509403.0,8
-02/04/2021,Sexta-feira Santa,MUNICIPAL,"conforme Lei Municipal no 173, de 28 de junho de 1949",SP,3509502.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"conforme Lei Municipal no 173, de 28 de junho de 1949",SP,3509502.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Dia da Consciência Negra, conforme Lei Municipal No 11.128 DE 14/01/2002",SP,3509502.0,11
-08/12/2021,Nossa Senhora da Conceição,MUNICIPAL,"Padroeira de Campinas, Lei Municipal no 173, de 28 de junho de 1949",SP,3509502.0,12
-21/03/2021,Aniversário,MUNICIPAL,Fundação do Município,SP,3509601.0,3
-29/04/2021,Feriado Municipal,MUNICIPAL,,SP,3509700.0,4
-01/10/2021,"Santa Teresinha do Menino Jesus, Padroeira da cidade",MUNICIPAL,,SP,3509700.0,10
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal N° 3028, de 27.12.2006",SP,3509700.0,11
-10/03/2021,Feriado Municipal,MUNICIPAL,,SP,3509809.0,3
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3509809.0,3
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3509809.0,6
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3509908.0,6
-12/08/2021,Feriado Municipal,MUNICIPAL,,SP,3509908.0,8
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3509908.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3509908.0,11
-22/03/2021,Feriado Municipal,MUNICIPAL,,SP,3509957.0,3
-24/05/2021,Feriado Municipal,MUNICIPAL,,SP,3509957.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 338 de 14 de novembro de 2007,SP,3509957.0,11
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3510005.0,9
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3510104.0,2
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3510104.0,6
-16/08/2021,Feriado Municipal,MUNICIPAL,,SP,3510104.0,8
-02/04/2021,Feriado Municipal,MUNICIPAL,,SP,3510203.0,4
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3510203.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3510203.0,12
-26/03/2021,Feriado Municipal,MUNICIPAL,,SP,3510302.0,3
-29/05/2021,Feriado Municipal,MUNICIPAL,,SP,3510302.0,5
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3510401.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 3994/2012,SP,3510401.0,11
-20/04/2021,Feriado Municipal,MUNICIPAL,,SP,3510500.0,4
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3510500.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1402, de 14.06.2007",SP,3510500.0,11
-26/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3510609.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3510609.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Art. 220 da Lei Orgânica Municipal , alterada pela emenda 41/08",SP,3510609.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3510708.0,1
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3510708.0,11
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3510807.0,9
-06/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3510906.0,1
-18/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3510906.0,2
-22/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3510906.0,5
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3510906.0,6
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3511003.0,3
-10/08/2021,Feriado Municipal,MUNICIPAL,,SP,3511003.0,8
-14/04/2021,Aniversário do município,MUNICIPAL,Aniversário do município,SP,3511102.0,4
-08/08/2021,São Domingos,MUNICIPAL,"Dia de São Domingos, padroeiro da cidade",SP,3511102.0,8
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3511201.0,1
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3511201.0,5
-04/07/2021,Feriado Municipal,MUNICIPAL,,SP,3511201.0,7
-21/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3511300.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3511300.0,12
-01/10/2021,S. Teresinha do Menino Jesus,MUNICIPAL,Padroeira da cidade,SP,3511409.0,10
-10/10/2021,Aniversário da cidade,MUNICIPAL,,SP,3511409.0,10
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3511409.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3511508.0,3
-03/04/2021,Feriado Municipal,MUNICIPAL,,SP,3511508.0,4
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3511607.0,5
-14/09/2021,Feriado Municipal,MUNICIPAL,,SP,3511607.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1278, de 05.12.2008",SP,3511706.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3511706.0,12
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 2920, de 2009",SP,3557204.0,11
-04/12/2021,Feriado Municipal,MUNICIPAL,,SP,3557204.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3511904.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3511904.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3512001.0,3
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3512001.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3512001.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3512001.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3512001.0,12
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3512100.0,2
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3512100.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3512100.0,11
-09/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3512209.0,4
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3512308.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3512308.0,8
-04/12/2021,Feriado Municipal,MUNICIPAL,,SP,3512308.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3512407.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal N° 2021, de 27.03.2001",SP,3512407.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3512506.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3512506.0,6
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3512605.0,3
-05/04/2021,Feriado Municipal,MUNICIPAL,,SP,3512605.0,4
-06/06/2021,Feriado Municipal,MUNICIPAL,,SP,3512605.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3512605.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3512704.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3512704.0,11
-30/11/2021,Aniversário do Município,MUNICIPAL,Aniversário do Município,SP,3512803.0,11
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3512902.0,6
-02/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3513009.0,4
-08/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3513009.0,9
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3513108.0,3
-28/07/2021,Aniversário do Município,MUNICIPAL,conforme Lei Municipal nº 1.488 de 14/06/2005,SP,3513207.0,7
-15/08/2021,Nossa Senhora da Abadia,MUNICIPAL,conforme Lei Municipal nº 1.488 de 14/06/2005,SP,3513207.0,8
-20/11/2021,Dia da,MUNICIPAL,,SP,3513207.0,11
-04/04/2021,Feriado Municipal,MUNICIPAL,,SP,3513306.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3513306.0,12
-02/10/2021,município,MUNICIPAL,Homenagem ao aniversário de emancipação políticoadministrativa da cidade,SP,3513405.0,10
-08/12/2021,Padroeira,MUNICIPAL,"Dia de Nossa Senhora Imaculada Conceição, conforme Lei Municipal 0803/1967",SP,3513405.0,12
-09/04/2021,Feriado Municipal,MUNICIPAL,,SP,3513504.0,4
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3513504.0,8
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3513603.0,3
-20/04/2021,Feriado Municipal,MUNICIPAL,,SP,3513603.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3513603.0,12
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3513702.0,9
-02/04/2021,Sexta-feira Santa,MUNICIPAL,Sexta-feira Santa,SP,3513801.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,,SP,3513801.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 2573/06,SP,3513801.0,11
-08/12/2021,"Aniversário da cidade e Dia da Imaculada Conceição, padroeira da cidade",MUNICIPAL,"Aniversário da cidade e Dia da Imaculada Conceição, padroeira da cidade",SP,3513801.0,12
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3513900.0,12
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3513900.0,12
-02/04/2021,Feriado Municipal,MUNICIPAL,,SP,3514007.0,4
-04/02/2021,Feriado Municipal,MUNICIPAL,,SP,3514106.0,2
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3514205.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3514205.0,6
-19/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514304.0,5
-24/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514304.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514403.0,12
-11/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514502.0,12
-13/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514502.0,12
-21/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514601.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3514601.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3514601.0,12
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3514700.0,11
-10/03/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade de Eldorado,SP,3514809.0,3
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3514809.0,4
-08/09/2021,Padroeira,MUNICIPAL,Dia da Padroeira,SP,3514809.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3514809.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3514908.0,3
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3514908.0,11
-09/01/2021,Feriado Municipal,MUNICIPAL,,SP,3514957.0,1
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3514957.0,9
-18/02/2021,Aniversário da Cidade,MUNICIPAL,Aniversário de Emancipação Política,SP,3515004.0,2
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3515004.0,4
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal no 2.285, de 09.11.2007",SP,3515004.0,11
-28/03/2021,Aniversário da Cidade,MUNICIPAL,Aniversário de Embu-Guaçu,SP,3515103.0,3
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,"Feriado Municipal, segundo lei Lei nº 1917/2004",SP,3515103.0,4
-03/06/2021,Cospus Christi,MUNICIPAL,"Feriado Municipal, segundo lei Lei nº 1917/2004",SP,3515103.0,6
-01/10/2021,Santa Terezinha,MUNICIPAL,"Dia de Santa Terezinha, padroeira da cidade",SP,3515103.0,10
-19/05/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade de Engenheiro Coelho,SP,3515152.0,5
-29/06/2021,São Pedro,MUNICIPAL,"Dia de São Pedro, padroeiro do Município",SP,3515152.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3515152.0,11
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3515186.0,12
-27/12/2021,Feriado Municipal,MUNICIPAL,,SP,3515186.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3557303.0,3
-19/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3557303.0,5
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3515301.0,1
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3515301.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3515301.0,6
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3515301.0,12
-25/01/2021,Feriado Municipal,MUNICIPAL,,SP,3515202.0,1
-25/09/2021,Feriado Municipal,MUNICIPAL,,SP,3515202.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3515202.0,11
-09/01/2021,Feriado Municipal,MUNICIPAL,,SP,3515350.0,1
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3515350.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3515350.0,9
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3515350.0,12
-31/03/2021,Feriado Municipal,MUNICIPAL,,SP,3515400.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3515400.0,9
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3515608.0,1
-05/07/2021,Feriado Municipal,MUNICIPAL,,SP,3515608.0,7
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3515608.0,12
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3515509.0,5
-14/10/2021,Aniversário da cidade,MUNICIPAL,Aniversário da cidade,SP,3515707.0,10
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal nº 3165 de 16/05/2013,SP,3515707.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3515806.0,3
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3515905.0,1
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3515905.0,8
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3515905.0,12
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 007/2007,SP,3516002.0,11
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3516101.0,1
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3516101.0,3
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3516101.0,12
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 6730/2006,SP,3516200.0,11
-28/11/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade,SP,3516200.0,11
-08/12/2021,Padroeira,MUNICIPAL,"Dia da Padroeira da Cidade, Nossa Senhora da Conceição",SP,3516200.0,12
-21/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516309.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 2.129 17.06.2005,SP,3516309.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 535/2005,SP,3516408.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516408.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516408.0,12
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3516507.0,6
-03/11/2021,Feriado Municipal,MUNICIPAL,,SP,3516507.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3516606.0,3
-14/04/2021,Feriado Municipal,MUNICIPAL,,SP,3516606.0,4
-05/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516705.0,5
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516705.0,6
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3516804.0,1
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3516804.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3516804.0,12
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516903.0,9
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3516903.0,12
-25/03/2021,Feriado Municipal,MUNICIPAL,,SP,3517000.0,3
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3517000.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 2.082 de 9 de março de 2009,SP,3517000.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3517109.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3517109.0,8
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3517109.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3517208.0,6
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3517208.0,12
-08/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3517307.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3517307.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3517406.0,1
-18/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3517406.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3517406.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3517505.0,1
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3517505.0,11
-19/03/2021,São José,MUNICIPAL,"Dia de São José, padroeiro da Cidade",SP,3517604.0,3
-02/05/2021,Aniversário da Cidade,MUNICIPAL,,SP,3517604.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3517604.0,11
-24/12/2021,Elevação a Município,MUNICIPAL,Elevação de Guapiara a Município - Lei Municipal 1.342/2002,SP,3517604.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3517703.0,1
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3517703.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3517802.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3517901.0,1
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3517901.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3517901.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3517901.0,11
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3518008.0,6
-18/08/2021,Feriado Municipal,MUNICIPAL,,SP,3518008.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3518008.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3518107.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3518107.0,11
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3518206.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3518206.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3518206.0,12
-19/09/2021,Feriado Municipal,MUNICIPAL,,SP,3518305.0,9
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3518404.0,4
-13/06/2021,Santo Antônio,MUNICIPAL,"Aniversário da cidade e dia de Santo Antônio, padroeiro",SP,3518404.0,6
-25/10/2021,Frei Galvão,MUNICIPAL,"Dia de Frei Galvão, Lei nº 4.025 de 14/04/08",SP,3518404.0,10
-16/03/2021,Feriado Municipal,MUNICIPAL,,SP,3518503.0,3
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3518503.0,6
-21/09/2021,Feriado Municipal,MUNICIPAL,,SP,3518602.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3518602.0,11
-15/01/2021,Santo Amaro,MUNICIPAL,"Dia de Santo Amaro, padroeiro da cidade",SP,3518701.0,1
-02/04/2021,Sexta-feira santa,MUNICIPAL,Sexta-feira santa,SP,3518701.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3518701.0,6
-02/11/2021,Finados,MUNICIPAL,Dia de Finados,SP,3518701.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 3784, de 11.11.2009",SP,3518701.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 5950/03,SP,3518800.0,11
-08/12/2021,Nossa Senhora da Conceição e Aniversário de Guarulhos,MUNICIPAL,conforme Lei Municipal nº 1.631 de 14/12/1970,SP,3518800.0,12
-28/03/2021,Feriado Municipal,MUNICIPAL,,SP,3518909.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3518909.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3518909.0,8
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3519006.0,7
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3519006.0,11
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3519055.0,4
-25/05/2021,Divino Esp. Santo,MUNICIPAL,"Divino Espírito Santo, padroeiro da cidade",SP,3519055.0,5
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3519055.0,6
-27/10/2021,Aniversário de Holambra,MUNICIPAL,Aniversário de Holambra,SP,3519055.0,10
-19/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3519071.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 958 de 31.10.2001,SP,3519071.0,11
-15/04/2021,Feriado Municipal,MUNICIPAL,,SP,3519105.0,4
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3519105.0,6
-21/06/2021,Feriado Municipal,MUNICIPAL,,SP,3519204.0,6
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3519204.0,6
-09/01/2021,Feriado Municipal,MUNICIPAL,,SP,3519253.0,1
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3519253.0,11
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3519253.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3519303.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3519303.0,8
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3519402.0,1
-12/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3519402.0,12
-11/02/2021,Feriado Municipal,MUNICIPAL,,SP,3519501.0,2
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3519501.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3519501.0,11
-04/07/2021,Feriado Municipal,MUNICIPAL,,SP,3519600.0,7
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3519600.0,8
-24/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3519709.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3519709.0,9
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3519808.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3519808.0,11
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3519808.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3519907.0,6
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3519907.0,11
-11/02/2021,N. Sra. de Lourdes,MUNICIPAL,,SP,3520004.0,2
-02/04/2021,Sexta-feira santa,MUNICIPAL,,SP,3520004.0,4
-26/07/2021,São Joaquim,MUNICIPAL,Padroeiro do município,SP,3520004.0,7
-19/10/2021,Aniversário do município,MUNICIPAL,,SP,3520004.0,10
-22/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3520103.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3520103.0,8
-05/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3520202.0,12
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3520301.0,1
-05/08/2021,Feriado Municipal,MUNICIPAL,,SP,3520301.0,8
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3520301.0,8
-03/12/2021,Feriado Municipal,MUNICIPAL,,SP,3520301.0,12
-02/04/2021,Sexta-feira da Paixão,MUNICIPAL,Sexta-feira da Paixão,SP,3520426.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3520426.0,6
-27/10/2021,Emancipação do município,MUNICIPAL,Comemoração da Emancipação Política Administrativa do Município,SP,3520426.0,10
-08/12/2021,Imaculada Conceição,MUNICIPAL,Padroeira do Município,SP,3520426.0,12
-04/10/2021,S. Francisco de Assis,MUNICIPAL,"Dia de São Francisco de Assis, conforme lei Nº 787, de 27 de Setembro de 2001",SP,3520442.0,10
-20/11/2021,Consciência Negra,MUNICIPAL,"Dia da Consciência Negra, conforme lei Nº 1987, de 13 de Novembro de 2012",SP,3520442.0,11
-02/02/2021,Feriado Municipal,MUNICIPAL,,SP,3520400.0,2
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3520400.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3520400.0,6
-03/09/2021,Feriado Municipal,MUNICIPAL,,SP,3520400.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 451, de 2007",SP,3520400.0,11
-02/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3520509.0,2
-17/03/2021,Feriado Municipal,MUNICIPAL,,SP,3520608.0,3
-12/05/2021,Feriado Municipal,MUNICIPAL,,SP,3520707.0,5
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3520707.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3520707.0,11
-22/08/2021,Feriado Municipal,MUNICIPAL,,SP,3520806.0,8
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3520905.0,8
-20/09/2021,Feriado Municipal,MUNICIPAL,,SP,3520905.0,9
-21/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3521002.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3521002.0,6
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3521101.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3521101.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3521101.0,12
-12/01/2021,Feriado Municipal,MUNICIPAL,,SP,3521200.0,1
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3521200.0,7
-31/12/2021,Feriado Municipal,MUNICIPAL,,SP,3521200.0,12
-26/03/2021,Feriado Municipal,MUNICIPAL,,SP,3521309.0,3
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3521309.0,7
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3521408.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3521408.0,11
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3521507.0,7
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3521507.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3521507.0,11
-03/01/2021,Feriado Municipal,MUNICIPAL,,SP,3521606.0,1
-06/05/2021,Feriado Municipal,MUNICIPAL,,SP,3521606.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3521606.0,11
-25/04/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade de Itabera,SP,3521705.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3521705.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3521804.0,6
-31/08/2021,Feriado Municipal,MUNICIPAL,,SP,3521804.0,8
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3521903.0,3
-04/04/2021,Feriado Municipal,MUNICIPAL,,SP,3521903.0,4
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3522000.0,1
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3522000.0,8
-22/04/2021,Feriado Municipal,MUNICIPAL,,SP,3522109.0,4
-09/06/2021,Feriado Municipal,MUNICIPAL,,SP,3522109.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3522109.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3522109.0,12
-08/05/2021,Feriado Municipal,MUNICIPAL,,SP,3522208.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1713, de 2008",SP,3522208.0,11
-05/11/2021,Aniversário,MUNICIPAL,Aniversário de Fundação de Itapetininga,SP,3522307.0,11
-26/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3522406.0,7
-20/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3522406.0,9
-18/02/2021,Aniversário,MUNICIPAL,Aniversário da cidade,SP,3522505.0,2
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1699, de 8.12.2004",SP,3522505.0,11
-13/05/2021,Feriado Municipal,MUNICIPAL,,SP,3522604.0,5
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3522604.0,9
-15/08/2021,Divino Espírito Santo,MUNICIPAL,Dia do Padroeiro,SP,3522703.0,8
-20/10/2021,Aniversário da cidade,MUNICIPAL,Emancipação política de Itápolis,SP,3522703.0,10
-06/03/2021,Feriado Municipal,MUNICIPAL,,SP,3522802.0,3
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3522802.0,6
-21/08/2021,Feriado Municipal,MUNICIPAL,,SP,3522802.0,8
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3522901.0,6
-11/09/2021,Feriado Municipal,MUNICIPAL,,SP,3522901.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3522901.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3523008.0,3
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3523008.0,12
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,"Sexta-Feria Santa, feriado municipal",SP,3523107.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3523107.0,6
-08/09/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade,SP,3523107.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3523107.0,11
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3523206.0,6
-28/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3523206.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3523206.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3523206.0,12
-09/04/2021,Feriado Municipal,MUNICIPAL,,SP,3523305.0,4
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3523305.0,9
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3523404.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 3951, de 1997",SP,3523404.0,11
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3523503.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3523503.0,6
-24/07/2021,Aniversário da Cidade,MUNICIPAL,Aniversário de Itatinga,SP,3523503.0,7
-02/11/2021,Finados,MUNICIPAL,Finados,SP,3523503.0,11
-25/03/2021,Feriado Municipal,MUNICIPAL,,SP,3523602.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3523602.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3523602.0,11
-27/03/2021,Feriado Municipal,MUNICIPAL,,SP,3523701.0,3
-27/08/2021,Feriado Municipal,MUNICIPAL,,SP,3523800.0,8
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3523800.0,9
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3523800.0,11
-02/02/2021,Padroeira e Aniversário,MUNICIPAL,Dia de Nossa Senhora da Candelária e Aniversário de Itu,SP,3523909.0,2
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 624, de 2005",SP,3523909.0,11
-20/01/2021,São Sebastião,MUNICIPAL,"Dia de São Sebastião, padroeiro da Cidade. Lei nº 262/80",SP,3524006.0,1
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa. Lei nº 262/80,SP,3524006.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi. Lei nº 262/80,SP,3524006.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3524006.0,11
-10/03/2021,Feriado Municipal,MUNICIPAL,,SP,3524105.0,3
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3524105.0,7
-18/03/2021,Feriado Municipal,MUNICIPAL,,SP,3524204.0,3
-29/09/2021,Feriado Municipal,MUNICIPAL,,SP,3524204.0,9
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3524303.0,7
-03/04/2021,Feriado Municipal,MUNICIPAL,,SP,3524402.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3524402.0,12
-04/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3524501.0,4
-25/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3524501.0,9
-23/06/2021,Feriado Municipal,MUNICIPAL,,SP,3524600.0,6
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3524600.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3524600.0,12
-12/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3524709.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 1567 de 03 12 2004,SP,3524709.0,11
-15/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3524808.0,4
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3524808.0,8
-30/03/2021,Feriado Municipal,MUNICIPAL,,SP,3524907.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3524907.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1.399, de 20 de março de 2009",SP,3524907.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1713, de maio de 2008",SP,3525003.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3525003.0,12
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3525102.0,6
-27/07/2021,Feriado Municipal,MUNICIPAL,,SP,3525102.0,7
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3525102.0,8
-17/04/2021,Feriado Municipal,MUNICIPAL,,SP,3525201.0,4
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3525201.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1760, de 12.03.2008",SP,3525201.0,11
-15/08/2021,Aniversário da Cidade,MUNICIPAL,Aniversário do município,SP,3525300.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 4316, de 2009",SP,3525300.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3525409.0,1
-07/04/2021,Feriado Municipal,MUNICIPAL,,SP,3525409.0,4
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3525409.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3525508.0,6
-17/08/2021,Feriado Municipal,MUNICIPAL,,SP,3525508.0,8
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3525607.0,3
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3525607.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3525607.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3525706.0,6
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3525706.0,9
-21/02/2021,Feriado Municipal,MUNICIPAL,,SP,3525805.0,2
-21/05/2021,Feriado Municipal,MUNICIPAL,,SP,3525854.0,5
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3525854.0,8
-15/08/2021,Nossa Senhora do Desterro,MUNICIPAL,conforme Lei Municipal nº 2.102 de 31/12/1975,SP,3525904.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3525904.0,11
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3526001.0,6
-10/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3526100.0,4
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3526100.0,6
-28/03/2021,Feriado Municipal,MUNICIPAL,,SP,3526209.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3526209.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 1498 DE 08 de novembro de 2007,SP,3526209.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3526308.0,12
-23/12/2021,Feriado Municipal,MUNICIPAL,,SP,3526308.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3526407.0,6
-10/10/2021,Aniversário do Município,MUNICIPAL,,SP,3526407.0,10
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3526506.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3526605.0,1
-27/06/2021,Feriado Municipal,MUNICIPAL,,SP,3526605.0,6
-29/08/2021,cidade,MUNICIPAL,Dia da cidade,SP,3526704.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 2780, de 2003",SP,3526704.0,11
-28/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3526803.0,4
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3526803.0,9
-15/09/2021,Padroeira Nossa Senhora das Dores,MUNICIPAL,conforme Lei Municipal nº 4.901 de 04/12/2012,SP,3526902.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 2780, de 2003",SP,3526902.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3527009.0,3
-08/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3527009.0,9
-13/06/2021,Padroeiro,MUNICIPAL,Dia de Santo Antônio,SP,3527108.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3527207.0,8
-14/11/2021,Feriado Municipal,MUNICIPAL,,SP,3527207.0,11
-20/01/2021,padroeiro,MUNICIPAL,"Dia de São Sebastião, padroeiro da cidade.",SP,3527306.0,1
-21/03/2021,Aniversário da cidade,MUNICIPAL,Emancipação Político-administrativa,SP,3527306.0,3
-02/04/2021,Sexta-feira da Paixão,MUNICIPAL,Sexta-feira da Paixão,SP,3527306.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3527306.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3527306.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3527405.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3527405.0,12
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3527504.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3527603.0,11
-13/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3527603.0,12
-31/07/2021,Feriado Municipal,MUNICIPAL,,SP,3527801.0,7
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3527801.0,12
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3527900.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3528007.0,6
-02/04/2021,Feriado Municipal,MUNICIPAL,,SP,3528106.0,4
-02/05/2021,Feriado Municipal,MUNICIPAL,,SP,3528106.0,5
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3528106.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3528205.0,6
-25/03/2021,Feriado Municipal,MUNICIPAL,,SP,3528304.0,3
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3528304.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3528403.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3528403.0,11
-27/03/2021,Aniversário do Município,MUNICIPAL,Aniversário do Município ,SP,3528502.0,3
-15/09/2021,Nossa Sra do Desterro,MUNICIPAL,Dia de Nossa Senhora do Desterro,SP,3528502.0,9
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3528601.0,6
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3528601.0,11
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3528700.0,6
-11/09/2021,Feriado Municipal,MUNICIPAL,,SP,3528700.0,9
-04/05/2021,Feriado Municipal,MUNICIPAL,,SP,3528809.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3528809.0,8
-08/06/2021,Feriado Municipal,MUNICIPAL,,SP,3528858.0,6
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3528908.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3528908.0,12
-04/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3529005.0,4
-08/12/2021,Padroeira da Cidade,MUNICIPAL,Padroeira da Cidade,SP,3529005.0,12
-16/06/2021,Feriado Municipal,MUNICIPAL,,SP,3529104.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3529203.0,6
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3529203.0,6
-02/12/2021,Feriado Municipal,MUNICIPAL,,SP,3529203.0,12
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3529302.0,8
-27/08/2021,Feriado Municipal,MUNICIPAL,,SP,3529302.0,8
-03/06/2021,Corpus Christi,MUNICIPAL,,SP,3529401.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 3878, de 20.11.2005",SP,3529401.0,11
-08/12/2021,Aniversário da cidade,MUNICIPAL,Aniversário da cidade,SP,3529401.0,12
-17/08/2021,Feriado Municipal,MUNICIPAL,,SP,3529500.0,8
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3529500.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3529500.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3529609.0,3
-14/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3529708.0,1
-08/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3529708.0,3
-29/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3529708.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3529708.0,11
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3529807.0,8
-29/08/2021,Feriado Municipal,MUNICIPAL,,SP,3529807.0,8
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3530003.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3530003.0,8
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3530003.0,11
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3529906.0,9
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3529906.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3530102.0,6
-02/04/2021,Paixão de Cristo,MUNICIPAL,,SP,3530201.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,,SP,3530201.0,6
-01/10/2021,Santa Terezinha,MUNICIPAL,Padroeira do município,SP,3530201.0,10
-29/11/2021,Aniversário do município,MUNICIPAL,,SP,3530201.0,11
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3530300.0,6
-08/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3530300.0,9
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3530409.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3530409.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3530508.0,1
-05/04/2021,Feriado Municipal,MUNICIPAL,,SP,3530508.0,4
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 566, de 2004",SP,3530508.0,11
-02/04/2021,Sexta-feira Santa,MUNICIPAL,conforme Lei Municipal nº 3.125 de 16/12/1986,SP,3530607.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Lei Municipal nº 3.125 de 16/12/1986,SP,3530607.0,6
-26/07/2021,Nossa Senhora de Sant'Ana,MUNICIPAL,conforme Lei Municipal nº 3.125 de 16/12/1986,SP,3530607.0,7
-01/09/2021,Aniversário de Mogi das Cruzes,MUNICIPAL,conforme Lei Municipal nº 1.585 de 03/09/1966,SP,3530607.0,9
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3530904.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3530904.0,6
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3530904.0,11
-27/11/2021,Feriado Municipal,MUNICIPAL,,SP,3531001.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3531001.0,12
-07/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3531100.0,12
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3531209.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3531209.0,11
-24/12/2021,Feriado Municipal,MUNICIPAL,,SP,3531209.0,12
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,"Sexta-Feira Santa, segundo lei nº 585, de 18/04/1967",SP,3531308.0,4
-15/05/2021,Aniversário da Cidade,MUNICIPAL,"Aniversário da Cidade de Monte Alto, segundo lei nº 585, de 18/04/1967",SP,3531308.0,5
-06/08/2021,Padroeiro,MUNICIPAL,"Dia do Padroeiro da Cidade, segundo lei nº 585, de 18/04/1967",SP,3531308.0,8
-02/11/2021,Finados,MUNICIPAL,"Dia de Finados, segundo lei nº 585, de 18/04/1967",SP,3531308.0,11
-10/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3531407.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3531407.0,8
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3531506.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3531506.0,8
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3531605.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3531605.0,8
-22/11/2021,Feriado Municipal,MUNICIPAL,,SP,3531605.0,11
-02/04/2021,Sexta-feira da Paixão,MUNICIPAL,Sexta-feira da Paixão,SP,3531803.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3531803.0,6
-15/08/2021,N. Sra. do Patrocínio,MUNICIPAL,Padroeira do município,SP,3531803.0,8
-02/11/2021,Finados,MUNICIPAL,Dia de Finados,SP,3531803.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,Dia da Consciência Negra,SP,3531803.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3531704.0,1
-26/04/2021,Feriado Municipal,MUNICIPAL,,SP,3531704.0,4
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3531704.0,9
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3531902.0,1
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3531902.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532009.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532009.0,12
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3532108.0,3
-21/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532207.0,3
-02/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532207.0,4
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532207.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3532207.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532207.0,12
-29/05/2021,Feriado Municipal,MUNICIPAL,,SP,3532306.0,5
-13/08/2021,Feriado Municipal,MUNICIPAL,,SP,3532306.0,8
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3532306.0,9
-10/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532405.0,6
-21/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3532405.0,11
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3532504.0,5
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3532504.0,11
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3532603.0,1
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3532603.0,6
-25/03/2021,Feriado Municipal,MUNICIPAL,,SP,3532702.0,3
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3532702.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3532702.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3532702.0,12
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3532801.0,1
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3532801.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3532801.0,12
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3532900.0,12
-22/03/2021,Feriado Municipal,MUNICIPAL,,SP,3533007.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3533007.0,11
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3533106.0,6
-20/10/2021,Aniversário da cidade,MUNICIPAL,,SP,3533106.0,10
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3533106.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3533205.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3533205.0,8
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3533304.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3533304.0,8
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3533304.0,12
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3533403.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3533403.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3533502.0,3
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3533601.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3533601.0,8
-09/09/2021,Feriado Municipal,MUNICIPAL,,SP,3533601.0,9
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3533700.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3533700.0,12
-07/04/2021,Feriado Municipal,MUNICIPAL,,SP,3533809.0,4
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3533809.0,8
-02/03/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade de Olímpia,SP,3533908.0,3
-24/06/2021,São João Batista,MUNICIPAL,"Dia do Padroeiro da Cidade, São João Batista",SP,3533908.0,6
-22/03/2021,Feriado Municipal,MUNICIPAL,,SP,3534005.0,3
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3534005.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3534005.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3534005.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534104.0,11
-13/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534104.0,12
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3534203.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3534203.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3534302.0,3
-30/03/2021,Feriado Municipal,MUNICIPAL,,SP,3534302.0,3
-19/02/2021,Emancipação de Osasco,MUNICIPAL,conforme Lei Municipal nº 1.121 de 16/05/1972,SP,3534401.0,2
-02/04/2021,Sexta-feira Santa,MUNICIPAL,"conforme Decreto 10.933, de 20 de dezembro de 2013",SP,3534401.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"conforme Decreto 10.933, de 20 de dezembro de 2013",SP,3534401.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,conforme Lei Municipal nº 1.121 de 16/05/1972,SP,3534401.0,6
-24/04/2021,Feriado Municipal,MUNICIPAL,,SP,3534500.0,4
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3534500.0,7
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3534609.0,3
-06/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534609.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534708.0,8
-13/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534708.0,12
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3534807.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3534807.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3534757.0,6
-27/12/2021,Feriado Municipal,MUNICIPAL,,SP,3534757.0,12
-06/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534906.0,1
-02/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534906.0,4
-27/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3534906.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3535002.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3535101.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3535101.0,12
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3535200.0,12
-20/01/2021,"Fundação da cidade de Palmital e dia de São Sebastião, padroeiro da cidade",MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,1
-02/04/2021,Sexta-feira da Paixão,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3535408.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,Feriado em Homenagem a Zumbi dos Palmares,SP,3535408.0,11
-12/03/2021,Feriado Municipal,MUNICIPAL,,SP,3535507.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3535606.0,6
-10/07/2021,Feriado Municipal,MUNICIPAL,,SP,3535606.0,7
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3535705.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 823/08 de 21 de agosto de 2.008,SP,3535705.0,11
-20/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3535804.0,4
-09/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3535804.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3535804.0,8
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3535903.0,3
-16/09/2021,Feriado Municipal,MUNICIPAL,,SP,3535903.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3535903.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3536000.0,12
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3536109.0,2
-31/05/2021,Feriado Municipal,MUNICIPAL,,SP,3536109.0,5
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3536208.0,6
-10/03/2021,Feriado Municipal,MUNICIPAL,,SP,3536307.0,3
-28/07/2021,Feriado Municipal,MUNICIPAL,,SP,3536307.0,7
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3536406.0,6
-28/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3536505.0,2
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3536604.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3536604.0,11
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3536604.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3536703.0,1
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3536703.0,5
-20/01/2021,São Sebastião,MUNICIPAL,"Dia de São Sebastião, padroeiro da Cidade, conforme lei Nº 03, de 15 de abril de 1983",SP,3536802.0,1
-06/04/2021,Aniversário do Município,MUNICIPAL,"Aniversário da Cidade de Pedra Bela, conforme lei Nº 03, de 15 de abril de 1983",SP,3536802.0,4
-09/08/2021,Nossa Sra da Pedra,MUNICIPAL,"Dia de Nossa Senhora da Pedra, conforme lei 321, de 29 de setembro de 2010.",SP,3536802.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Dia da Consciência Negra, conforme lei 489, de 29 de maio de 2015",SP,3536802.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3536901.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3536901.0,8
-18/03/2021,Feriado Municipal,MUNICIPAL,,SP,3537008.0,3
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3537008.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3537008.0,11
-26/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3537107.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,Emenda a Lei Orgânica do Município no 30/08,SP,3537107.0,11
-07/08/2021,Feriado Municipal,MUNICIPAL,,SP,3537156.0,8
-21/09/2021,Feriado Municipal,MUNICIPAL,,SP,3537156.0,9
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3537156.0,12
-09/04/2021,Feriado Municipal,MUNICIPAL,,SP,3537206.0,4
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3537206.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1.017, de 20 de Dezembro de 2006",SP,3537206.0,11
-04/10/2021,São Francisco de Assis,MUNICIPAL,Padroeiro do município,SP,3537305.0,10
-25/10/2021,Aniversário da cidade,MUNICIPAL,Aniversário da cidade,SP,3537305.0,10
-11/08/2021,Aniversário da Cidade,MUNICIPAL,Aniversário de Fundação de Pereira Barreto,SP,3537404.0,8
-03/12/2021,São Francisco Xavier,MUNICIPAL,Dia do Padroeiro da cidade,SP,3537404.0,12
-11/08/2021,Feriado Municipal,MUNICIPAL,,SP,3537503.0,8
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3537503.0,12
-18/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3537602.0,2
-24/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3537602.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3537602.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3537701.0,3
-09/11/2021,Feriado Municipal,MUNICIPAL,,SP,3537701.0,11
-20/05/2021,Feriado Municipal,MUNICIPAL,,SP,3537800.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3537800.0,8
-05/11/2021,Aniversário,MUNICIPAL,Aniversário do município,SP,3537909.0,11
-02/04/2021,Paixão de Cristo,MUNICIPAL,Dia da Paixão de Cristo,SP,3538006.0,4
-05/04/2021,São Benedito,MUNICIPAL,Dia de São Benedito,SP,3538006.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,,SP,3538006.0,6
-08/09/2021,N. Sra do Bom Sucesso,MUNICIPAL,Dia de Nossa Senhora do Bom Sucesso,SP,3538006.0,9
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3538105.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3538105.0,6
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3538105.0,6
-03/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3538204.0,5
-24/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3538204.0,9
-20/03/2021,Feriado Municipal,MUNICIPAL,,SP,3538303.0,3
-29/09/2021,Feriado Municipal,MUNICIPAL,,SP,3538303.0,9
-15/06/2021,Feriado Municipal,MUNICIPAL,,SP,3538501.0,6
-29/09/2021,Feriado Municipal,MUNICIPAL,,SP,3538501.0,9
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3538600.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3538600.0,6
-16/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3538600.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,"Padroeiro da cidade, conforme Lei Municipal nº 1.459 de 17/11/1966",SP,3538709.0,6
-30/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3542602.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 5242/2003,SP,3538709.0,11
-08/12/2021,Imaculada Conceição,MUNICIPAL,"Dia de Nossa Senhora da Conceição, conforme Lei Municipal nº 1.459 de 17/11/1966",SP,3538709.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3538808.0,1
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3538907.0,1
-29/03/2021,Feriado Municipal,MUNICIPAL,,SP,3538907.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3538907.0,6
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3538907.0,6
-07/03/2021,Feriado Municipal,MUNICIPAL,,SP,3539004.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3539004.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3539103.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 855, de 28 de março de 2007",SP,3539103.0,11
-09/04/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3539202.0,4
-24/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3539202.0,6
-06/08/2021,Aniversário,MUNICIPAL,Aniversário do Município,SP,3539301.0,8
-08/12/2021,Imaculada Conceição,MUNICIPAL,Imaculada Conceição,SP,3539301.0,12
-18/05/2021,Feriado Municipal,MUNICIPAL,,SP,3539400.0,5
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3539509.0,1
-27/07/2021,Feriado Municipal,MUNICIPAL,,SP,3539509.0,7
-03/04/2021,Feriado Municipal,MUNICIPAL,,SP,3539608.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3539608.0,12
-16/07/2021,Feriado Municipal,MUNICIPAL,,SP,3539707.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3539707.0,11
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3539707.0,12
-26/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3539806.0,3
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3539905.0,5
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3539905.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3539905.0,12
-17/09/2021,Aniversário,MUNICIPAL,Aniversário de Pompeia,SP,3540002.0,9
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3540101.0,3
-02/04/2021,Feriado Municipal,MUNICIPAL,,SP,3540101.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3540101.0,12
-10/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3540200.0,8
-10/04/2021,Feriado Municipal,MUNICIPAL,,SP,3540309.0,4
-17/09/2021,Feriado Municipal,MUNICIPAL,,SP,3540309.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3540309.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3540408.0,6
-04/06/2021,Feriado Municipal,MUNICIPAL,,SP,3540507.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3540507.0,6
-21/07/2021,Feriado Municipal,MUNICIPAL,,SP,3540507.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3540507.0,11
-15/08/2021,Nossa Senhora Mãe dos Homens - Padroeira da Cidade,MUNICIPAL,,SP,3540606.0,8
-13/10/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade,SP,3540606.0,10
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal 4.530, 05/11/2007",SP,3540606.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3540705.0,1
-29/07/2021,Feriado Municipal,MUNICIPAL,,SP,3540705.0,7
-19/05/2021,Feriado Municipal,MUNICIPAL,,SP,3540754.0,5
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3540754.0,8
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3540804.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3540804.0,8
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3540903.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3540903.0,11
-29/06/2021,São Pedro,MUNICIPAL,"Feriado municipal em louvor a São Pedro, Padroeiro da Cidade, conforme Lei Municipal nº 701 de 18/06/1991",SP,3541000.0,6
-22/03/2021,Feriado Municipal,MUNICIPAL,,SP,3541059.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3541059.0,8
-22/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541109.0,11
-02/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541109.0,12
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3541208.0,12
-27/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541307.0,3
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541307.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541307.0,8
-20/01/2021,Padroeiro,MUNICIPAL,"Dia de São Sebastião, padroeiro da cidade",SP,3541406.0,1
-14/09/2021,Aniversário,MUNICIPAL,Fundação do Município,SP,3541406.0,9
-08/12/2021,Imaculada Conceição,MUNICIPAL,Imaculada Conceição de Nossa Senhora,SP,3541406.0,12
-13/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541505.0,5
-02/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541505.0,9
-29/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3541604.0,11
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3541703.0,6
-28/03/2021,Feriado Municipal,MUNICIPAL,,SP,3541802.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3541802.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3541901.0,6
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3542008.0,11
-11/02/2021,Feriado Municipal,MUNICIPAL,,SP,3542107.0,2
-13/06/2021,Santo Antônio,MUNICIPAL,"Aniversário de Rancharia e dia de Santo Antônio, padroeiro",SP,3542206.0,6
-08/12/2021,Imaculada Conceição,MUNICIPAL,Imaculada Conceição,SP,3542206.0,12
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3542305.0,5
-25/08/2021,Feriado Municipal,MUNICIPAL,,SP,3542305.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3542305.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3542305.0,12
-28/06/2021,Feriado Municipal,MUNICIPAL,,SP,3542404.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3542404.0,12
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3542503.0,8
-03/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3542602.0,12
-28/02/2021,Feriado Municipal,MUNICIPAL,,SP,3542701.0,2
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3542701.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3542701.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3542800.0,6
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3542800.0,8
-05/03/2021,Feriado Municipal,MUNICIPAL,,SP,3542909.0,3
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3542909.0,8
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3543006.0,8
-06/09/2021,Feriado Municipal,MUNICIPAL,,SP,3543006.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3543006.0,11
-07/04/2021,Feriado Municipal,MUNICIPAL,,SP,3543105.0,4
-14/09/2021,Feriado Municipal,MUNICIPAL,,SP,3543105.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3543105.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3543204.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3543204.0,6
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3543303.0,3
-03/06/2021,Corpus Christi,MUNICIPAL,,SP,3543303.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 4.653/2002,SP,3543303.0,11
-20/01/2021,São Sebastião,MUNICIPAL,"Dia de São Sebastião, padroeiro da cidade, conforme Lei 11919/09 de 10/03/2009",SP,3543402.0,1
-02/04/2021,Sexta-feira Santa,MUNICIPAL,conforme Lei Municipal nº 11.919 de 10/03/2009,SP,3543402.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Lei Municipal nº 11.919 de 10/03/2009,SP,3543402.0,6
-19/06/2021,Aniversário da Cidade e Dia de Santa Juliana Falconieri,MUNICIPAL,conforme Lei Municipal nº 11.919 de 10/03/2009,SP,3543402.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3543600.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3543600.0,11
-24/12/2021,Feriado Municipal,MUNICIPAL,,SP,3543600.0,12
-20/08/2021,Feriado Municipal,MUNICIPAL,,SP,3543709.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 1657/2007,SP,3543709.0,11
-24/06/2021,São João Batista e Aniversário de Rio Claro,MUNICIPAL,Dia de São João Batista (Padroeiro) e Aniversário da Cidade conforme Lei Municipal nº 1.487 de 12/12/1977,SP,3543907.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 03718/2006,SP,3543907.0,11
-10/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3544004.0,7
-06/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3544004.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3544004.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3544103.0,1
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3544103.0,5
-26/03/2021,Feriado Municipal,MUNICIPAL,,SP,3544202.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3544202.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3544202.0,11
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3543501.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3543501.0,11
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3543501.0,12
-02/02/2021,Feriado Municipal,MUNICIPAL,,SP,3544251.0,2
-05/11/2021,Feriado Municipal,MUNICIPAL,,SP,3544251.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3544301.0,3
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3544301.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3544301.0,11
-24/08/2021,Feriado Municipal,MUNICIPAL,,SP,3544400.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3544400.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3544400.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3544608.0,1
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3544608.0,12
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3544707.0,2
-30/11/2021,Feriado Municipal,MUNICIPAL,,SP,3544806.0,11
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3544905.0,5
-28/02/2021,Feriado Municipal,MUNICIPAL,,SP,3545001.0,2
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3545001.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3545001.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3545100.0,6
-13/12/2021,Feriado Municipal,MUNICIPAL,,SP,3545100.0,12
-19/05/2021,Feriado Municipal,MUNICIPAL,,SP,3545159.0,5
-30/06/2021,Feriado Municipal,MUNICIPAL,,SP,3545159.0,6
-08/09/2021,Nossa Sra Mont Serrat,MUNICIPAL,Dia da Padroeira da Cidade,SP,3545209.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 2933, de 2009",SP,3545209.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3545308.0,6
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3545308.0,12
-15/09/2021,Nossa Senhora do Patrocínio,MUNICIPAL,conforme Lei Municipal nº 373 de 16/08/1971,SP,3545407.0,9
-27/12/2021,Aniversário da Cidade,MUNICIPAL,conforme Lei Municipal nº 373 de 16/08/1971,SP,3545407.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3545506.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3545506.0,8
-22/03/2021,Feriado Municipal,MUNICIPAL,,SP,3545605.0,3
-16/12/2021,Feriado Municipal,MUNICIPAL,,SP,3545605.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3545704.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 535 de 05 de dezembro de 2007,SP,3545704.0,11
-04/12/2021,Santa Bárbara,MUNICIPAL,"Dia de Santa Bárbara, padroeira da cidade",SP,3545803.0,12
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3546009.0,5
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3546108.0,3
-20/05/2021,Feriado Municipal,MUNICIPAL,,SP,3546108.0,5
-11/08/2021,Feriado Municipal,MUNICIPAL,,SP,3546108.0,8
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3546207.0,5
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3546207.0,12
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3546306.0,5
-14/09/2021,Feriado Municipal,MUNICIPAL,,SP,3546306.0,9
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3546405.0,1
-13/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3546405.0,5
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3546504.0,7
-24/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3546603.0,6
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3546702.0,7
-16/08/2021,Feriado Municipal,MUNICIPAL,,SP,3546702.0,8
-04/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3546801.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No 2396/2007,SP,3546801.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3546900.0,11
-19/12/2021,Feriado Municipal,MUNICIPAL,,SP,3546900.0,12
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3547007.0,8
-24/09/2021,Feriado Municipal,MUNICIPAL,,SP,3547106.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3547106.0,11
-22/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3547502.0,5
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3547403.0,5
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,Sexta-Feira Santa,SP,3547601.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3547601.0,6
-04/09/2021,Aniversário da Cidade,MUNICIPAL,Aniversário de Santa Rosa de Viterbo,SP,3547601.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal no 3113/07 de 27 de junho de 2007,SP,3547601.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3547205.0,3
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3547205.0,7
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3547304.0,7
-14/11/2021,Feriado Municipal,MUNICIPAL,,SP,3547304.0,11
-22/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3547700.0,1
-19/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3547700.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3547700.0,12
-02/04/2021,Sexta-feira Santa,MUNICIPAL,"conforme Decreto 16.465, DE 18 de dezembro de 2013",SP,3547809.0,4
-08/04/2021,Aniversário da Cidade,MUNICIPAL,conforme Lei Municipal nº 4.148 de 11/05/1973,SP,3547809.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"conforme Decreto 16.465, DE 18 de dezembro de 2013",SP,3547809.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 8578, de 12.02.2003",SP,3547809.0,11
-06/01/2021,Feriado Municipal,MUNICIPAL,,SP,3547908.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3547908.0,6
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3548005.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3548005.0,12
-26/03/2021,Feriado Municipal,MUNICIPAL,,SP,3548104.0,3
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3548104.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3548104.0,11
-26/01/2021,Feriado Municipal,MUNICIPAL,,SP,3548203.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3548203.0,6
-19/04/2021,Feriado Municipal,MUNICIPAL,,SP,3548302.0,4
-10/12/2021,Feriado Municipal,MUNICIPAL,,SP,3548302.0,12
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3548401.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3548401.0,11
-27/11/2021,Feriado Municipal,MUNICIPAL,,SP,3548401.0,11
-26/01/2021,Aniversário da Cidade,MUNICIPAL,Feriado para Comemoração do Aniversário da Cidade de Santos,SP,3548500.0,1
-08/09/2021,N. Sra do Monte Serrat,MUNICIPAL,Feriado em Comemoração ao dia de Nossa Senha de Monte Serrat,SP,3548500.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,Art.245 da Lei Orgânica do Município,SP,3548500.0,11
-11/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3548609.0,7
-16/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3548609.0,8
-02/04/2021,Sexta-feira Santa,MUNICIPAL,conforme Lei Municipal nº 2.241 de 13/08/1976,SP,3548708.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Decreto 18.735 de 19 de dezembro de 2013,SP,3548708.0,6
-20/08/2021,Aniversário da Cidade,MUNICIPAL,conforme Lei Municipal nº 2.241 de 13/08/1976,SP,3548708.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Feriado do Dia da Consciência Negra,SP,3548708.0,11
-28/07/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3548807.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 4446, de 2009",SP,3548807.0,11
-15/08/2021,Nossa Senhora da Babilônia,MUNICIPAL,conforme Lei Municipal nº 7.502 de 04/12/1974,SP,3548906.0,8
-04/11/2021,Aniversário de São Carlos,MUNICIPAL,conforme Lei Municipal nº 7.502 de 04/12/1974,SP,3548906.0,11
-03/05/2021,Feriado Municipal,MUNICIPAL,,SP,3549003.0,5
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3549102.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 1982, de 2006",SP,3549102.0,11
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3549201.0,6
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3549300.0,6
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3549300.0,6
-30/05/2021,Feriado Municipal,MUNICIPAL,,SP,3549409.0,5
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3549409.0,7
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3549508.0,3
-03/04/2021,Feriado Municipal,MUNICIPAL,,SP,3549508.0,4
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3549508.0,11
-09/03/2021,Feriado Municipal,MUNICIPAL,,SP,3549607.0,3
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3549607.0,3
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3549706.0,3
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3549706.0,8
-19/03/2021,São José,MUNICIPAL,"Dia de São José (Padroeiro e Aniversário da Cidade), conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,3
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,"Sexta-Feira da Paixão, conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"Corpus Christi, conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3549805.0,11
-08/12/2021,Imaculada Conceição,MUNICIPAL,"Dia da Imaculada Conceição, conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,12
-19/03/2021,São José - Padroeiro de São José dos Campos,MUNICIPAL,conforme Lei Municipal nº 8.821 de 27/11/2012,SP,3549904.0,3
-02/04/2021,Sexta-feira Santa,MUNICIPAL,conforme Lei Municipal nº 1.324 de 23/02/1967,SP,3549904.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Lei Municipal nº 1.324 de 23/02/1967,SP,3549904.0,6
-27/07/2021,Aniversário de São José dos Campos,MUNICIPAL, https://www.leismunicipais.com.br/a/sp/s/sao-jose-dos-campos/lei-ordinaria/1967/132/1324/lei-ordinaria-n-1324-1967-dispoe-sobre-os-feriados-locais.html,SP,3549904.0,7
-12/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3549953.0,3
-10/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3549953.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3549953.0,11
-02/04/2021,Sexta-feira da Paixão,MUNICIPAL,Sexta-feira da Paixão,SP,3550001.0,4
-05/04/2021,São Benedito,MUNICIPAL,Dia de São Benedito,SP,3550001.0,4
-08/05/2021,Aniversário da cidade,MUNICIPAL,Celebração da fundação do município,SP,3550001.0,5
-19/08/2021,São Luiz de Tolosa,MUNICIPAL,Padroeiro do município,SP,3550001.0,8
-08/12/2021,Nossa Sra da Conceição,MUNICIPAL,Consagração a Nossa Senhora,SP,3550001.0,12
-17/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550100.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550100.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal n° 790/2010,SP,3550100.0,11
-01/04/2021,Feriado Municipal,MUNICIPAL,,SP,3550209.0,4
-29/09/2021,Feriado Municipal,MUNICIPAL,,SP,3550209.0,9
-25/01/2021,Aniversário da Cidade,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,1
-02/04/2021,Sexta-feira Santa,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,6
-02/11/2021,Finados,MUNICIPAL,conforme Lei nº 14.485 de 19 de julho de 2007,SP,3550308.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,11
-22/02/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550407.0,2
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550407.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3550407.0,11
-29/05/2021,Feriado Municipal,MUNICIPAL,,SP,3550506.0,5
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3550506.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3550506.0,12
-16/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550605.0,8
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550704.0,1
-16/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3550704.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,"Homenagem a Zumbi dos Palmares, dia da consciência negra.",SP,3550704.0,11
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3550803.0,1
-04/11/2021,Feriado Municipal,MUNICIPAL,,SP,3550803.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3550902.0,11
-22/01/2021,Aniversário da Fundação de São Vicente,MUNICIPAL,"Aniversário da Fundação de São Vicente, conforme Lei Municipal 1.332/67",SP,3551009.0,1
-02/04/2021,Sexta-Feria Santa,MUNICIPAL,"Sexta-Feria Santa, conforme Lei Municipal 1.332/67",SP,3551009.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"Corpus Christi, conforme Lei Municipal 1.332/67",SP,3551009.0,6
-02/11/2021,Finados,MUNICIPAL,"Dia de Finados, conforme Lei Municipal 1.332/67",SP,3551009.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,"Dia da Consciência Negra, definido pela lei Municipal 1.814-A/06, , alterada pela Lei 1.926/07",SP,3551009.0,11
-13/03/2021,Feriado Municipal,MUNICIPAL,,SP,3551108.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3551108.0,9
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3551207.0,2
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3551207.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3551306.0,1
-28/02/2021,Feriado Municipal,MUNICIPAL,,SP,3551306.0,2
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3551306.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3551306.0,11
-14/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3551405.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3551405.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3551405.0,12
-23/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3551603.0,9
-01/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3551603.0,11
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3551603.0,11
-10/04/2021,Feriado Municipal,MUNICIPAL,,SP,3551504.0,4
-15/09/2021,Feriado Municipal,MUNICIPAL,,SP,3551504.0,9
-05/12/2021,Feriado Municipal,MUNICIPAL,,SP,3551702.0,12
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3551801.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,Lei Municipal No. 1.508/2009,SP,3551801.0,11
-18/12/2021,Feriado Municipal,MUNICIPAL,,SP,3551801.0,12
-19/02/2021,Feriado Municipal,MUNICIPAL,,SP,3551900.0,2
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3551900.0,3
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3551900.0,11
-28/02/2021,Feriado Municipal,MUNICIPAL,,SP,3552007.0,2
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3552007.0,12
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3552106.0,8
-15/08/2021,Fundação de Sorocaba e Dia de Nossa Senhora da Ponte,MUNICIPAL,conforme Lei Municipal nº 1.439 de 11/11/1966,SP,3552205.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 8120, de 2007",SP,3552205.0,11
-10/09/2021,Feriado Municipal,MUNICIPAL,,SP,3552304.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3552304.0,11
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3552403.0,7
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 3922, de 2004",SP,3552403.0,11
-20/01/2021,"São Sebastião, padroeiro da Cidade",MUNICIPAL,conforme Lei Municipal nº 782 de 25/05/1967,SP,3552502.0,1
-02/04/2021,Emancipação Político-Administrativa de Suzano,MUNICIPAL,conforme Lei Municipal nº 782 de 25/05/1967,SP,3552502.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Decreto Municipal nº 8652 de 06 de janeiro de 2015,SP,3552502.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,"Lei Municipal No 4319, de 2009",SP,3552502.0,11
-27/11/2021,Feriado Municipal,MUNICIPAL,,SP,3552601.0,11
-19/02/2021,Aniversário da Cidade,MUNICIPAL,"Feriado civil de comemoração da emancipação político-administrativa do município, conforme Lei Municipal nº 191 de 19/02/1963.",SP,3552809.0,2
-02/04/2021,Sexta-feira Santa,MUNICIPAL,Feriado religioso municipal conforme Lei Municipal nº 495 de 22/03/1974.,SP,3552809.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Feriado religioso municipal conforme Lei Municipal nº 495 de 22/03/1974.,SP,3552809.0,6
-01/10/2021,Amor Misericordioso de Deus,MUNICIPAL,Feriado religioso municipal conforme Lei Municipal nº 2225 de 18/05/2015.,SP,3552809.0,10
-01/11/2021,Feriado Municipal,MUNICIPAL,,SP,3552908.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3552908.0,12
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3553005.0,2
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3553005.0,5
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3553104.0,3
-30/12/2021,Feriado Municipal,MUNICIPAL,,SP,3553104.0,12
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3553203.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3553203.0,11
-16/06/2021,Feriado Municipal,MUNICIPAL,,SP,3553302.0,6
-20/08/2021,Feriado Municipal,MUNICIPAL,,SP,3553302.0,8
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3553401.0,12
-19/02/2021,Feriado Municipal,MUNICIPAL,,SP,3553500.0,2
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3553500.0,11
-25/11/2021,Feriado Municipal,MUNICIPAL,,SP,3553500.0,11
-27/12/2021,Feriado Municipal,MUNICIPAL,,SP,3553609.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3553708.0,1
-16/08/2021,Feriado Municipal,MUNICIPAL,,SP,3553708.0,8
-16/08/2021,Feriado Municipal,MUNICIPAL,,SP,3553807.0,8
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3553906.0,3
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3553906.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3553906.0,12
-30/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3553955.0,11
-11/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3554003.0,8
-08/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3554003.0,12
-02/04/2021,Sexta-feira da Paixão,MUNICIPAL,"Sexta-feira da paixão, conforme Lei nº 4.128/07",SP,3554102.0,4
-22/04/2021,São Benedito,MUNICIPAL,"Festa de São Benedito, conforme Lei nº 4.128/07",SP,3554102.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,Corpus Christi,SP,3554102.0,6
-04/10/2021,São Francisco de Assis,MUNICIPAL,"Comemorações do dia do padroeiro da cidade, São Francisco de Assis, conforme Lei nº 4.128/07",SP,3554102.0,10
-05/12/2021,Aniversário da Cidade,MUNICIPAL,"Aniversário da Cidade de Taubaté, conforme Lei nº 4.562/11",SP,3554102.0,12
-25/04/2021,Feriado Municipal,MUNICIPAL,,SP,3554201.0,4
-26/05/2021,Feriado Municipal,MUNICIPAL,,SP,3554201.0,5
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3554201.0,6
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3554300.0,3
-27/06/2021,Feriado Municipal,MUNICIPAL,,SP,3554300.0,6
-16/02/2021,Carnaval,MUNICIPAL,"Feriado de Carnaval, conforme lei nº 1242, de 26 de junho de 2014",SP,3554409.0,2
-26/03/2021,Feriado Municipal,MUNICIPAL,,SP,3554409.0,3
-02/04/2021,Sexta-Feira Santa,MUNICIPAL,"Feriado conforme lei nº 1242, de 26 de junho de 2014",SP,3554409.0,4
-03/06/2021,Corpus Christi,MUNICIPAL,"Feriado conforme lei nº 1242, de 26 de junho de 2014",SP,3554409.0,6
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3554409.0,11
-08/03/2021,Feriado Municipal,MUNICIPAL,,SP,3554508.0,3
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3554508.0,8
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3554607.0,11
-19/03/2021,São José,MUNICIPAL,Dia de São José,SP,3554706.0,3
-07/04/2021,Feriado Municipal,MUNICIPAL,,SP,3554706.0,4
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3554706.0,12
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3554805.0,8
-26/11/2021,Feriado Municipal,MUNICIPAL,,SP,3554805.0,11
-05/01/2021,Feriado Municipal,MUNICIPAL,,SP,3554904.0,1
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3554904.0,2
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3555000.0,6
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3555109.0,8
-28/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3555109.0,8
-19/07/2021,Feriado Municipal,MUNICIPAL,,SP,3555208.0,7
-27/09/2021,Feriado Municipal,MUNICIPAL,,SP,3555208.0,9
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3555208.0,12
-06/08/2021,Feriado Municipal,MUNICIPAL,,SP,3555307.0,8
-15/08/2021,Feriado Municipal,MUNICIPAL,,SP,3555307.0,8
-29/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3555406.0,6
-14/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3555406.0,9
-28/10/2021,Aniversário da Cidade,MUNICIPAL,Aniversário da Cidade de Ubatuba,SP,3555406.0,10
-28/03/2021,Feriado Municipal,MUNICIPAL,,SP,3555604.0,3
-08/07/2021,Feriado Municipal,MUNICIPAL,,SP,3555604.0,7
-21/03/2021,Feriado Municipal,MUNICIPAL,,SP,3555703.0,3
-24/06/2021,Feriado Municipal,MUNICIPAL,,SP,3555703.0,6
-08/09/2021,Feriado Municipal,MUNICIPAL,,SP,3555703.0,9
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3555802.0,6
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3555802.0,12
-20/01/2021,Feriado Municipal,MUNICIPAL,,SP,3555901.0,1
-13/06/2021,Santo Antônio,MUNICIPAL,,SP,3555901.0,6
-10/08/2021,São Lourenço,MUNICIPAL,"Dia de São Lourenço, Padroeiro de Urupês",SP,3556008.0,8
-24/09/2021,Aniversário da Cidade,MUNICIPAL,Aniversário de Urupês,SP,3556008.0,9
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556107.0,1
-03/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556107.0,5
-20/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556206.0,1
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3556206.0,11
-24/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556305.0,5
-30/05/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556305.0,5
-15/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556305.0,8
-13/06/2021,Santo Antônio,MUNICIPAL,Dia de Santo Antônio,SP,3556354.0,6
-30/12/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556354.0,12
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3556404.0,7
-26/09/2021,Feriado Municipal,MUNICIPAL,,SP,3556404.0,9
-27/11/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556453.0,11
-21/03/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556503.0,3
-15/09/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556503.0,9
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3556503.0,11
-25/01/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556602.0,1
-15/06/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3556602.0,6
-02/04/2021,Feriado Municipal,MUNICIPAL,,SP,3556701.0,4
-26/07/2021,Feriado Municipal,MUNICIPAL,,SP,3556701.0,7
-23/03/2021,Feriado Municipal,MUNICIPAL,,SP,3556800.0,3
-04/04/2021,Feriado Municipal,MUNICIPAL,,SP,3556800.0,4
-29/06/2021,Feriado Municipal,MUNICIPAL,,SP,3556800.0,6
-18/02/2021,Feriado Municipal,MUNICIPAL,,SP,3556909.0,2
-25/03/2021,Feriado Municipal,MUNICIPAL,,SP,3556909.0,3
-22/05/2021,Feriado Municipal,MUNICIPAL,,SP,3556909.0,5
-20/11/2021,Consciência Negra,MUNICIPAL,,SP,3557006.0,11
-08/12/2021,Feriado Municipal,MUNICIPAL,,SP,3557006.0,12
-08/08/2021,Feriado Municipal,MUNICIPAL,Feriado Municipal,SP,3557105.0,8
-03/06/2021,Corpus Christi,MUNICIPAL,conforme Lei Municipal nº 2.102 de 31/12/1975,SP,3525904.0,6
+DATA,DIA,TIPO,DESCRICAO,ESTADO,CODIGO_MUNICIPIO,ANO,MES,NOME_MES,FERIADO_NACIONAL
+2021-07-09,9,ESTADUAL,A Revolução Constitucionalista de 1932 foi um movimento armado que tinha por objetivo a derrubada do Governo Provisório de Getúlio Vargas e a promulgação de uma nova constituição para o Brasil.,SP,,2021,7,July,Não
+2021-12-14,14,FACULTATIVO,Data comemorativa e ponto facultativo,SP,3525904.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3500105.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3500105.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3500204.0,2021,3,March,Não
+2021-11-30,30,MUNICIPAL,,SP,3500204.0,2021,11,November,Não
+2021-08-06,6,MUNICIPAL,Aniversário de Aguaí,SP,3500303.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal Nº 2130, de 10.12.2008",SP,3500303.0,2021,11,November,Não
+2021-02-11,11,MUNICIPAL,Feriado Municipal,SP,3500402.0,2021,2,February,Não
+2021-07-03,3,MUNICIPAL,Feriado Municipal,SP,3500402.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1818, de 2009",SP,3500402.0,2021,11,November,Não
+2021-07-02,2,MUNICIPAL,Feriado Municipal,SP,3500501.0,2021,7,July,Não
+2021-11-16,16,MUNICIPAL,Feriado Municipal,SP,3500501.0,2021,11,November,Não
+2021-04-20,20,MUNICIPAL,,SP,3500550.0,2021,4,April,Não
+2021-12-04,4,MUNICIPAL,,SP,3500550.0,2021,12,December,Não
+2021-07-25,25,MUNICIPAL,,SP,3500600.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 1354 de 21/11/2006,SP,3500600.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3500600.0,2021,12,December,Não
+2021-07-27,27,MUNICIPAL,,SP,3500709.0,2021,7,July,Não
+2021-04-04,4,MUNICIPAL,,SP,3500808.0,2021,4,April,Não
+2021-11-20,20,MUNICIPAL, Lei Municipal nº 2.533/2010,SP,3500808.0,2021,11,November,Não
+2021-12-24,24,MUNICIPAL,,SP,3500808.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3500907.0,2021,1,January,Não
+2021-11-20,20,MUNICIPAL,,SP,3500907.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3500907.0,2021,12,December,Não
+2021-12-31,31,MUNICIPAL,,SP,3500907.0,2021,12,December,Não
+2021-03-09,9,MUNICIPAL,,SP,3501004.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3501004.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal no 1.586, de 13/11/2007",SP,3501004.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3501103.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3501103.0,2021,8,August,Não
+2021-04-02,2,MUNICIPAL,,SP,3501152.0,2021,4,April,Não
+2021-04-10,10,MUNICIPAL,,SP,3501202.0,2021,4,April,Não
+2021-06-24,24,MUNICIPAL,,SP,3501202.0,2021,6,June,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3501301.0,2021,3,March,Não
+2021-11-30,30,MUNICIPAL,,SP,3501301.0,2021,11,November,Não
+2021-11-22,22,MUNICIPAL,,SP,3501400.0,2021,11,November,Não
+2021-06-13,13,MUNICIPAL,,SP,3501509.0,2021,6,June,Não
+2021-08-08,8,MUNICIPAL,,SP,3501509.0,2021,8,August,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3501608.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Dia de Corpus Christi,SP,3501608.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3501608.0,2021,6,June,Não
+2021-11-21,21,MUNICIPAL,Comemorações do Dia da Consciência Negra em Americana ocorrem no Terceiro Domingo do mês de Novembro,SP,3501608.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,,SP,3501707.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 00022/2007,SP,3501707.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3501806.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3501806.0,2021,11,November,Não
+2021-04-08,8,MUNICIPAL,,SP,3501905.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,,SP,3501905.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 03043/2004,SP,3501905.0,2021,11,November,Não
+2021-06-21,21,MUNICIPAL,,SP,3502002.0,2021,6,June,Não
+2021-07-26,26,MUNICIPAL,,SP,3502002.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3502002.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3502002.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3502101.0,2021,1,January,Não
+2021-07-11,11,MUNICIPAL,,SP,3502101.0,2021,7,July,Não
+2021-03-11,11,MUNICIPAL,Feriado Municipal,SP,3502200.0,2021,3,March,Não
+2021-04-15,15,MUNICIPAL,,SP,3502309.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,,SP,3502309.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3502309.0,2021,11,November,Não
+2021-08-06,6,MUNICIPAL,,SP,3502408.0,2021,8,August,Não
+2021-12-13,13,MUNICIPAL,,SP,3502408.0,2021,12,December,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 03410/2006,SP,3502507.0,2021,11,November,Não
+2021-12-17,17,MUNICIPAL,Feriado Municipal,SP,3502507.0,2021,12,December,Não
+2021-03-22,22,MUNICIPAL,,SP,3502606.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3502705.0,2021,6,June,Não
+2021-08-14,14,MUNICIPAL,Feriado Municipal,SP,3502705.0,2021,8,August,Não
+2021-05-19,19,MUNICIPAL,,SP,3502754.0,2021,5,May,Não
+2021-09-16,16,MUNICIPAL,,SP,3502754.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 06924/07,SP,3502804.0,2021,11,November,Não
+2021-12-02,2,MUNICIPAL,Aniversário de Araçatuba,SP,3502804.0,2021,12,December,Não
+2021-04-07,7,MUNICIPAL,,SP,3502903.0,2021,4,April,Não
+2021-09-15,15,MUNICIPAL,,SP,3502903.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No. 1.675 DE 14 de setembro de 2009,SP,3502903.0,2021,11,November,Não
+2021-04-04,4,MUNICIPAL,,SP,3503000.0,2021,4,April,Não
+2021-06-13,13,MUNICIPAL,,SP,3503000.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3503000.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3503109.0,2021,3,March,Não
+2021-08-15,15,MUNICIPAL,,SP,3503109.0,2021,8,August,Não
+2021-11-30,30,MUNICIPAL,,SP,3503109.0,2021,11,November,Não
+2021-08-22,22,MUNICIPAL,,SP,3503208.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 06633/07,SP,3503208.0,2021,11,November,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3503307.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No. 4.258/2009,SP,3503307.0,2021,11,November,Não
+2021-04-01,1,MUNICIPAL,,SP,3503406.0,2021,4,April,Não
+2021-11-25,25,MUNICIPAL,,SP,3503406.0,2021,11,November,Não
+2021-08-15,15,MUNICIPAL,,SP,3503604.0,2021,8,August,Não
+2021-09-14,14,MUNICIPAL,,SP,3503604.0,2021,9,September,Não
+2021-04-10,10,MUNICIPAL,,SP,3503703.0,2021,4,April,Não
+2021-06-24,24,MUNICIPAL,,SP,3503703.0,2021,6,June,Não
+2021-04-10,10,MUNICIPAL,Feriado Municipal,SP,3503802.0,2021,4,April,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3503802.0,2021,9,September,Não
+2021-06-08,8,MUNICIPAL,Feriado Municipal,SP,3503901.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3503901.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3503901.0,2021,11,November,Não
+2021-07-01,1,MUNICIPAL,Feriado Municipal,SP,3504008.0,2021,7,July,Não
+2021-04-02,2,MUNICIPAL,"Sexta-Feira Santa conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"Corpus Christi conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,2021,6,June,Não
+2021-06-24,24,MUNICIPAL,"Aniversário de Atibaia, conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,2021,6,June,Não
+2021-11-02,2,MUNICIPAL,"Dia de Finados, conforme Lei 978/67, de 03 de Maio de 1967",SP,3504107.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3504206.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3504305.0,2021,1,January,Não
+2021-12-02,2,MUNICIPAL,,SP,3504305.0,2021,12,December,Não
+2021-12-13,13,MUNICIPAL,,SP,3504404.0,2021,12,December,Não
+2021-12-29,29,MUNICIPAL,,SP,3504404.0,2021,12,December,Não
+2021-09-15,15,MUNICIPAL,,SP,3504503.0,2021,9,September,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3504602.0,2021,1,January,Não
+2021-02-18,18,MUNICIPAL,Feriado Municipal,SP,3504602.0,2021,2,February,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3504602.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3504701.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3504701.0,2021,12,December,Não
+2021-11-17,17,MUNICIPAL,,SP,3504800.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3504800.0,2021,12,December,Não
+2021-07-10,10,MUNICIPAL,,SP,3504909.0,2021,7,July,Não
+2021-08-06,6,MUNICIPAL,,SP,3504909.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 0004 de 03/03/2009,SP,3504909.0,2021,11,November,Não
+2021-01-31,31,MUNICIPAL,,SP,3505104.0,2021,1,January,Não
+2021-08-29,29,MUNICIPAL,,SP,3505104.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3505104.0,2021,11,November,Não
+2021-06-16,16,MUNICIPAL,Feriado Municipal,SP,3505203.0,2021,6,June,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3505203.0,2021,9,September,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3505302.0,2021,3,March,Não
+2021-03-21,21,MUNICIPAL,,SP,3505401.0,2021,3,March,Não
+2021-08-19,19,MUNICIPAL,,SP,3505401.0,2021,8,August,Não
+2021-08-25,25,MUNICIPAL,,SP,3505500.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 4151, de 04.02.2009",SP,3505500.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3505609.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3505609.0,2021,11,November,Não
+2021-12-30,30,MUNICIPAL,,SP,3505609.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,conforme Lei Municipal nº 354 de 16/03/1982,SP,3505708.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1639, de 01/03/2007",SP,3505708.0,2021,11,November,Não
+2021-06-18,18,MUNICIPAL,Feriado Municipal,SP,3505807.0,2021,6,June,Não
+2021-12-03,3,MUNICIPAL,Feriado Municipal,SP,3505807.0,2021,12,December,Não
+2021-03-14,14,MUNICIPAL,,SP,3505906.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3505906.0,2021,8,August,Não
+2021-08-01,1,MUNICIPAL,conforme Lei Municipal nº 1.401 de 16/08/1968,SP,3506003.0,2021,8,August,Não
+2021-05-03,3,MUNICIPAL,,SP,3506102.0,2021,5,May,Não
+2021-06-24,24,MUNICIPAL,,SP,3506102.0,2021,6,June,Não
+2021-03-27,27,MUNICIPAL,,SP,3506201.0,2021,3,March,Não
+2021-08-15,15,MUNICIPAL,,SP,3506201.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3506201.0,2021,11,November,Não
+2021-08-15,15,MUNICIPAL,,SP,3506300.0,2021,8,August,Não
+2021-10-09,9,MUNICIPAL,,SP,3506300.0,2021,10,October,Não
+2021-05-19,19,MUNICIPAL,Emancipação Político-administrativo,SP,3506359.0,2021,5,May,Não
+2021-06-24,24,MUNICIPAL,"Dia de São João Batista, padroeiro do município",SP,3506359.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3506359.0,2021,11,November,Não
+2021-04-18,18,MUNICIPAL,Feriado Municipal,SP,3506409.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,Feriado Municipal,SP,3506409.0,2021,9,September,Não
+2021-12-08,8,MUNICIPAL,Dia da Padroeira da Cidade,SP,3506508.0,2021,12,December,Não
+2021-05-05,5,MUNICIPAL,,SP,3506607.0,2021,5,May,Não
+2021-01-20,20,MUNICIPAL,,SP,3506706.0,2021,1,January,Não
+2021-07-21,21,MUNICIPAL,,SP,3506706.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3506706.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3506805.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado de Nossa Senhora da Conceição,SP,3506805.0,2021,12,December,Não
+2021-09-09,9,MUNICIPAL,Feriado Municipal,SP,3506904.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3506904.0,2021,11,November,Não
+2021-08-16,16,MUNICIPAL,Feriado Municipal,SP,3507001.0,2021,8,August,Não
+2021-09-06,6,MUNICIPAL,Feriado Municipal,SP,3507001.0,2021,9,September,Não
+2021-05-22,22,MUNICIPAL,Aniversário da Cidade de Bom Jesus dos Perdões,SP,3507100.0,2021,5,May,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3507100.0,2021,8,August,Não
+2021-03-31,31,MUNICIPAL,,SP,3507209.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3507209.0,2021,6,June,Não
+2021-01-20,20,MUNICIPAL,,SP,3507407.0,2021,1,January,Não
+2021-03-21,21,MUNICIPAL,,SP,3507407.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 2471, de 10.10.2008",SP,3507407.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3507506.0,2021,4,April,Não
+2021-04-14,14,MUNICIPAL,Aniversário da Cidade,SP,3507506.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3507506.0,2021,6,June,Não
+2021-07-26,26,MUNICIPAL,Dia de SantAnna,SP,3507506.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3507605.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3507605.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3507704.0,2021,1,January,Não
+2021-11-20,20,MUNICIPAL,,SP,3507704.0,2021,11,November,Não
+2021-08-22,22,MUNICIPAL,,SP,3507803.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,,SP,3507803.0,2021,12,December,Não
+2021-05-03,3,MUNICIPAL,Feriado Municipal,SP,3507902.0,2021,5,May,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3507902.0,2021,9,September,Não
+2021-01-25,25,MUNICIPAL,,SP,3508009.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,,SP,3508009.0,2021,6,June,Não
+2021-08-16,16,MUNICIPAL,,SP,3508009.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3508009.0,2021,11,November,Não
+2021-08-24,24,MUNICIPAL,Feriado Municipal,SP,3508108.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3508108.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3508108.0,2021,12,December,Não
+2021-07-28,28,MUNICIPAL,,SP,3508207.0,2021,7,July,Não
+2021-09-08,8,MUNICIPAL,,SP,3508207.0,2021,9,September,Não
+2021-08-06,6,MUNICIPAL,,SP,3508306.0,2021,8,August,Não
+2021-12-26,26,MUNICIPAL,,SP,3508306.0,2021,12,December,Não
+2021-03-24,24,MUNICIPAL,,SP,3508405.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3508405.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 1765 de 09 11 2006,SP,3508405.0,2021,11,November,Não
+2021-04-14,14,MUNICIPAL,,SP,3508504.0,2021,4,April,Não
+2021-06-24,24,MUNICIPAL,,SP,3508504.0,2021,6,June,Não
+2021-03-09,9,MUNICIPAL,,SP,3508603.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3508603.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3508603.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3508702.0,2021,4,April,Não
+2021-04-27,27,MUNICIPAL," Aniversário de Ranieri Mazzilli. Lei Municipal nº 2255, de 14 de dezembro de 2005",SP,3508702.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"conforme Lei Municipal nº 950, de 30 de setembro de 1969",SP,3508702.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Aniversário do Município. Lei Municipal nº 841 de 31 de agosto de 1967,SP,3508702.0,2021,12,December,Não
+2021-04-11,11,MUNICIPAL,,SP,3508801.0,2021,4,April,Não
+2021-08-15,15,MUNICIPAL,,SP,3508801.0,2021,8,August,Não
+2021-06-13,13,MUNICIPAL,,SP,3508900.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3508900.0,2021,12,December,Não
+2021-12-30,30,MUNICIPAL,,SP,3508900.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,Dia do Padroeiro da Cidade,SP,3509007.0,2021,6,June,Não
+2021-12-14,14,MUNICIPAL,Feriado Municipal,SP,3509007.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3509106.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,,SP,3509106.0,2021,6,June,Não
+2021-01-20,20,MUNICIPAL,,SP,3509205.0,2021,1,January,Não
+2021-02-18,18,MUNICIPAL,,SP,3509205.0,2021,2,February,Não
+2021-05-19,19,MUNICIPAL,Feriado Municipal,SP,3509254.0,2021,5,May,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3509254.0,2021,6,June,Não
+2021-05-13,13,MUNICIPAL,,SP,3509304.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,,SP,3509304.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 1.993 de 20 de setembro de 2010,SP,3509304.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,São Sebastião,SP,3509403.0,2021,1,January,Não
+2021-07-11,11,MUNICIPAL,"Dia de São Bento, padroeiro",SP,3509403.0,2021,7,July,Não
+2021-08-18,18,MUNICIPAL,Aniversário da Cidade de Cajuru,SP,3509403.0,2021,8,August,Não
+2021-04-02,2,MUNICIPAL,"conforme Lei Municipal no 173, de 28 de junho de 1949",SP,3509502.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"conforme Lei Municipal no 173, de 28 de junho de 1949",SP,3509502.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Dia da Consciência Negra, conforme Lei Municipal No 11.128 DE 14/01/2002",SP,3509502.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,"Padroeira de Campinas, Lei Municipal no 173, de 28 de junho de 1949",SP,3509502.0,2021,12,December,Não
+2021-03-21,21,MUNICIPAL,Fundação do Município,SP,3509601.0,2021,3,March,Não
+2021-04-29,29,MUNICIPAL,,SP,3509700.0,2021,4,April,Não
+2021-10-01,1,MUNICIPAL,,SP,3509700.0,2021,10,October,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal N° 3028, de 27.12.2006",SP,3509700.0,2021,11,November,Não
+2021-03-10,10,MUNICIPAL,,SP,3509809.0,2021,3,March,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3509809.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,,SP,3509809.0,2021,6,June,Não
+2021-06-24,24,MUNICIPAL,,SP,3509908.0,2021,6,June,Não
+2021-08-12,12,MUNICIPAL,,SP,3509908.0,2021,8,August,Não
+2021-08-15,15,MUNICIPAL,,SP,3509908.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3509908.0,2021,11,November,Não
+2021-03-22,22,MUNICIPAL,,SP,3509957.0,2021,3,March,Não
+2021-05-24,24,MUNICIPAL,,SP,3509957.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 338 de 14 de novembro de 2007,SP,3509957.0,2021,11,November,Não
+2021-09-15,15,MUNICIPAL,,SP,3510005.0,2021,9,September,Não
+2021-02-18,18,MUNICIPAL,,SP,3510104.0,2021,2,February,Não
+2021-06-13,13,MUNICIPAL,,SP,3510104.0,2021,6,June,Não
+2021-08-16,16,MUNICIPAL,,SP,3510104.0,2021,8,August,Não
+2021-04-02,2,MUNICIPAL,,SP,3510203.0,2021,4,April,Não
+2021-11-20,20,MUNICIPAL,,SP,3510203.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3510203.0,2021,12,December,Não
+2021-03-26,26,MUNICIPAL,,SP,3510302.0,2021,3,March,Não
+2021-05-29,29,MUNICIPAL,,SP,3510302.0,2021,5,May,Não
+2021-06-24,24,MUNICIPAL,,SP,3510401.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 3994/2012,SP,3510401.0,2021,11,November,Não
+2021-04-20,20,MUNICIPAL,,SP,3510500.0,2021,4,April,Não
+2021-06-13,13,MUNICIPAL,,SP,3510500.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1402, de 14.06.2007",SP,3510500.0,2021,11,November,Não
+2021-03-26,26,MUNICIPAL,Feriado Municipal,SP,3510609.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3510609.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Art. 220 da Lei Orgânica Municipal , alterada pela emenda 41/08",SP,3510609.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3510708.0,2021,1,January,Não
+2021-11-20,20,MUNICIPAL,,SP,3510708.0,2021,11,November,Não
+2021-09-15,15,MUNICIPAL,,SP,3510807.0,2021,9,September,Não
+2021-01-06,6,MUNICIPAL,Feriado Municipal,SP,3510906.0,2021,1,January,Não
+2021-02-18,18,MUNICIPAL,Feriado Municipal,SP,3510906.0,2021,2,February,Não
+2021-05-22,22,MUNICIPAL,Feriado Municipal,SP,3510906.0,2021,5,May,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3510906.0,2021,6,June,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3511003.0,2021,3,March,Não
+2021-08-10,10,MUNICIPAL,,SP,3511003.0,2021,8,August,Não
+2021-04-14,14,MUNICIPAL,Aniversário do município,SP,3511102.0,2021,4,April,Não
+2021-08-08,8,MUNICIPAL,"Dia de São Domingos, padroeiro da cidade",SP,3511102.0,2021,8,August,Não
+2021-01-20,20,MUNICIPAL,,SP,3511201.0,2021,1,January,Não
+2021-05-03,3,MUNICIPAL,,SP,3511201.0,2021,5,May,Não
+2021-07-04,4,MUNICIPAL,,SP,3511201.0,2021,7,July,Não
+2021-06-21,21,MUNICIPAL,Feriado Municipal,SP,3511300.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3511300.0,2021,12,December,Não
+2021-10-01,1,MUNICIPAL,Padroeira da cidade,SP,3511409.0,2021,10,October,Não
+2021-10-10,10,MUNICIPAL,,SP,3511409.0,2021,10,October,Não
+2021-11-20,20,MUNICIPAL,,SP,3511409.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3511508.0,2021,3,March,Não
+2021-04-03,3,MUNICIPAL,,SP,3511508.0,2021,4,April,Não
+2021-05-03,3,MUNICIPAL,,SP,3511607.0,2021,5,May,Não
+2021-09-14,14,MUNICIPAL,,SP,3511607.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1278, de 05.12.2008",SP,3511706.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3511706.0,2021,12,December,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 2920, de 2009",SP,3557204.0,2021,11,November,Não
+2021-12-04,4,MUNICIPAL,,SP,3557204.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3511904.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3511904.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3512001.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3512001.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3512001.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3512001.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3512001.0,2021,12,December,Não
+2021-02-18,18,MUNICIPAL,,SP,3512100.0,2021,2,February,Não
+2021-07-16,16,MUNICIPAL,,SP,3512100.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3512100.0,2021,11,November,Não
+2021-04-09,9,MUNICIPAL,Feriado Municipal,SP,3512209.0,2021,4,April,Não
+2021-06-13,13,MUNICIPAL,,SP,3512308.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,,SP,3512308.0,2021,8,August,Não
+2021-12-04,4,MUNICIPAL,,SP,3512308.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3512407.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal N° 2021, de 27.03.2001",SP,3512407.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3512506.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,,SP,3512506.0,2021,6,June,Não
+2021-03-21,21,MUNICIPAL,,SP,3512605.0,2021,3,March,Não
+2021-04-05,5,MUNICIPAL,,SP,3512605.0,2021,4,April,Não
+2021-06-06,6,MUNICIPAL,,SP,3512605.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3512605.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3512704.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3512704.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,Aniversário do Município,SP,3512803.0,2021,11,November,Não
+2021-06-13,13,MUNICIPAL,,SP,3512902.0,2021,6,June,Não
+2021-04-02,2,MUNICIPAL,Feriado Municipal,SP,3513009.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,Feriado Municipal,SP,3513009.0,2021,9,September,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3513108.0,2021,3,March,Não
+2021-07-28,28,MUNICIPAL,conforme Lei Municipal nº 1.488 de 14/06/2005,SP,3513207.0,2021,7,July,Não
+2021-08-15,15,MUNICIPAL,conforme Lei Municipal nº 1.488 de 14/06/2005,SP,3513207.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3513207.0,2021,11,November,Não
+2021-04-04,4,MUNICIPAL,,SP,3513306.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,,SP,3513306.0,2021,12,December,Não
+2021-10-02,2,MUNICIPAL,Homenagem ao aniversário de emancipação políticoadministrativa da cidade,SP,3513405.0,2021,10,October,Não
+2021-12-08,8,MUNICIPAL,"Dia de Nossa Senhora Imaculada Conceição, conforme Lei Municipal 0803/1967",SP,3513405.0,2021,12,December,Não
+2021-04-09,9,MUNICIPAL,,SP,3513504.0,2021,4,April,Não
+2021-08-15,15,MUNICIPAL,,SP,3513504.0,2021,8,August,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3513603.0,2021,3,March,Não
+2021-04-20,20,MUNICIPAL,,SP,3513603.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,,SP,3513603.0,2021,12,December,Não
+2021-09-08,8,MUNICIPAL,,SP,3513702.0,2021,9,September,Não
+2021-04-02,2,MUNICIPAL,Sexta-feira Santa,SP,3513801.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,,SP,3513801.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 2573/06,SP,3513801.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,"Aniversário da cidade e Dia da Imaculada Conceição, padroeira da cidade",SP,3513801.0,2021,12,December,Não
+2021-12-08,8,MUNICIPAL,,SP,3513900.0,2021,12,December,Não
+2021-12-30,30,MUNICIPAL,,SP,3513900.0,2021,12,December,Não
+2021-04-02,2,MUNICIPAL,,SP,3514007.0,2021,4,April,Não
+2021-02-04,4,MUNICIPAL,,SP,3514106.0,2021,2,February,Não
+2021-01-06,6,MUNICIPAL,,SP,3514205.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,,SP,3514205.0,2021,6,June,Não
+2021-05-19,19,MUNICIPAL,Feriado Municipal,SP,3514304.0,2021,5,May,Não
+2021-06-24,24,MUNICIPAL,Feriado Municipal,SP,3514304.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3514403.0,2021,12,December,Não
+2021-12-11,11,MUNICIPAL,Feriado Municipal,SP,3514502.0,2021,12,December,Não
+2021-12-13,13,MUNICIPAL,Feriado Municipal,SP,3514502.0,2021,12,December,Não
+2021-03-21,21,MUNICIPAL,Feriado Municipal,SP,3514601.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3514601.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3514601.0,2021,12,December,Não
+2021-11-30,30,MUNICIPAL,,SP,3514700.0,2021,11,November,Não
+2021-03-10,10,MUNICIPAL,Aniversário da Cidade de Eldorado,SP,3514809.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3514809.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,Dia da Padroeira,SP,3514809.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3514809.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3514908.0,2021,3,March,Não
+2021-11-30,30,MUNICIPAL,,SP,3514908.0,2021,11,November,Não
+2021-01-09,9,MUNICIPAL,,SP,3514957.0,2021,1,January,Não
+2021-09-08,8,MUNICIPAL,,SP,3514957.0,2021,9,September,Não
+2021-02-18,18,MUNICIPAL,Aniversário de Emancipação Política,SP,3515004.0,2021,2,February,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3515004.0,2021,4,April,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal no 2.285, de 09.11.2007",SP,3515004.0,2021,11,November,Não
+2021-03-28,28,MUNICIPAL,Aniversário de Embu-Guaçu,SP,3515103.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,"Feriado Municipal, segundo lei Lei nº 1917/2004",SP,3515103.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"Feriado Municipal, segundo lei Lei nº 1917/2004",SP,3515103.0,2021,6,June,Não
+2021-10-01,1,MUNICIPAL,"Dia de Santa Terezinha, padroeira da cidade",SP,3515103.0,2021,10,October,Não
+2021-05-19,19,MUNICIPAL,Aniversário da Cidade de Engenheiro Coelho,SP,3515152.0,2021,5,May,Não
+2021-06-29,29,MUNICIPAL,"Dia de São Pedro, padroeiro do Município",SP,3515152.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3515152.0,2021,11,November,Não
+2021-12-13,13,MUNICIPAL,,SP,3515186.0,2021,12,December,Não
+2021-12-27,27,MUNICIPAL,,SP,3515186.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3557303.0,2021,3,March,Não
+2021-05-19,19,MUNICIPAL,Feriado Municipal,SP,3557303.0,2021,5,May,Não
+2021-01-20,20,MUNICIPAL,,SP,3515301.0,2021,1,January,Não
+2021-03-21,21,MUNICIPAL,,SP,3515301.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,,SP,3515301.0,2021,6,June,Não
+2021-12-13,13,MUNICIPAL,,SP,3515301.0,2021,12,December,Não
+2021-01-25,25,MUNICIPAL,,SP,3515202.0,2021,1,January,Não
+2021-09-25,25,MUNICIPAL,,SP,3515202.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3515202.0,2021,11,November,Não
+2021-01-09,9,MUNICIPAL,,SP,3515350.0,2021,1,January,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3515350.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3515350.0,2021,9,September,Não
+2021-12-08,8,MUNICIPAL,,SP,3515350.0,2021,12,December,Não
+2021-03-31,31,MUNICIPAL,,SP,3515400.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3515400.0,2021,9,September,Não
+2021-01-20,20,MUNICIPAL,,SP,3515608.0,2021,1,January,Não
+2021-07-05,5,MUNICIPAL,,SP,3515608.0,2021,7,July,Não
+2021-12-13,13,MUNICIPAL,,SP,3515608.0,2021,12,December,Não
+2021-05-22,22,MUNICIPAL,,SP,3515509.0,2021,5,May,Não
+2021-10-14,14,MUNICIPAL,Aniversário da cidade,SP,3515707.0,2021,10,October,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal nº 3165 de 16/05/2013,SP,3515707.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3515806.0,2021,3,March,Não
+2021-01-20,20,MUNICIPAL,,SP,3515905.0,2021,1,January,Não
+2021-08-06,6,MUNICIPAL,,SP,3515905.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,,SP,3515905.0,2021,12,December,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 007/2007,SP,3516002.0,2021,11,November,Não
+2021-01-06,6,MUNICIPAL,,SP,3516101.0,2021,1,January,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3516101.0,2021,3,March,Não
+2021-12-30,30,MUNICIPAL,,SP,3516101.0,2021,12,December,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 6730/2006,SP,3516200.0,2021,11,November,Não
+2021-11-28,28,MUNICIPAL,Aniversário da Cidade,SP,3516200.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,"Dia da Padroeira da Cidade, Nossa Senhora da Conceição",SP,3516200.0,2021,12,December,Não
+2021-03-21,21,MUNICIPAL,Feriado Municipal,SP,3516309.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 2.129 17.06.2005,SP,3516309.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 535/2005,SP,3516408.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,Feriado Municipal,SP,3516408.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3516408.0,2021,12,December,Não
+2021-06-29,29,MUNICIPAL,,SP,3516507.0,2021,6,June,Não
+2021-11-03,3,MUNICIPAL,,SP,3516507.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3516606.0,2021,3,March,Não
+2021-04-14,14,MUNICIPAL,,SP,3516606.0,2021,4,April,Não
+2021-05-05,5,MUNICIPAL,Feriado Municipal,SP,3516705.0,2021,5,May,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3516705.0,2021,6,June,Não
+2021-01-06,6,MUNICIPAL,,SP,3516804.0,2021,1,January,Não
+2021-06-24,24,MUNICIPAL,,SP,3516804.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3516804.0,2021,12,December,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3516903.0,2021,9,September,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3516903.0,2021,12,December,Não
+2021-03-25,25,MUNICIPAL,,SP,3517000.0,2021,3,March,Não
+2021-08-15,15,MUNICIPAL,,SP,3517000.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 2.082 de 9 de março de 2009,SP,3517000.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3517109.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3517109.0,2021,8,August,Não
+2021-12-30,30,MUNICIPAL,,SP,3517109.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3517208.0,2021,6,June,Não
+2021-12-13,13,MUNICIPAL,,SP,3517208.0,2021,12,December,Não
+2021-11-08,8,MUNICIPAL,Feriado Municipal,SP,3517307.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3517307.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3517406.0,2021,1,January,Não
+2021-05-18,18,MUNICIPAL,Feriado Municipal,SP,3517406.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,,SP,3517406.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3517505.0,2021,1,January,Não
+2021-11-30,30,MUNICIPAL,,SP,3517505.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,"Dia de São José, padroeiro da Cidade",SP,3517604.0,2021,3,March,Não
+2021-05-02,2,MUNICIPAL,,SP,3517604.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,,SP,3517604.0,2021,11,November,Não
+2021-12-24,24,MUNICIPAL,Elevação de Guapiara a Município - Lei Municipal 1.342/2002,SP,3517604.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3517703.0,2021,1,January,Não
+2021-09-15,15,MUNICIPAL,,SP,3517703.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3517802.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3517901.0,2021,1,January,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3517901.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3517901.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,Feriado Municipal,SP,3517901.0,2021,11,November,Não
+2021-06-13,13,MUNICIPAL,,SP,3518008.0,2021,6,June,Não
+2021-08-18,18,MUNICIPAL,,SP,3518008.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3518008.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3518107.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,,SP,3518107.0,2021,11,November,Não
+2021-06-29,29,MUNICIPAL,,SP,3518206.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3518206.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3518206.0,2021,12,December,Não
+2021-09-19,19,MUNICIPAL,,SP,3518305.0,2021,9,September,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3518404.0,2021,4,April,Não
+2021-06-13,13,MUNICIPAL,"Aniversário da cidade e dia de Santo Antônio, padroeiro",SP,3518404.0,2021,6,June,Não
+2021-10-25,25,MUNICIPAL,"Dia de Frei Galvão, Lei nº 4.025 de 14/04/08",SP,3518404.0,2021,10,October,Não
+2021-03-16,16,MUNICIPAL,,SP,3518503.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,,SP,3518503.0,2021,6,June,Não
+2021-09-21,21,MUNICIPAL,,SP,3518602.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3518602.0,2021,11,November,Não
+2021-01-15,15,MUNICIPAL,"Dia de Santo Amaro, padroeiro da cidade",SP,3518701.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,Sexta-feira santa,SP,3518701.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3518701.0,2021,6,June,Não
+2021-11-02,2,MUNICIPAL,Dia de Finados,SP,3518701.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 3784, de 11.11.2009",SP,3518701.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 5950/03,SP,3518800.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,conforme Lei Municipal nº 1.631 de 14/12/1970,SP,3518800.0,2021,12,December,Não
+2021-03-28,28,MUNICIPAL,,SP,3518909.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,,SP,3518909.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3518909.0,2021,8,August,Não
+2021-07-26,26,MUNICIPAL,,SP,3519006.0,2021,7,July,Não
+2021-11-30,30,MUNICIPAL,,SP,3519006.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3519055.0,2021,4,April,Não
+2021-05-25,25,MUNICIPAL,"Divino Espírito Santo, padroeiro da cidade",SP,3519055.0,2021,5,May,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3519055.0,2021,6,June,Não
+2021-10-27,27,MUNICIPAL,Aniversário de Holambra,SP,3519055.0,2021,10,October,Não
+2021-05-19,19,MUNICIPAL,Feriado Municipal,SP,3519071.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 958 de 31.10.2001,SP,3519071.0,2021,11,November,Não
+2021-04-15,15,MUNICIPAL,,SP,3519105.0,2021,4,April,Não
+2021-06-24,24,MUNICIPAL,,SP,3519105.0,2021,6,June,Não
+2021-06-21,21,MUNICIPAL,,SP,3519204.0,2021,6,June,Não
+2021-06-29,29,MUNICIPAL,,SP,3519204.0,2021,6,June,Não
+2021-01-09,9,MUNICIPAL,,SP,3519253.0,2021,1,January,Não
+2021-11-20,20,MUNICIPAL,,SP,3519253.0,2021,11,November,Não
+2021-12-13,13,MUNICIPAL,,SP,3519253.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3519303.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3519303.0,2021,8,August,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3519402.0,2021,1,January,Não
+2021-12-12,12,MUNICIPAL,Feriado Municipal,SP,3519402.0,2021,12,December,Não
+2021-02-11,11,MUNICIPAL,,SP,3519501.0,2021,2,February,Não
+2021-11-20,20,MUNICIPAL,,SP,3519501.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,,SP,3519501.0,2021,11,November,Não
+2021-07-04,4,MUNICIPAL,,SP,3519600.0,2021,7,July,Não
+2021-08-06,6,MUNICIPAL,,SP,3519600.0,2021,8,August,Não
+2021-03-24,24,MUNICIPAL,Feriado Municipal,SP,3519709.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3519709.0,2021,9,September,Não
+2021-08-15,15,MUNICIPAL,,SP,3519808.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3519808.0,2021,11,November,Não
+2021-12-30,30,MUNICIPAL,,SP,3519808.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3519907.0,2021,6,June,Não
+2021-11-30,30,MUNICIPAL,,SP,3519907.0,2021,11,November,Não
+2021-02-11,11,MUNICIPAL,,SP,3520004.0,2021,2,February,Não
+2021-04-02,2,MUNICIPAL,,SP,3520004.0,2021,4,April,Não
+2021-07-26,26,MUNICIPAL,Padroeiro do município,SP,3520004.0,2021,7,July,Não
+2021-10-19,19,MUNICIPAL,,SP,3520004.0,2021,10,October,Não
+2021-05-22,22,MUNICIPAL,Feriado Municipal,SP,3520103.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3520103.0,2021,8,August,Não
+2021-12-05,5,MUNICIPAL,Feriado Municipal,SP,3520202.0,2021,12,December,Não
+2021-01-06,6,MUNICIPAL,,SP,3520301.0,2021,1,January,Não
+2021-08-05,5,MUNICIPAL,,SP,3520301.0,2021,8,August,Não
+2021-08-06,6,MUNICIPAL,,SP,3520301.0,2021,8,August,Não
+2021-12-03,3,MUNICIPAL,,SP,3520301.0,2021,12,December,Não
+2021-04-02,2,MUNICIPAL,Sexta-feira da Paixão,SP,3520426.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3520426.0,2021,6,June,Não
+2021-10-27,27,MUNICIPAL,Comemoração da Emancipação Política Administrativa do Município,SP,3520426.0,2021,10,October,Não
+2021-12-08,8,MUNICIPAL,Padroeira do Município,SP,3520426.0,2021,12,December,Não
+2021-10-04,4,MUNICIPAL,"Dia de São Francisco de Assis, conforme lei Nº 787, de 27 de Setembro de 2001",SP,3520442.0,2021,10,October,Não
+2021-11-20,20,MUNICIPAL,"Dia da Consciência Negra, conforme lei Nº 1987, de 13 de Novembro de 2012",SP,3520442.0,2021,11,November,Não
+2021-02-02,2,MUNICIPAL,,SP,3520400.0,2021,2,February,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3520400.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3520400.0,2021,6,June,Não
+2021-09-03,3,MUNICIPAL,,SP,3520400.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 451, de 2007",SP,3520400.0,2021,11,November,Não
+2021-02-02,2,MUNICIPAL,Feriado Municipal,SP,3520509.0,2021,2,February,Não
+2021-03-17,17,MUNICIPAL,,SP,3520608.0,2021,3,March,Não
+2021-05-12,12,MUNICIPAL,,SP,3520707.0,2021,5,May,Não
+2021-06-24,24,MUNICIPAL,,SP,3520707.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3520707.0,2021,11,November,Não
+2021-08-22,22,MUNICIPAL,,SP,3520806.0,2021,8,August,Não
+2021-08-06,6,MUNICIPAL,,SP,3520905.0,2021,8,August,Não
+2021-09-20,20,MUNICIPAL,,SP,3520905.0,2021,9,September,Não
+2021-03-21,21,MUNICIPAL,Feriado Municipal,SP,3521002.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3521002.0,2021,6,June,Não
+2021-03-21,21,MUNICIPAL,,SP,3521101.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3521101.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3521101.0,2021,12,December,Não
+2021-01-12,12,MUNICIPAL,,SP,3521200.0,2021,1,January,Não
+2021-07-26,26,MUNICIPAL,,SP,3521200.0,2021,7,July,Não
+2021-12-31,31,MUNICIPAL,,SP,3521200.0,2021,12,December,Não
+2021-03-26,26,MUNICIPAL,,SP,3521309.0,2021,3,March,Não
+2021-07-26,26,MUNICIPAL,,SP,3521309.0,2021,7,July,Não
+2021-05-03,3,MUNICIPAL,,SP,3521408.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,,SP,3521408.0,2021,11,November,Não
+2021-07-16,16,MUNICIPAL,,SP,3521507.0,2021,7,July,Não
+2021-11-01,1,MUNICIPAL,,SP,3521507.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,,SP,3521507.0,2021,11,November,Não
+2021-01-03,3,MUNICIPAL,,SP,3521606.0,2021,1,January,Não
+2021-05-06,6,MUNICIPAL,,SP,3521606.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,,SP,3521606.0,2021,11,November,Não
+2021-04-25,25,MUNICIPAL,Aniversário da Cidade de Itabera,SP,3521705.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,,SP,3521705.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,,SP,3521804.0,2021,6,June,Não
+2021-08-31,31,MUNICIPAL,,SP,3521804.0,2021,8,August,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3521903.0,2021,3,March,Não
+2021-04-04,4,MUNICIPAL,,SP,3521903.0,2021,4,April,Não
+2021-01-20,20,MUNICIPAL,,SP,3522000.0,2021,1,January,Não
+2021-08-15,15,MUNICIPAL,,SP,3522000.0,2021,8,August,Não
+2021-04-22,22,MUNICIPAL,,SP,3522109.0,2021,4,April,Não
+2021-06-09,9,MUNICIPAL,,SP,3522109.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3522109.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3522109.0,2021,12,December,Não
+2021-05-08,8,MUNICIPAL,,SP,3522208.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1713, de 2008",SP,3522208.0,2021,11,November,Não
+2021-11-05,5,MUNICIPAL,Aniversário de Fundação de Itapetininga,SP,3522307.0,2021,11,November,Não
+2021-07-26,26,MUNICIPAL,Feriado Municipal,SP,3522406.0,2021,7,July,Não
+2021-09-20,20,MUNICIPAL,Feriado Municipal,SP,3522406.0,2021,9,September,Não
+2021-02-18,18,MUNICIPAL,Aniversário da cidade,SP,3522505.0,2021,2,February,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1699, de 8.12.2004",SP,3522505.0,2021,11,November,Não
+2021-05-13,13,MUNICIPAL,,SP,3522604.0,2021,5,May,Não
+2021-09-08,8,MUNICIPAL,,SP,3522604.0,2021,9,September,Não
+2021-08-15,15,MUNICIPAL,Dia do Padroeiro,SP,3522703.0,2021,8,August,Não
+2021-10-20,20,MUNICIPAL,Emancipação política de Itápolis,SP,3522703.0,2021,10,October,Não
+2021-03-06,6,MUNICIPAL,,SP,3522802.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,,SP,3522802.0,2021,6,June,Não
+2021-08-21,21,MUNICIPAL,,SP,3522802.0,2021,8,August,Não
+2021-06-13,13,MUNICIPAL,,SP,3522901.0,2021,6,June,Não
+2021-09-11,11,MUNICIPAL,,SP,3522901.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3522901.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,,SP,3523008.0,2021,3,March,Não
+2021-12-08,8,MUNICIPAL,,SP,3523008.0,2021,12,December,Não
+2021-04-02,2,MUNICIPAL,"Sexta-Feria Santa, feriado municipal",SP,3523107.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3523107.0,2021,6,June,Não
+2021-09-08,8,MUNICIPAL,Aniversário da Cidade,SP,3523107.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3523107.0,2021,11,November,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3523206.0,2021,6,June,Não
+2021-08-28,28,MUNICIPAL,Feriado Municipal,SP,3523206.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3523206.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3523206.0,2021,12,December,Não
+2021-04-09,9,MUNICIPAL,,SP,3523305.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,,SP,3523305.0,2021,9,September,Não
+2021-09-08,8,MUNICIPAL,,SP,3523404.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 3951, de 1997",SP,3523404.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3523503.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3523503.0,2021,6,June,Não
+2021-07-24,24,MUNICIPAL,Aniversário de Itatinga,SP,3523503.0,2021,7,July,Não
+2021-11-02,2,MUNICIPAL,Finados,SP,3523503.0,2021,11,November,Não
+2021-03-25,25,MUNICIPAL,,SP,3523602.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3523602.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3523602.0,2021,11,November,Não
+2021-03-27,27,MUNICIPAL,,SP,3523701.0,2021,3,March,Não
+2021-08-27,27,MUNICIPAL,,SP,3523800.0,2021,8,August,Não
+2021-09-15,15,MUNICIPAL,,SP,3523800.0,2021,9,September,Não
+2021-11-01,1,MUNICIPAL,,SP,3523800.0,2021,11,November,Não
+2021-02-02,2,MUNICIPAL,Dia de Nossa Senhora da Candelária e Aniversário de Itu,SP,3523909.0,2021,2,February,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 624, de 2005",SP,3523909.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,"Dia de São Sebastião, padroeiro da Cidade. Lei nº 262/80",SP,3524006.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa. Lei nº 262/80,SP,3524006.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi. Lei nº 262/80,SP,3524006.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3524006.0,2021,11,November,Não
+2021-03-10,10,MUNICIPAL,,SP,3524105.0,2021,3,March,Não
+2021-07-16,16,MUNICIPAL,,SP,3524105.0,2021,7,July,Não
+2021-03-18,18,MUNICIPAL,,SP,3524204.0,2021,3,March,Não
+2021-09-29,29,MUNICIPAL,,SP,3524204.0,2021,9,September,Não
+2021-07-16,16,MUNICIPAL,,SP,3524303.0,2021,7,July,Não
+2021-04-03,3,MUNICIPAL,,SP,3524402.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3524402.0,2021,12,December,Não
+2021-04-04,4,MUNICIPAL,Feriado Municipal,SP,3524501.0,2021,4,April,Não
+2021-09-25,25,MUNICIPAL,Feriado Municipal,SP,3524501.0,2021,9,September,Não
+2021-06-23,23,MUNICIPAL,,SP,3524600.0,2021,6,June,Não
+2021-06-29,29,MUNICIPAL,,SP,3524600.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3524600.0,2021,12,December,Não
+2021-09-12,12,MUNICIPAL,Feriado Municipal,SP,3524709.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 1567 de 03 12 2004,SP,3524709.0,2021,11,November,Não
+2021-04-15,15,MUNICIPAL,Feriado Municipal,SP,3524808.0,2021,4,April,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3524808.0,2021,8,August,Não
+2021-03-30,30,MUNICIPAL,,SP,3524907.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3524907.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1.399, de 20 de março de 2009",SP,3524907.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1713, de maio de 2008",SP,3525003.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3525003.0,2021,12,December,Não
+2021-06-29,29,MUNICIPAL,,SP,3525102.0,2021,6,June,Não
+2021-07-27,27,MUNICIPAL,,SP,3525102.0,2021,7,July,Não
+2021-08-06,6,MUNICIPAL,,SP,3525102.0,2021,8,August,Não
+2021-04-17,17,MUNICIPAL,,SP,3525201.0,2021,4,April,Não
+2021-07-16,16,MUNICIPAL,,SP,3525201.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1760, de 12.03.2008",SP,3525201.0,2021,11,November,Não
+2021-08-15,15,MUNICIPAL,Aniversário do município,SP,3525300.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 4316, de 2009",SP,3525300.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3525409.0,2021,1,January,Não
+2021-04-07,7,MUNICIPAL,,SP,3525409.0,2021,4,April,Não
+2021-11-20,20,MUNICIPAL,,SP,3525409.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3525508.0,2021,6,June,Não
+2021-08-17,17,MUNICIPAL,,SP,3525508.0,2021,8,August,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3525607.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,,SP,3525607.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3525607.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3525706.0,2021,6,June,Não
+2021-09-15,15,MUNICIPAL,,SP,3525706.0,2021,9,September,Não
+2021-02-21,21,MUNICIPAL,,SP,3525805.0,2021,2,February,Não
+2021-05-21,21,MUNICIPAL,,SP,3525854.0,2021,5,May,Não
+2021-08-06,6,MUNICIPAL,,SP,3525854.0,2021,8,August,Não
+2021-08-15,15,MUNICIPAL,conforme Lei Municipal nº 2.102 de 31/12/1975,SP,3525904.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3525904.0,2021,11,November,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3526001.0,2021,6,June,Não
+2021-04-10,10,MUNICIPAL,Feriado Municipal,SP,3526100.0,2021,4,April,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3526100.0,2021,6,June,Não
+2021-03-28,28,MUNICIPAL,,SP,3526209.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3526209.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 1498 DE 08 de novembro de 2007,SP,3526209.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3526308.0,2021,12,December,Não
+2021-12-23,23,MUNICIPAL,,SP,3526308.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3526407.0,2021,6,June,Não
+2021-10-10,10,MUNICIPAL,,SP,3526407.0,2021,10,October,Não
+2021-12-08,8,MUNICIPAL,,SP,3526506.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3526605.0,2021,1,January,Não
+2021-06-27,27,MUNICIPAL,,SP,3526605.0,2021,6,June,Não
+2021-08-29,29,MUNICIPAL,Dia da cidade,SP,3526704.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 2780, de 2003",SP,3526704.0,2021,11,November,Não
+2021-04-28,28,MUNICIPAL,Feriado Municipal,SP,3526803.0,2021,4,April,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3526803.0,2021,9,September,Não
+2021-09-15,15,MUNICIPAL,conforme Lei Municipal nº 4.901 de 04/12/2012,SP,3526902.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 2780, de 2003",SP,3526902.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,Feriado Municipal,SP,3527009.0,2021,3,March,Não
+2021-09-08,8,MUNICIPAL,Feriado Municipal,SP,3527009.0,2021,9,September,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3527108.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3527207.0,2021,8,August,Não
+2021-11-14,14,MUNICIPAL,,SP,3527207.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,"Dia de São Sebastião, padroeiro da cidade.",SP,3527306.0,2021,1,January,Não
+2021-03-21,21,MUNICIPAL,Emancipação Político-administrativa,SP,3527306.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,Sexta-feira da Paixão,SP,3527306.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3527306.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3527306.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,Feriado Municipal,SP,3527405.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3527405.0,2021,12,December,Não
+2021-06-29,29,MUNICIPAL,,SP,3527504.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3527603.0,2021,11,November,Não
+2021-12-13,13,MUNICIPAL,Feriado Municipal,SP,3527603.0,2021,12,December,Não
+2021-07-31,31,MUNICIPAL,,SP,3527801.0,2021,7,July,Não
+2021-12-30,30,MUNICIPAL,,SP,3527801.0,2021,12,December,Não
+2021-12-08,8,MUNICIPAL,,SP,3527900.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,,SP,3528007.0,2021,6,June,Não
+2021-04-02,2,MUNICIPAL,,SP,3528106.0,2021,4,April,Não
+2021-05-02,2,MUNICIPAL,,SP,3528106.0,2021,5,May,Não
+2021-12-08,8,MUNICIPAL,,SP,3528106.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,,SP,3528205.0,2021,6,June,Não
+2021-03-25,25,MUNICIPAL,,SP,3528304.0,2021,3,March,Não
+2021-12-08,8,MUNICIPAL,,SP,3528304.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3528403.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3528403.0,2021,11,November,Não
+2021-03-27,27,MUNICIPAL,Aniversário do Município ,SP,3528502.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,Dia de Nossa Senhora do Desterro,SP,3528502.0,2021,9,September,Não
+2021-06-13,13,MUNICIPAL,,SP,3528601.0,2021,6,June,Não
+2021-11-30,30,MUNICIPAL,,SP,3528601.0,2021,11,November,Não
+2021-06-13,13,MUNICIPAL,,SP,3528700.0,2021,6,June,Não
+2021-09-11,11,MUNICIPAL,,SP,3528700.0,2021,9,September,Não
+2021-05-04,4,MUNICIPAL,,SP,3528809.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,,SP,3528809.0,2021,8,August,Não
+2021-06-08,8,MUNICIPAL,,SP,3528858.0,2021,6,June,Não
+2021-06-29,29,MUNICIPAL,,SP,3528908.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3528908.0,2021,12,December,Não
+2021-04-04,4,MUNICIPAL,Feriado Municipal,SP,3529005.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,Padroeira da Cidade,SP,3529005.0,2021,12,December,Não
+2021-06-16,16,MUNICIPAL,,SP,3529104.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,,SP,3529203.0,2021,6,June,Não
+2021-06-29,29,MUNICIPAL,,SP,3529203.0,2021,6,June,Não
+2021-12-02,2,MUNICIPAL,,SP,3529203.0,2021,12,December,Não
+2021-08-06,6,MUNICIPAL,,SP,3529302.0,2021,8,August,Não
+2021-08-27,27,MUNICIPAL,,SP,3529302.0,2021,8,August,Não
+2021-06-03,3,MUNICIPAL,,SP,3529401.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 3878, de 20.11.2005",SP,3529401.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Aniversário da cidade,SP,3529401.0,2021,12,December,Não
+2021-08-17,17,MUNICIPAL,,SP,3529500.0,2021,8,August,Não
+2021-11-01,1,MUNICIPAL,,SP,3529500.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3529500.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3529609.0,2021,3,March,Não
+2021-01-14,14,MUNICIPAL,Feriado Municipal,SP,3529708.0,2021,1,January,Não
+2021-03-08,8,MUNICIPAL,Feriado Municipal,SP,3529708.0,2021,3,March,Não
+2021-09-29,29,MUNICIPAL,Feriado Municipal,SP,3529708.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3529708.0,2021,11,November,Não
+2021-08-06,6,MUNICIPAL,,SP,3529807.0,2021,8,August,Não
+2021-08-29,29,MUNICIPAL,,SP,3529807.0,2021,8,August,Não
+2021-03-21,21,MUNICIPAL,,SP,3530003.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3530003.0,2021,8,August,Não
+2021-11-01,1,MUNICIPAL,,SP,3530003.0,2021,11,November,Não
+2021-09-15,15,MUNICIPAL,,SP,3529906.0,2021,9,September,Não
+2021-11-30,30,MUNICIPAL,,SP,3529906.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3530102.0,2021,6,June,Não
+2021-04-02,2,MUNICIPAL,,SP,3530201.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,,SP,3530201.0,2021,6,June,Não
+2021-10-01,1,MUNICIPAL,Padroeira do município,SP,3530201.0,2021,10,October,Não
+2021-11-29,29,MUNICIPAL,,SP,3530201.0,2021,11,November,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3530300.0,2021,6,June,Não
+2021-09-08,8,MUNICIPAL,Feriado Municipal,SP,3530300.0,2021,9,September,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3530409.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3530409.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3530508.0,2021,1,January,Não
+2021-04-05,5,MUNICIPAL,,SP,3530508.0,2021,4,April,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 566, de 2004",SP,3530508.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,conforme Lei Municipal nº 3.125 de 16/12/1986,SP,3530607.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,conforme Lei Municipal nº 3.125 de 16/12/1986,SP,3530607.0,2021,6,June,Não
+2021-07-26,26,MUNICIPAL,conforme Lei Municipal nº 3.125 de 16/12/1986,SP,3530607.0,2021,7,July,Não
+2021-09-01,1,MUNICIPAL,conforme Lei Municipal nº 1.585 de 03/09/1966,SP,3530607.0,2021,9,September,Não
+2021-03-21,21,MUNICIPAL,,SP,3530904.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,,SP,3530904.0,2021,6,June,Não
+2021-11-01,1,MUNICIPAL,,SP,3530904.0,2021,11,November,Não
+2021-11-27,27,MUNICIPAL,,SP,3531001.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3531001.0,2021,12,December,Não
+2021-12-07,7,MUNICIPAL,Feriado Municipal,SP,3531100.0,2021,12,December,Não
+2021-08-06,6,MUNICIPAL,,SP,3531209.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3531209.0,2021,11,November,Não
+2021-12-24,24,MUNICIPAL,,SP,3531209.0,2021,12,December,Não
+2021-04-02,2,MUNICIPAL,"Sexta-Feira Santa, segundo lei nº 585, de 18/04/1967",SP,3531308.0,2021,4,April,Não
+2021-05-15,15,MUNICIPAL,"Aniversário da Cidade de Monte Alto, segundo lei nº 585, de 18/04/1967",SP,3531308.0,2021,5,May,Não
+2021-08-06,6,MUNICIPAL,"Dia do Padroeiro da Cidade, segundo lei nº 585, de 18/04/1967",SP,3531308.0,2021,8,August,Não
+2021-11-02,2,MUNICIPAL,"Dia de Finados, segundo lei nº 585, de 18/04/1967",SP,3531308.0,2021,11,November,Não
+2021-03-10,10,MUNICIPAL,Feriado Municipal,SP,3531407.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3531407.0,2021,8,August,Não
+2021-06-29,29,MUNICIPAL,,SP,3531506.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,,SP,3531506.0,2021,8,August,Não
+2021-06-13,13,MUNICIPAL,,SP,3531605.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3531605.0,2021,8,August,Não
+2021-11-22,22,MUNICIPAL,,SP,3531605.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Sexta-feira da Paixão,SP,3531803.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3531803.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,Padroeira do município,SP,3531803.0,2021,8,August,Não
+2021-11-02,2,MUNICIPAL,Dia de Finados,SP,3531803.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,Dia da Consciência Negra,SP,3531803.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3531704.0,2021,1,January,Não
+2021-04-26,26,MUNICIPAL,,SP,3531704.0,2021,4,April,Não
+2021-09-08,8,MUNICIPAL,,SP,3531704.0,2021,9,September,Não
+2021-01-06,6,MUNICIPAL,,SP,3531902.0,2021,1,January,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3531902.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3532009.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3532009.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3532108.0,2021,3,March,Não
+2021-03-21,21,MUNICIPAL,Feriado Municipal,SP,3532207.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,Feriado Municipal,SP,3532207.0,2021,4,April,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3532207.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3532207.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3532207.0,2021,12,December,Não
+2021-05-29,29,MUNICIPAL,,SP,3532306.0,2021,5,May,Não
+2021-08-13,13,MUNICIPAL,,SP,3532306.0,2021,8,August,Não
+2021-09-08,8,MUNICIPAL,,SP,3532306.0,2021,9,September,Não
+2021-06-10,10,MUNICIPAL,Feriado Municipal,SP,3532405.0,2021,6,June,Não
+2021-11-21,21,MUNICIPAL,Feriado Municipal,SP,3532405.0,2021,11,November,Não
+2021-05-22,22,MUNICIPAL,,SP,3532504.0,2021,5,May,Não
+2021-11-30,30,MUNICIPAL,,SP,3532504.0,2021,11,November,Não
+2021-01-06,6,MUNICIPAL,,SP,3532603.0,2021,1,January,Não
+2021-06-24,24,MUNICIPAL,,SP,3532603.0,2021,6,June,Não
+2021-03-25,25,MUNICIPAL,,SP,3532702.0,2021,3,March,Não
+2021-09-08,8,MUNICIPAL,,SP,3532702.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3532702.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3532702.0,2021,12,December,Não
+2021-01-06,6,MUNICIPAL,,SP,3532801.0,2021,1,January,Não
+2021-11-30,30,MUNICIPAL,,SP,3532801.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3532801.0,2021,12,December,Não
+2021-12-30,30,MUNICIPAL,,SP,3532900.0,2021,12,December,Não
+2021-03-22,22,MUNICIPAL,,SP,3533007.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3533007.0,2021,11,November,Não
+2021-06-29,29,MUNICIPAL,,SP,3533106.0,2021,6,June,Não
+2021-10-20,20,MUNICIPAL,,SP,3533106.0,2021,10,October,Não
+2021-11-20,20,MUNICIPAL,,SP,3533106.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,,SP,3533205.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3533205.0,2021,8,August,Não
+2021-06-29,29,MUNICIPAL,,SP,3533304.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,,SP,3533304.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,,SP,3533304.0,2021,12,December,Não
+2021-09-15,15,MUNICIPAL,,SP,3533403.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3533403.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3533502.0,2021,3,March,Não
+2021-05-03,3,MUNICIPAL,,SP,3533601.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,,SP,3533601.0,2021,8,August,Não
+2021-09-09,9,MUNICIPAL,,SP,3533601.0,2021,9,September,Não
+2021-06-13,13,MUNICIPAL,,SP,3533700.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3533700.0,2021,12,December,Não
+2021-04-07,7,MUNICIPAL,,SP,3533809.0,2021,4,April,Não
+2021-08-06,6,MUNICIPAL,,SP,3533809.0,2021,8,August,Não
+2021-03-02,2,MUNICIPAL,Aniversário da Cidade de Olímpia,SP,3533908.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,"Dia do Padroeiro da Cidade, São João Batista",SP,3533908.0,2021,6,June,Não
+2021-03-22,22,MUNICIPAL,,SP,3534005.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,,SP,3534005.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,,SP,3534005.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3534005.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,Feriado Municipal,SP,3534104.0,2021,11,November,Não
+2021-12-13,13,MUNICIPAL,Feriado Municipal,SP,3534104.0,2021,12,December,Não
+2021-03-21,21,MUNICIPAL,,SP,3534203.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3534203.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3534302.0,2021,3,March,Não
+2021-03-30,30,MUNICIPAL,,SP,3534302.0,2021,3,March,Não
+2021-02-19,19,MUNICIPAL,conforme Lei Municipal nº 1.121 de 16/05/1972,SP,3534401.0,2021,2,February,Não
+2021-04-02,2,MUNICIPAL,"conforme Decreto 10.933, de 20 de dezembro de 2013",SP,3534401.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"conforme Decreto 10.933, de 20 de dezembro de 2013",SP,3534401.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,conforme Lei Municipal nº 1.121 de 16/05/1972,SP,3534401.0,2021,6,June,Não
+2021-04-24,24,MUNICIPAL,,SP,3534500.0,2021,4,April,Não
+2021-07-16,16,MUNICIPAL,,SP,3534500.0,2021,7,July,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3534609.0,2021,3,March,Não
+2021-06-06,6,MUNICIPAL,Feriado Municipal,SP,3534609.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3534708.0,2021,8,August,Não
+2021-12-13,13,MUNICIPAL,Feriado Municipal,SP,3534708.0,2021,12,December,Não
+2021-06-29,29,MUNICIPAL,,SP,3534807.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3534807.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3534757.0,2021,6,June,Não
+2021-12-27,27,MUNICIPAL,,SP,3534757.0,2021,12,December,Não
+2021-01-06,6,MUNICIPAL,Feriado Municipal,SP,3534906.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,Feriado Municipal,SP,3534906.0,2021,4,April,Não
+2021-11-27,27,MUNICIPAL,Feriado Municipal,SP,3534906.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3535002.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3535101.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3535101.0,2021,12,December,Não
+2021-12-13,13,MUNICIPAL,,SP,3535200.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Conforme a Lei nº 2177 de 22 de dezembro de 2006,SP,3535309.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3535408.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,Feriado em Homenagem a Zumbi dos Palmares,SP,3535408.0,2021,11,November,Não
+2021-03-12,12,MUNICIPAL,,SP,3535507.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3535606.0,2021,6,June,Não
+2021-07-10,10,MUNICIPAL,,SP,3535606.0,2021,7,July,Não
+2021-08-15,15,MUNICIPAL,,SP,3535705.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 823/08 de 21 de agosto de 2.008,SP,3535705.0,2021,11,November,Não
+2021-04-20,20,MUNICIPAL,Feriado Municipal,SP,3535804.0,2021,4,April,Não
+2021-05-09,9,MUNICIPAL,Feriado Municipal,SP,3535804.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3535804.0,2021,8,August,Não
+2021-03-21,21,MUNICIPAL,,SP,3535903.0,2021,3,March,Não
+2021-09-16,16,MUNICIPAL,,SP,3535903.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3535903.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3536000.0,2021,12,December,Não
+2021-02-18,18,MUNICIPAL,,SP,3536109.0,2021,2,February,Não
+2021-05-31,31,MUNICIPAL,,SP,3536109.0,2021,5,May,Não
+2021-06-29,29,MUNICIPAL,,SP,3536208.0,2021,6,June,Não
+2021-03-10,10,MUNICIPAL,,SP,3536307.0,2021,3,March,Não
+2021-07-28,28,MUNICIPAL,,SP,3536307.0,2021,7,July,Não
+2021-06-29,29,MUNICIPAL,,SP,3536406.0,2021,6,June,Não
+2021-02-28,28,MUNICIPAL,Feriado Municipal,SP,3536505.0,2021,2,February,Não
+2021-08-06,6,MUNICIPAL,,SP,3536604.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3536604.0,2021,11,November,Não
+2021-11-30,30,MUNICIPAL,,SP,3536604.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3536703.0,2021,1,January,Não
+2021-05-22,22,MUNICIPAL,,SP,3536703.0,2021,5,May,Não
+2021-01-20,20,MUNICIPAL,"Dia de São Sebastião, padroeiro da Cidade, conforme lei Nº 03, de 15 de abril de 1983",SP,3536802.0,2021,1,January,Não
+2021-04-06,6,MUNICIPAL,"Aniversário da Cidade de Pedra Bela, conforme lei Nº 03, de 15 de abril de 1983",SP,3536802.0,2021,4,April,Não
+2021-08-09,9,MUNICIPAL,"Dia de Nossa Senhora da Pedra, conforme lei 321, de 29 de setembro de 2010.",SP,3536802.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Dia da Consciência Negra, conforme lei 489, de 29 de maio de 2015",SP,3536802.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3536901.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3536901.0,2021,8,August,Não
+2021-03-18,18,MUNICIPAL,,SP,3537008.0,2021,3,March,Não
+2021-08-15,15,MUNICIPAL,,SP,3537008.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3537008.0,2021,11,November,Não
+2021-07-26,26,MUNICIPAL,Feriado Municipal,SP,3537107.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,Emenda a Lei Orgânica do Município no 30/08,SP,3537107.0,2021,11,November,Não
+2021-08-07,7,MUNICIPAL,,SP,3537156.0,2021,8,August,Não
+2021-09-21,21,MUNICIPAL,,SP,3537156.0,2021,9,September,Não
+2021-12-08,8,MUNICIPAL,,SP,3537156.0,2021,12,December,Não
+2021-04-09,9,MUNICIPAL,,SP,3537206.0,2021,4,April,Não
+2021-07-26,26,MUNICIPAL,,SP,3537206.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1.017, de 20 de Dezembro de 2006",SP,3537206.0,2021,11,November,Não
+2021-10-04,4,MUNICIPAL,Padroeiro do município,SP,3537305.0,2021,10,October,Não
+2021-10-25,25,MUNICIPAL,Aniversário da cidade,SP,3537305.0,2021,10,October,Não
+2021-08-11,11,MUNICIPAL,Aniversário de Fundação de Pereira Barreto,SP,3537404.0,2021,8,August,Não
+2021-12-03,3,MUNICIPAL,Dia do Padroeiro da cidade,SP,3537404.0,2021,12,December,Não
+2021-08-11,11,MUNICIPAL,,SP,3537503.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,,SP,3537503.0,2021,12,December,Não
+2021-02-18,18,MUNICIPAL,Feriado Municipal,SP,3537602.0,2021,2,February,Não
+2021-06-24,24,MUNICIPAL,Feriado Municipal,SP,3537602.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3537602.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3537701.0,2021,3,March,Não
+2021-11-09,9,MUNICIPAL,,SP,3537701.0,2021,11,November,Não
+2021-05-20,20,MUNICIPAL,,SP,3537800.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,,SP,3537800.0,2021,8,August,Não
+2021-11-05,5,MUNICIPAL,Aniversário do município,SP,3537909.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Dia da Paixão de Cristo,SP,3538006.0,2021,4,April,Não
+2021-04-05,5,MUNICIPAL,Dia de São Benedito,SP,3538006.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,,SP,3538006.0,2021,6,June,Não
+2021-09-08,8,MUNICIPAL,Dia de Nossa Senhora do Bom Sucesso,SP,3538006.0,2021,9,September,Não
+2021-03-21,21,MUNICIPAL,,SP,3538105.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3538105.0,2021,6,June,Não
+2021-06-29,29,MUNICIPAL,,SP,3538105.0,2021,6,June,Não
+2021-05-03,3,MUNICIPAL,Feriado Municipal,SP,3538204.0,2021,5,May,Não
+2021-09-24,24,MUNICIPAL,Feriado Municipal,SP,3538204.0,2021,9,September,Não
+2021-03-20,20,MUNICIPAL,,SP,3538303.0,2021,3,March,Não
+2021-09-29,29,MUNICIPAL,,SP,3538303.0,2021,9,September,Não
+2021-06-15,15,MUNICIPAL,,SP,3538501.0,2021,6,June,Não
+2021-09-29,29,MUNICIPAL,,SP,3538501.0,2021,9,September,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3538600.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3538600.0,2021,6,June,Não
+2021-06-16,16,MUNICIPAL,Feriado Municipal,SP,3538600.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,"Padroeiro da cidade, conforme Lei Municipal nº 1.459 de 17/11/1966",SP,3538709.0,2021,6,June,Não
+2021-11-30,30,MUNICIPAL,Feriado Municipal,SP,3542602.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 5242/2003,SP,3538709.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,"Dia de Nossa Senhora da Conceição, conforme Lei Municipal nº 1.459 de 17/11/1966",SP,3538709.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3538808.0,2021,1,January,Não
+2021-01-20,20,MUNICIPAL,,SP,3538907.0,2021,1,January,Não
+2021-03-29,29,MUNICIPAL,,SP,3538907.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3538907.0,2021,6,June,Não
+2021-06-24,24,MUNICIPAL,,SP,3538907.0,2021,6,June,Não
+2021-03-07,7,MUNICIPAL,,SP,3539004.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3539004.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3539103.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 855, de 28 de março de 2007",SP,3539103.0,2021,11,November,Não
+2021-04-09,9,MUNICIPAL,Feriado Municipal,SP,3539202.0,2021,4,April,Não
+2021-06-24,24,MUNICIPAL,Feriado Municipal,SP,3539202.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,Aniversário do Município,SP,3539301.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,Imaculada Conceição,SP,3539301.0,2021,12,December,Não
+2021-05-18,18,MUNICIPAL,,SP,3539400.0,2021,5,May,Não
+2021-01-20,20,MUNICIPAL,,SP,3539509.0,2021,1,January,Não
+2021-07-27,27,MUNICIPAL,,SP,3539509.0,2021,7,July,Não
+2021-04-03,3,MUNICIPAL,,SP,3539608.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,,SP,3539608.0,2021,12,December,Não
+2021-07-16,16,MUNICIPAL,,SP,3539707.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3539707.0,2021,11,November,Não
+2021-12-30,30,MUNICIPAL,,SP,3539707.0,2021,12,December,Não
+2021-03-26,26,MUNICIPAL,Feriado Municipal,SP,3539806.0,2021,3,March,Não
+2021-05-03,3,MUNICIPAL,,SP,3539905.0,2021,5,May,Não
+2021-06-13,13,MUNICIPAL,,SP,3539905.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3539905.0,2021,12,December,Não
+2021-09-17,17,MUNICIPAL,Aniversário de Pompeia,SP,3540002.0,2021,9,September,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3540101.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,,SP,3540101.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,,SP,3540101.0,2021,12,December,Não
+2021-08-10,10,MUNICIPAL,Feriado Municipal,SP,3540200.0,2021,8,August,Não
+2021-04-10,10,MUNICIPAL,,SP,3540309.0,2021,4,April,Não
+2021-09-17,17,MUNICIPAL,,SP,3540309.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3540309.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3540408.0,2021,6,June,Não
+2021-06-04,4,MUNICIPAL,,SP,3540507.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,,SP,3540507.0,2021,6,June,Não
+2021-07-21,21,MUNICIPAL,,SP,3540507.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3540507.0,2021,11,November,Não
+2021-08-15,15,MUNICIPAL,,SP,3540606.0,2021,8,August,Não
+2021-10-13,13,MUNICIPAL,Aniversário da Cidade,SP,3540606.0,2021,10,October,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal 4.530, 05/11/2007",SP,3540606.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3540705.0,2021,1,January,Não
+2021-07-29,29,MUNICIPAL,,SP,3540705.0,2021,7,July,Não
+2021-05-19,19,MUNICIPAL,,SP,3540754.0,2021,5,May,Não
+2021-08-06,6,MUNICIPAL,,SP,3540754.0,2021,8,August,Não
+2021-03-21,21,MUNICIPAL,,SP,3540804.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3540804.0,2021,8,August,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3540903.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3540903.0,2021,11,November,Não
+2021-06-29,29,MUNICIPAL,"Feriado municipal em louvor a São Pedro, Padroeiro da Cidade, conforme Lei Municipal nº 701 de 18/06/1991",SP,3541000.0,2021,6,June,Não
+2021-03-22,22,MUNICIPAL,,SP,3541059.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3541059.0,2021,8,August,Não
+2021-11-22,22,MUNICIPAL,Feriado Municipal,SP,3541109.0,2021,11,November,Não
+2021-12-02,2,MUNICIPAL,Feriado Municipal,SP,3541109.0,2021,12,December,Não
+2021-12-08,8,MUNICIPAL,,SP,3541208.0,2021,12,December,Não
+2021-03-27,27,MUNICIPAL,Feriado Municipal,SP,3541307.0,2021,3,March,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3541307.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3541307.0,2021,8,August,Não
+2021-01-20,20,MUNICIPAL,"Dia de São Sebastião, padroeiro da cidade",SP,3541406.0,2021,1,January,Não
+2021-09-14,14,MUNICIPAL,Fundação do Município,SP,3541406.0,2021,9,September,Não
+2021-12-08,8,MUNICIPAL,Imaculada Conceição de Nossa Senhora,SP,3541406.0,2021,12,December,Não
+2021-05-13,13,MUNICIPAL,Feriado Municipal,SP,3541505.0,2021,5,May,Não
+2021-09-02,2,MUNICIPAL,Feriado Municipal,SP,3541505.0,2021,9,September,Não
+2021-11-29,29,MUNICIPAL,Feriado Municipal,SP,3541604.0,2021,11,November,Não
+2021-06-13,13,MUNICIPAL,,SP,3541703.0,2021,6,June,Não
+2021-03-28,28,MUNICIPAL,,SP,3541802.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3541802.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3541901.0,2021,6,June,Não
+2021-11-30,30,MUNICIPAL,,SP,3542008.0,2021,11,November,Não
+2021-02-11,11,MUNICIPAL,,SP,3542107.0,2021,2,February,Não
+2021-06-13,13,MUNICIPAL,"Aniversário de Rancharia e dia de Santo Antônio, padroeiro",SP,3542206.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,Imaculada Conceição,SP,3542206.0,2021,12,December,Não
+2021-05-03,3,MUNICIPAL,,SP,3542305.0,2021,5,May,Não
+2021-08-25,25,MUNICIPAL,,SP,3542305.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3542305.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3542305.0,2021,12,December,Não
+2021-06-28,28,MUNICIPAL,,SP,3542404.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3542404.0,2021,12,December,Não
+2021-08-15,15,MUNICIPAL,,SP,3542503.0,2021,8,August,Não
+2021-12-03,3,MUNICIPAL,Feriado Municipal,SP,3542602.0,2021,12,December,Não
+2021-02-28,28,MUNICIPAL,,SP,3542701.0,2021,2,February,Não
+2021-11-20,20,MUNICIPAL,,SP,3542701.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3542701.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3542800.0,2021,6,June,Não
+2021-08-06,6,MUNICIPAL,,SP,3542800.0,2021,8,August,Não
+2021-03-05,5,MUNICIPAL,,SP,3542909.0,2021,3,March,Não
+2021-08-06,6,MUNICIPAL,,SP,3542909.0,2021,8,August,Não
+2021-08-06,6,MUNICIPAL,,SP,3543006.0,2021,8,August,Não
+2021-09-06,6,MUNICIPAL,,SP,3543006.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3543006.0,2021,11,November,Não
+2021-04-07,7,MUNICIPAL,,SP,3543105.0,2021,4,April,Não
+2021-09-14,14,MUNICIPAL,,SP,3543105.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3543105.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,,SP,3543204.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3543204.0,2021,6,June,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3543303.0,2021,3,March,Não
+2021-06-03,3,MUNICIPAL,,SP,3543303.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 4.653/2002,SP,3543303.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,"Dia de São Sebastião, padroeiro da cidade, conforme Lei 11919/09 de 10/03/2009",SP,3543402.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,conforme Lei Municipal nº 11.919 de 10/03/2009,SP,3543402.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,conforme Lei Municipal nº 11.919 de 10/03/2009,SP,3543402.0,2021,6,June,Não
+2021-06-19,19,MUNICIPAL,conforme Lei Municipal nº 11.919 de 10/03/2009,SP,3543402.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,,SP,3543600.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3543600.0,2021,11,November,Não
+2021-12-24,24,MUNICIPAL,,SP,3543600.0,2021,12,December,Não
+2021-08-20,20,MUNICIPAL,,SP,3543709.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 1657/2007,SP,3543709.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,Dia de São João Batista (Padroeiro) e Aniversário da Cidade conforme Lei Municipal nº 1.487 de 12/12/1977,SP,3543907.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 03718/2006,SP,3543907.0,2021,11,November,Não
+2021-07-10,10,MUNICIPAL,Feriado Municipal,SP,3544004.0,2021,7,July,Não
+2021-08-06,6,MUNICIPAL,Feriado Municipal,SP,3544004.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3544004.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3544103.0,2021,1,January,Não
+2021-05-03,3,MUNICIPAL,,SP,3544103.0,2021,5,May,Não
+2021-03-26,26,MUNICIPAL,,SP,3544202.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3544202.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3544202.0,2021,11,November,Não
+2021-08-06,6,MUNICIPAL,,SP,3543501.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3543501.0,2021,11,November,Não
+2021-12-30,30,MUNICIPAL,,SP,3543501.0,2021,12,December,Não
+2021-02-02,2,MUNICIPAL,,SP,3544251.0,2021,2,February,Não
+2021-11-05,5,MUNICIPAL,,SP,3544251.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,,SP,3544301.0,2021,3,March,Não
+2021-07-26,26,MUNICIPAL,,SP,3544301.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,,SP,3544301.0,2021,11,November,Não
+2021-08-24,24,MUNICIPAL,,SP,3544400.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3544400.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3544400.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3544608.0,2021,1,January,Não
+2021-12-08,8,MUNICIPAL,,SP,3544608.0,2021,12,December,Não
+2021-02-18,18,MUNICIPAL,,SP,3544707.0,2021,2,February,Não
+2021-11-30,30,MUNICIPAL,,SP,3544806.0,2021,11,November,Não
+2021-05-22,22,MUNICIPAL,,SP,3544905.0,2021,5,May,Não
+2021-02-28,28,MUNICIPAL,,SP,3545001.0,2021,2,February,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3545001.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3545001.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3545100.0,2021,6,June,Não
+2021-12-13,13,MUNICIPAL,,SP,3545100.0,2021,12,December,Não
+2021-05-19,19,MUNICIPAL,,SP,3545159.0,2021,5,May,Não
+2021-06-30,30,MUNICIPAL,,SP,3545159.0,2021,6,June,Não
+2021-09-08,8,MUNICIPAL,Dia da Padroeira da Cidade,SP,3545209.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 2933, de 2009",SP,3545209.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3545308.0,2021,6,June,Não
+2021-12-30,30,MUNICIPAL,,SP,3545308.0,2021,12,December,Não
+2021-09-15,15,MUNICIPAL,conforme Lei Municipal nº 373 de 16/08/1971,SP,3545407.0,2021,9,September,Não
+2021-12-27,27,MUNICIPAL,conforme Lei Municipal nº 373 de 16/08/1971,SP,3545407.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,,SP,3545506.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,,SP,3545506.0,2021,8,August,Não
+2021-03-22,22,MUNICIPAL,,SP,3545605.0,2021,3,March,Não
+2021-12-16,16,MUNICIPAL,,SP,3545605.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3545704.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 535 de 05 de dezembro de 2007,SP,3545704.0,2021,11,November,Não
+2021-12-04,4,MUNICIPAL,"Dia de Santa Bárbara, padroeira da cidade",SP,3545803.0,2021,12,December,Não
+2021-05-22,22,MUNICIPAL,,SP,3546009.0,2021,5,May,Não
+2021-03-21,21,MUNICIPAL,,SP,3546108.0,2021,3,March,Não
+2021-05-20,20,MUNICIPAL,,SP,3546108.0,2021,5,May,Não
+2021-08-11,11,MUNICIPAL,,SP,3546108.0,2021,8,August,Não
+2021-05-03,3,MUNICIPAL,,SP,3546207.0,2021,5,May,Não
+2021-12-08,8,MUNICIPAL,,SP,3546207.0,2021,12,December,Não
+2021-05-03,3,MUNICIPAL,,SP,3546306.0,2021,5,May,Não
+2021-09-14,14,MUNICIPAL,,SP,3546306.0,2021,9,September,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3546405.0,2021,1,January,Não
+2021-05-13,13,MUNICIPAL,Feriado Municipal,SP,3546405.0,2021,5,May,Não
+2021-07-26,26,MUNICIPAL,,SP,3546504.0,2021,7,July,Não
+2021-06-24,24,MUNICIPAL,Feriado Municipal,SP,3546603.0,2021,6,June,Não
+2021-07-26,26,MUNICIPAL,,SP,3546702.0,2021,7,July,Não
+2021-08-16,16,MUNICIPAL,,SP,3546702.0,2021,8,August,Não
+2021-07-04,4,MUNICIPAL,Feriado Municipal,SP,3546801.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No 2396/2007,SP,3546801.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3546900.0,2021,11,November,Não
+2021-12-19,19,MUNICIPAL,,SP,3546900.0,2021,12,December,Não
+2021-08-15,15,MUNICIPAL,,SP,3547007.0,2021,8,August,Não
+2021-09-24,24,MUNICIPAL,,SP,3547106.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3547106.0,2021,11,November,Não
+2021-05-22,22,MUNICIPAL,Feriado Municipal,SP,3547502.0,2021,5,May,Não
+2021-05-22,22,MUNICIPAL,,SP,3547403.0,2021,5,May,Não
+2021-04-02,2,MUNICIPAL,Sexta-Feira Santa,SP,3547601.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3547601.0,2021,6,June,Não
+2021-09-04,4,MUNICIPAL,Aniversário de Santa Rosa de Viterbo,SP,3547601.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal no 3113/07 de 27 de junho de 2007,SP,3547601.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,,SP,3547205.0,2021,3,March,Não
+2021-07-26,26,MUNICIPAL,,SP,3547205.0,2021,7,July,Não
+2021-07-26,26,MUNICIPAL,,SP,3547304.0,2021,7,July,Não
+2021-11-14,14,MUNICIPAL,,SP,3547304.0,2021,11,November,Não
+2021-01-22,22,MUNICIPAL,Feriado Municipal,SP,3547700.0,2021,1,January,Não
+2021-11-19,19,MUNICIPAL,Feriado Municipal,SP,3547700.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3547700.0,2021,12,December,Não
+2021-04-02,2,MUNICIPAL,"conforme Decreto 16.465, DE 18 de dezembro de 2013",SP,3547809.0,2021,4,April,Não
+2021-04-08,8,MUNICIPAL,conforme Lei Municipal nº 4.148 de 11/05/1973,SP,3547809.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"conforme Decreto 16.465, DE 18 de dezembro de 2013",SP,3547809.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 8578, de 12.02.2003",SP,3547809.0,2021,11,November,Não
+2021-01-06,6,MUNICIPAL,,SP,3547908.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,,SP,3547908.0,2021,6,June,Não
+2021-06-13,13,MUNICIPAL,,SP,3548005.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3548005.0,2021,12,December,Não
+2021-03-26,26,MUNICIPAL,,SP,3548104.0,2021,3,March,Não
+2021-06-13,13,MUNICIPAL,,SP,3548104.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3548104.0,2021,11,November,Não
+2021-01-26,26,MUNICIPAL,,SP,3548203.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,,SP,3548203.0,2021,6,June,Não
+2021-04-19,19,MUNICIPAL,,SP,3548302.0,2021,4,April,Não
+2021-12-10,10,MUNICIPAL,,SP,3548302.0,2021,12,December,Não
+2021-05-03,3,MUNICIPAL,,SP,3548401.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,,SP,3548401.0,2021,11,November,Não
+2021-11-27,27,MUNICIPAL,,SP,3548401.0,2021,11,November,Não
+2021-01-26,26,MUNICIPAL,Feriado para Comemoração do Aniversário da Cidade de Santos,SP,3548500.0,2021,1,January,Não
+2021-09-08,8,MUNICIPAL,Feriado em Comemoração ao dia de Nossa Senha de Monte Serrat,SP,3548500.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,Art.245 da Lei Orgânica do Município,SP,3548500.0,2021,11,November,Não
+2021-07-11,11,MUNICIPAL,Feriado Municipal,SP,3548609.0,2021,7,July,Não
+2021-08-16,16,MUNICIPAL,Feriado Municipal,SP,3548609.0,2021,8,August,Não
+2021-04-02,2,MUNICIPAL,conforme Lei Municipal nº 2.241 de 13/08/1976,SP,3548708.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,conforme Decreto 18.735 de 19 de dezembro de 2013,SP,3548708.0,2021,6,June,Não
+2021-08-20,20,MUNICIPAL,conforme Lei Municipal nº 2.241 de 13/08/1976,SP,3548708.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Feriado do Dia da Consciência Negra,SP,3548708.0,2021,11,November,Não
+2021-07-28,28,MUNICIPAL,Feriado Municipal,SP,3548807.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 4446, de 2009",SP,3548807.0,2021,11,November,Não
+2021-08-15,15,MUNICIPAL,conforme Lei Municipal nº 7.502 de 04/12/1974,SP,3548906.0,2021,8,August,Não
+2021-11-04,4,MUNICIPAL,conforme Lei Municipal nº 7.502 de 04/12/1974,SP,3548906.0,2021,11,November,Não
+2021-05-03,3,MUNICIPAL,,SP,3549003.0,2021,5,May,Não
+2021-06-24,24,MUNICIPAL,,SP,3549102.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 1982, de 2006",SP,3549102.0,2021,11,November,Não
+2021-06-24,24,MUNICIPAL,,SP,3549201.0,2021,6,June,Não
+2021-06-24,24,MUNICIPAL,,SP,3549300.0,2021,6,June,Não
+2021-06-29,29,MUNICIPAL,,SP,3549300.0,2021,6,June,Não
+2021-05-30,30,MUNICIPAL,,SP,3549409.0,2021,5,May,Não
+2021-07-26,26,MUNICIPAL,,SP,3549409.0,2021,7,July,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3549508.0,2021,3,March,Não
+2021-04-03,3,MUNICIPAL,,SP,3549508.0,2021,4,April,Não
+2021-11-20,20,MUNICIPAL,,SP,3549508.0,2021,11,November,Não
+2021-03-09,9,MUNICIPAL,,SP,3549607.0,2021,3,March,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3549607.0,2021,3,March,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3549706.0,2021,3,March,Não
+2021-08-15,15,MUNICIPAL,,SP,3549706.0,2021,8,August,Não
+2021-03-19,19,MUNICIPAL,"Dia de São José (Padroeiro e Aniversário da Cidade), conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,"Sexta-Feira da Paixão, conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"Corpus Christi, conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3549805.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,"Dia da Imaculada Conceição, conforme Lei Municipal nº 1.227 de 31/01/1967",SP,3549805.0,2021,12,December,Não
+2021-03-19,19,MUNICIPAL,conforme Lei Municipal nº 8.821 de 27/11/2012,SP,3549904.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,conforme Lei Municipal nº 1.324 de 23/02/1967,SP,3549904.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,conforme Lei Municipal nº 1.324 de 23/02/1967,SP,3549904.0,2021,6,June,Não
+2021-07-27,27,MUNICIPAL, https://www.leismunicipais.com.br/a/sp/s/sao-jose-dos-campos/lei-ordinaria/1967/132/1324/lei-ordinaria-n-1324-1967-dispoe-sobre-os-feriados-locais.html,SP,3549904.0,2021,7,July,Não
+2021-03-12,12,MUNICIPAL,Feriado Municipal,SP,3549953.0,2021,3,March,Não
+2021-08-10,10,MUNICIPAL,Feriado Municipal,SP,3549953.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3549953.0,2021,11,November,Não
+2021-04-02,2,MUNICIPAL,Sexta-feira da Paixão,SP,3550001.0,2021,4,April,Não
+2021-04-05,5,MUNICIPAL,Dia de São Benedito,SP,3550001.0,2021,4,April,Não
+2021-05-08,8,MUNICIPAL,Celebração da fundação do município,SP,3550001.0,2021,5,May,Não
+2021-08-19,19,MUNICIPAL,Padroeiro do município,SP,3550001.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,Consagração a Nossa Senhora,SP,3550001.0,2021,12,December,Não
+2021-06-17,17,MUNICIPAL,Feriado Municipal,SP,3550100.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3550100.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal n° 790/2010,SP,3550100.0,2021,11,November,Não
+2021-04-01,1,MUNICIPAL,,SP,3550209.0,2021,4,April,Não
+2021-09-29,29,MUNICIPAL,,SP,3550209.0,2021,9,September,Não
+2021-01-25,25,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,2021,6,June,Não
+2021-11-02,2,MUNICIPAL,conforme Lei nº 14.485 de 19 de julho de 2007,SP,3550308.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,conforme Lei Municipal nº 14.485 de 19 de julho de 2007,SP,3550308.0,2021,11,November,Não
+2021-02-22,22,MUNICIPAL,Feriado Municipal,SP,3550407.0,2021,2,February,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3550407.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3550407.0,2021,11,November,Não
+2021-05-29,29,MUNICIPAL,,SP,3550506.0,2021,5,May,Não
+2021-06-29,29,MUNICIPAL,,SP,3550506.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3550506.0,2021,12,December,Não
+2021-08-16,16,MUNICIPAL,Feriado Municipal,SP,3550605.0,2021,8,August,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3550704.0,2021,1,January,Não
+2021-03-16,16,MUNICIPAL,Feriado Municipal,SP,3550704.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,"Homenagem a Zumbi dos Palmares, dia da consciência negra.",SP,3550704.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,,SP,3550803.0,2021,1,January,Não
+2021-11-04,4,MUNICIPAL,,SP,3550803.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3550902.0,2021,11,November,Não
+2021-01-22,22,MUNICIPAL,"Aniversário da Fundação de São Vicente, conforme Lei Municipal 1.332/67",SP,3551009.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,"Sexta-Feria Santa, conforme Lei Municipal 1.332/67",SP,3551009.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"Corpus Christi, conforme Lei Municipal 1.332/67",SP,3551009.0,2021,6,June,Não
+2021-11-02,2,MUNICIPAL,"Dia de Finados, conforme Lei Municipal 1.332/67",SP,3551009.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,"Dia da Consciência Negra, definido pela lei Municipal 1.814-A/06, , alterada pela Lei 1.926/07",SP,3551009.0,2021,11,November,Não
+2021-03-13,13,MUNICIPAL,,SP,3551108.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,,SP,3551108.0,2021,9,September,Não
+2021-02-18,18,MUNICIPAL,,SP,3551207.0,2021,2,February,Não
+2021-12-08,8,MUNICIPAL,,SP,3551207.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3551306.0,2021,1,January,Não
+2021-02-28,28,MUNICIPAL,,SP,3551306.0,2021,2,February,Não
+2021-08-06,6,MUNICIPAL,,SP,3551306.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3551306.0,2021,11,November,Não
+2021-11-14,14,MUNICIPAL,Feriado Municipal,SP,3551405.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3551405.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3551405.0,2021,12,December,Não
+2021-09-23,23,MUNICIPAL,Feriado Municipal,SP,3551603.0,2021,9,September,Não
+2021-11-01,1,MUNICIPAL,Feriado Municipal,SP,3551603.0,2021,11,November,Não
+2021-11-20,20,MUNICIPAL,,SP,3551603.0,2021,11,November,Não
+2021-04-10,10,MUNICIPAL,,SP,3551504.0,2021,4,April,Não
+2021-09-15,15,MUNICIPAL,,SP,3551504.0,2021,9,September,Não
+2021-12-05,5,MUNICIPAL,,SP,3551702.0,2021,12,December,Não
+2021-06-24,24,MUNICIPAL,,SP,3551801.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,Lei Municipal No. 1.508/2009,SP,3551801.0,2021,11,November,Não
+2021-12-18,18,MUNICIPAL,,SP,3551801.0,2021,12,December,Não
+2021-02-19,19,MUNICIPAL,,SP,3551900.0,2021,2,February,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3551900.0,2021,3,March,Não
+2021-11-01,1,MUNICIPAL,,SP,3551900.0,2021,11,November,Não
+2021-02-28,28,MUNICIPAL,,SP,3552007.0,2021,2,February,Não
+2021-12-08,8,MUNICIPAL,,SP,3552007.0,2021,12,December,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3552106.0,2021,8,August,Não
+2021-08-15,15,MUNICIPAL,conforme Lei Municipal nº 1.439 de 11/11/1966,SP,3552205.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 8120, de 2007",SP,3552205.0,2021,11,November,Não
+2021-09-10,10,MUNICIPAL,,SP,3552304.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3552304.0,2021,11,November,Não
+2021-07-26,26,MUNICIPAL,,SP,3552403.0,2021,7,July,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 3922, de 2004",SP,3552403.0,2021,11,November,Não
+2021-01-20,20,MUNICIPAL,conforme Lei Municipal nº 782 de 25/05/1967,SP,3552502.0,2021,1,January,Não
+2021-04-02,2,MUNICIPAL,conforme Lei Municipal nº 782 de 25/05/1967,SP,3552502.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,conforme Decreto Municipal nº 8652 de 06 de janeiro de 2015,SP,3552502.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,"Lei Municipal No 4319, de 2009",SP,3552502.0,2021,11,November,Não
+2021-11-27,27,MUNICIPAL,,SP,3552601.0,2021,11,November,Não
+2021-02-19,19,MUNICIPAL,"Feriado civil de comemoração da emancipação político-administrativa do município, conforme Lei Municipal nº 191 de 19/02/1963.",SP,3552809.0,2021,2,February,Não
+2021-04-02,2,MUNICIPAL,Feriado religioso municipal conforme Lei Municipal nº 495 de 22/03/1974.,SP,3552809.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Feriado religioso municipal conforme Lei Municipal nº 495 de 22/03/1974.,SP,3552809.0,2021,6,June,Não
+2021-10-01,1,MUNICIPAL,Feriado religioso municipal conforme Lei Municipal nº 2225 de 18/05/2015.,SP,3552809.0,2021,10,October,Não
+2021-11-01,1,MUNICIPAL,,SP,3552908.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3552908.0,2021,12,December,Não
+2021-02-18,18,MUNICIPAL,,SP,3553005.0,2021,2,February,Não
+2021-05-22,22,MUNICIPAL,,SP,3553005.0,2021,5,May,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3553104.0,2021,3,March,Não
+2021-12-30,30,MUNICIPAL,,SP,3553104.0,2021,12,December,Não
+2021-06-13,13,MUNICIPAL,,SP,3553203.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3553203.0,2021,11,November,Não
+2021-06-16,16,MUNICIPAL,,SP,3553302.0,2021,6,June,Não
+2021-08-20,20,MUNICIPAL,,SP,3553302.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3553401.0,2021,12,December,Não
+2021-02-19,19,MUNICIPAL,,SP,3553500.0,2021,2,February,Não
+2021-11-20,20,MUNICIPAL,,SP,3553500.0,2021,11,November,Não
+2021-11-25,25,MUNICIPAL,,SP,3553500.0,2021,11,November,Não
+2021-12-27,27,MUNICIPAL,,SP,3553609.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3553708.0,2021,1,January,Não
+2021-08-16,16,MUNICIPAL,,SP,3553708.0,2021,8,August,Não
+2021-08-16,16,MUNICIPAL,,SP,3553807.0,2021,8,August,Não
+2021-03-21,21,MUNICIPAL,,SP,3553906.0,2021,3,March,Não
+2021-11-20,20,MUNICIPAL,,SP,3553906.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3553906.0,2021,12,December,Não
+2021-11-30,30,MUNICIPAL,Feriado Municipal,SP,3553955.0,2021,11,November,Não
+2021-08-11,11,MUNICIPAL,Feriado Municipal,SP,3554003.0,2021,8,August,Não
+2021-12-08,8,MUNICIPAL,Feriado Municipal,SP,3554003.0,2021,12,December,Não
+2021-04-02,2,MUNICIPAL,"Sexta-feira da paixão, conforme Lei nº 4.128/07",SP,3554102.0,2021,4,April,Não
+2021-04-22,22,MUNICIPAL,"Festa de São Benedito, conforme Lei nº 4.128/07",SP,3554102.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,Corpus Christi,SP,3554102.0,2021,6,June,Não
+2021-10-04,4,MUNICIPAL,"Comemorações do dia do padroeiro da cidade, São Francisco de Assis, conforme Lei nº 4.128/07",SP,3554102.0,2021,10,October,Não
+2021-12-05,5,MUNICIPAL,"Aniversário da Cidade de Taubaté, conforme Lei nº 4.562/11",SP,3554102.0,2021,12,December,Não
+2021-04-25,25,MUNICIPAL,,SP,3554201.0,2021,4,April,Não
+2021-05-26,26,MUNICIPAL,,SP,3554201.0,2021,5,May,Não
+2021-06-29,29,MUNICIPAL,,SP,3554201.0,2021,6,June,Não
+2021-03-21,21,MUNICIPAL,,SP,3554300.0,2021,3,March,Não
+2021-06-27,27,MUNICIPAL,,SP,3554300.0,2021,6,June,Não
+2021-02-16,16,MUNICIPAL,"Feriado de Carnaval, conforme lei nº 1242, de 26 de junho de 2014",SP,3554409.0,2021,2,February,Não
+2021-03-26,26,MUNICIPAL,,SP,3554409.0,2021,3,March,Não
+2021-04-02,2,MUNICIPAL,"Feriado conforme lei nº 1242, de 26 de junho de 2014",SP,3554409.0,2021,4,April,Não
+2021-06-03,3,MUNICIPAL,"Feriado conforme lei nº 1242, de 26 de junho de 2014",SP,3554409.0,2021,6,June,Não
+2021-11-20,20,MUNICIPAL,,SP,3554409.0,2021,11,November,Não
+2021-03-08,8,MUNICIPAL,,SP,3554508.0,2021,3,March,Não
+2021-08-15,15,MUNICIPAL,,SP,3554508.0,2021,8,August,Não
+2021-11-20,20,MUNICIPAL,,SP,3554607.0,2021,11,November,Não
+2021-03-19,19,MUNICIPAL,Dia de São José,SP,3554706.0,2021,3,March,Não
+2021-04-07,7,MUNICIPAL,,SP,3554706.0,2021,4,April,Não
+2021-12-08,8,MUNICIPAL,,SP,3554706.0,2021,12,December,Não
+2021-08-06,6,MUNICIPAL,,SP,3554805.0,2021,8,August,Não
+2021-11-26,26,MUNICIPAL,,SP,3554805.0,2021,11,November,Não
+2021-01-05,5,MUNICIPAL,,SP,3554904.0,2021,1,January,Não
+2021-02-18,18,MUNICIPAL,,SP,3554904.0,2021,2,February,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3555000.0,2021,6,June,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3555109.0,2021,8,August,Não
+2021-08-28,28,MUNICIPAL,Feriado Municipal,SP,3555109.0,2021,8,August,Não
+2021-07-19,19,MUNICIPAL,,SP,3555208.0,2021,7,July,Não
+2021-09-27,27,MUNICIPAL,,SP,3555208.0,2021,9,September,Não
+2021-12-08,8,MUNICIPAL,,SP,3555208.0,2021,12,December,Não
+2021-08-06,6,MUNICIPAL,,SP,3555307.0,2021,8,August,Não
+2021-08-15,15,MUNICIPAL,,SP,3555307.0,2021,8,August,Não
+2021-06-29,29,MUNICIPAL,Feriado Municipal,SP,3555406.0,2021,6,June,Não
+2021-09-14,14,MUNICIPAL,Feriado Municipal,SP,3555406.0,2021,9,September,Não
+2021-10-28,28,MUNICIPAL,Aniversário da Cidade de Ubatuba,SP,3555406.0,2021,10,October,Não
+2021-03-28,28,MUNICIPAL,,SP,3555604.0,2021,3,March,Não
+2021-07-08,8,MUNICIPAL,,SP,3555604.0,2021,7,July,Não
+2021-03-21,21,MUNICIPAL,,SP,3555703.0,2021,3,March,Não
+2021-06-24,24,MUNICIPAL,,SP,3555703.0,2021,6,June,Não
+2021-09-08,8,MUNICIPAL,,SP,3555703.0,2021,9,September,Não
+2021-06-13,13,MUNICIPAL,,SP,3555802.0,2021,6,June,Não
+2021-12-08,8,MUNICIPAL,,SP,3555802.0,2021,12,December,Não
+2021-01-20,20,MUNICIPAL,,SP,3555901.0,2021,1,January,Não
+2021-06-13,13,MUNICIPAL,,SP,3555901.0,2021,6,June,Não
+2021-08-10,10,MUNICIPAL,"Dia de São Lourenço, Padroeiro de Urupês",SP,3556008.0,2021,8,August,Não
+2021-09-24,24,MUNICIPAL,Aniversário de Urupês,SP,3556008.0,2021,9,September,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3556107.0,2021,1,January,Não
+2021-05-03,3,MUNICIPAL,Feriado Municipal,SP,3556107.0,2021,5,May,Não
+2021-01-20,20,MUNICIPAL,Feriado Municipal,SP,3556206.0,2021,1,January,Não
+2021-11-20,20,MUNICIPAL,,SP,3556206.0,2021,11,November,Não
+2021-05-24,24,MUNICIPAL,Feriado Municipal,SP,3556305.0,2021,5,May,Não
+2021-05-30,30,MUNICIPAL,Feriado Municipal,SP,3556305.0,2021,5,May,Não
+2021-08-15,15,MUNICIPAL,Feriado Municipal,SP,3556305.0,2021,8,August,Não
+2021-06-13,13,MUNICIPAL,Dia de Santo Antônio,SP,3556354.0,2021,6,June,Não
+2021-12-30,30,MUNICIPAL,Feriado Municipal,SP,3556354.0,2021,12,December,Não
+2021-07-26,26,MUNICIPAL,,SP,3556404.0,2021,7,July,Não
+2021-09-26,26,MUNICIPAL,,SP,3556404.0,2021,9,September,Não
+2021-11-27,27,MUNICIPAL,Feriado Municipal,SP,3556453.0,2021,11,November,Não
+2021-03-21,21,MUNICIPAL,Feriado Municipal,SP,3556503.0,2021,3,March,Não
+2021-09-15,15,MUNICIPAL,Feriado Municipal,SP,3556503.0,2021,9,September,Não
+2021-11-20,20,MUNICIPAL,,SP,3556503.0,2021,11,November,Não
+2021-01-25,25,MUNICIPAL,Feriado Municipal,SP,3556602.0,2021,1,January,Não
+2021-06-15,15,MUNICIPAL,Feriado Municipal,SP,3556602.0,2021,6,June,Não
+2021-04-02,2,MUNICIPAL,,SP,3556701.0,2021,4,April,Não
+2021-07-26,26,MUNICIPAL,,SP,3556701.0,2021,7,July,Não
+2021-03-23,23,MUNICIPAL,,SP,3556800.0,2021,3,March,Não
+2021-04-04,4,MUNICIPAL,,SP,3556800.0,2021,4,April,Não
+2021-06-29,29,MUNICIPAL,,SP,3556800.0,2021,6,June,Não
+2021-02-18,18,MUNICIPAL,,SP,3556909.0,2021,2,February,Não
+2021-03-25,25,MUNICIPAL,,SP,3556909.0,2021,3,March,Não
+2021-05-22,22,MUNICIPAL,,SP,3556909.0,2021,5,May,Não
+2021-11-20,20,MUNICIPAL,,SP,3557006.0,2021,11,November,Não
+2021-12-08,8,MUNICIPAL,,SP,3557006.0,2021,12,December,Não
+2021-08-08,8,MUNICIPAL,Feriado Municipal,SP,3557105.0,2021,8,August,Não
+2021-06-03,3,MUNICIPAL,conforme Lei Municipal nº 2.102 de 31/12/1975,SP,3525904.0,2021,6,June,Não
