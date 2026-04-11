@@ -7,7 +7,7 @@ import boto3
 import pandas as pd
 
 s3 = boto3.client("s3")
-
+DEST_BUCKET = "grotrack-bucket-trusted"
 
 def _read_text(bucket: str, key: str) -> str:
     obj = s3.get_object(Bucket=bucket, Key=key)
@@ -92,13 +92,13 @@ def lambda_handler(event, context):
     processed = []
 
     for record in event.get("Records", []):
-        bucket = record["s3"]["bucket"]["name"]
+        source_bucket = record["s3"]["bucket"]["name"]
         key = unquote_plus(record["s3"]["object"]["key"])
 
-        if not key.startswith("raw/") or not key.lower().endswith(".csv"):
+        if not key.startswith("analise/") or not key.lower().endswith(".csv"):
             continue
 
-        text = _read_text(bucket, key)
+        text = _read_text(source_bucket, key)
         default_sep = ";" if "datatran" in key.lower() else ","
         df_raw = _read_csv_flex(text, default_sep=default_sep)
 
@@ -109,11 +109,15 @@ def lambda_handler(event, context):
 
         filename = key.split("/")[-1].replace("raw_", "trusted_")
         out_key = f"{trusted_prefix}{filename}"
-        _write_csv(bucket, out_key, df_out)
+        _write_csv(DEST_BUCKET, out_key, df_out)
 
         if "feriado" in key.lower():
-            _merge_feriados(bucket, trusted_prefix)
+            _merge_feriados(DEST_BUCKET, trusted_prefix)
 
-        processed.append({"in": key, "out": out_key, "rows": len(df_out)})
+        processed.append({
+            "in": f"s3://{source_bucket}/{key}",
+            "out": f"s3://{DEST_BUCKET}/{out_key}",
+            "rows": len(df_out),
+        })
 
     return {"statusCode": 200, "processed": processed}

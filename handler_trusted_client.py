@@ -6,7 +6,7 @@ import boto3
 import pandas as pd
 
 s3 = boto3.client("s3")
-
+DEST_BUCKET = "grotrack-bucket-client"
 
 def _read_csv(bucket: str, key: str) -> pd.DataFrame:
     obj = s3.get_object(Bucket=bucket, Key=key)
@@ -59,7 +59,7 @@ def lambda_handler(event, context):
             continue
 
         out_key = f"{client_prefix}{out_name}"
-        _write_csv(bucket, out_key, df_out)
+        _write_csv(DEST_BUCKET, out_key, df_out)
 
         processed.append({"in": key, "out": out_key, "rows": len(df_out)})
 
