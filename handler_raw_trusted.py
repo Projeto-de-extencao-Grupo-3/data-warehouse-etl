@@ -54,12 +54,17 @@ def _clean_datatran(df: pd.DataFrame) -> pd.DataFrame:
 def _clean_feriado(df: pd.DataFrame, key: str) -> pd.DataFrame:
     df = df.dropna(axis=1, how="all")
 
+    col_count = df.shape[1]
+
     if "nacional" in key:
         headers = ["DATA", "DIA", "TIPO", "DESCRICAO"]
     elif "estadual" in key:
         headers = ["DATA", "DIA", "TIPO", "DESCRICAO", "ESTADO"]
-    else:  
-        headers = ["DATA", "DIA", "TIPO", "DESCRICAO", "ESTADO", "CODIGO_MUNICIPIO"]
+    else:
+        if col_count == 6:
+            headers = ["DATA", "DIA", "TIPO", "DESCRICAO", "ESTADO", "CODIGO_MUNICIPIO"]
+        else:
+            headers = ["DATA", "DIA", "TIPO", "DESCRICAO", "ESTADO"]
 
     df.columns = headers
     df["DIA"] = (
@@ -75,6 +80,14 @@ def _write_csv(bucket: str, key: str, df: pd.DataFrame) -> None:
     df.to_csv(buf, index=False)
     s3.put_object(Bucket=bucket, Key=key, Body=buf.getvalue().encode("utf-8"), ContentType="text/csv")
 
+def _exists(bucket: str, key: str) -> bool:
+    try:
+        s3.head_object(Bucket=bucket, Key=key)
+        return True
+    except Exception:
+        return False
+
+
 def _merge_feriados(bucket: str, trusted_prefix: str) -> None:
     keys = [
         f"{trusted_prefix}trusted_feriado_estadual.csv",
@@ -83,7 +96,14 @@ def _merge_feriados(bucket: str, trusted_prefix: str) -> None:
         f"{trusted_prefix}trusted_feriado_municipal.csv",
     ]
 
-    dfs = [_read_csv_flex(_read_text(bucket, k), default_sep=",") for k in keys]
+    if not all(_exists(bucket, k) for k in keys):
+        return
+
+    dfs = []
+    for k in keys:
+        obj = s3.get_object(Bucket=bucket, Key=k)
+        dfs.append(pd.read_csv(io.BytesIO(obj["Body"].read()), header=0))
+
     df_final = pd.concat(dfs, ignore_index=True)
     _write_csv(bucket, f"{trusted_prefix}trusted_feriados.csv", df_final)
 
@@ -99,19 +119,22 @@ def lambda_handler(event, context):
             continue
 
         text = _read_text(source_bucket, key)
-        default_sep = ";" if "datatran" in key.lower() else ","
+        is_datatran = "datatran" in key.lower()
+        default_sep = ";" if is_datatran else ","
         df_raw = _read_csv_flex(text, default_sep=default_sep)
 
-        if "datatran" in key.lower():
+        if is_datatran:
             df_out = _clean_datatran(df_raw)
+            trusted_prefix = "datatran/"
         else:
             df_out = _clean_feriado(df_raw, key.lower())
+            trusted_prefix = "feriados/"
 
         filename = key.split("/")[-1].replace("raw_", "trusted_")
         out_key = f"{trusted_prefix}{filename}"
         _write_csv(DEST_BUCKET, out_key, df_out)
 
-        if "feriado" in key.lower():
+        if not is_datatran and "feriado" in key.lower():
             _merge_feriados(DEST_BUCKET, trusted_prefix)
 
         processed.append({
