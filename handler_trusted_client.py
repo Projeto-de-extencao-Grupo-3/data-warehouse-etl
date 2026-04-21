@@ -10,7 +10,15 @@ DEST_BUCKET = "grotrack-bucket-client"
 
 def _read_csv(bucket: str, key: str) -> pd.DataFrame:
     obj = s3.get_object(Bucket=bucket, Key=key)
-    return pd.read_csv(io.BytesIO(obj["Body"].read()))
+    df = pd.read_csv(io.BytesIO(obj["Body"].read()))
+    df.columns = (
+        df.columns
+        .astype(str)
+        .str.replace("\ufeff", "", regex=False)
+        .str.strip()
+        .str.upper()
+    )
+    return df
 
 
 def _write_csv(bucket: str, key: str, df: pd.DataFrame) -> None:
@@ -19,14 +27,18 @@ def _write_csv(bucket: str, key: str, df: pd.DataFrame) -> None:
     s3.put_object(Bucket=bucket, Key=key, Body=buf.getvalue().encode("utf-8"), ContentType="text/csv")
 
 
-def _refine_datatran(df: pd.DataFrame) -> pd.DataFrame:
+def _refine_datatran_sp_falhas_mecanicas(df: pd.DataFrame) -> pd.DataFrame:
     # client: SP + falhas mecânicas/elétricas
     df_sp = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
     df_out = df_sp[df_sp["CAUSA_ACIDENTE"].astype(str).str.contains("falhas mec", case=False, na=False)].copy()
     return df_out
 
+def _refine_datatran_sp(df: pd.DataFrame) -> pd.DataFrame:
+    # client: SP
+    df_out = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
+    return df_out
 
-def _refine_feriados(df: pd.DataFrame) -> pd.DataFrame:
+def _refine_feriados_sp(df: pd.DataFrame) -> pd.DataFrame:
     df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
     df["MES"] = df["DATA"].dt.month
     # client: somente SP
@@ -34,33 +46,95 @@ def _refine_feriados(df: pd.DataFrame) -> pd.DataFrame:
         df = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
     return df
 
+def _refine_feriados_mes(df: pd.DataFrame) -> pd.DataFrame:
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
+    df["MES"] = df["DATA"].dt.month
+    return df
+
+def _refine_feriados_nacional(df: pd.DataFrame) -> pd.DataFrame:
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
+    df["MES"] = df["DATA"].dt.month
+    # client: somente feriados nacionais (sem estado específico)
+    if "TIPO" in df.columns:
+        df = df[df["TIPO"].isna() | (df["TIPO"].astype(str).str.upper().str.strip().eq("NACIONAL"))].copy()
+    return df
+
+def _refine_feriados_qtd_por_tipo(df: pd.DataFrame) -> pd.DataFrame:
+    # client: quantidade de feriados por tipo (nacional, estadual, municipal)
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
+    df["MES"] = df["DATA"].dt.month
+    if "TIPO" in df.columns:
+        df_out = df.groupby("TIPO").size().reset_index(name="QTD_FERIADOS")
+    else:
+        df_out = pd.DataFrame(columns=["TIPO", "QTD_FERIADOS"])
+    return df_out
+
+def _refine_feriados_qtd_por_estado(df: pd.DataFrame) -> pd.DataFrame:
+    # client: quantidade de feriados por estado
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
+    df["MES"] = df["DATA"].dt.month
+    if "ESTADO" in df.columns:
+        df_out = df.groupby("ESTADO").size().reset_index(name="QTD_FERIADOS")
+    else:
+        df_out = pd.DataFrame(columns=["ESTADO", "QTD_FERIADOS"])
+    return df_out
+
+def _refine_feriados_qtd_por_mes(df: pd.DataFrame) -> pd.DataFrame:
+    # client: quantidade de feriados por mês
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
+    df["MES"] = df["DATA"].dt.month
+    df_out = df.groupby("MES").size().reset_index(name="QTD_FERIADOS")
+    return df_out
+
+def _refine_feriados_sp(df: pd.DataFrame) -> pd.DataFrame:
+    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
+    df["MES"] = df["DATA"].dt.month
+    # client: somente SP
+    if "ESTADO" in df.columns:
+        df_out = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
+    else:
+        df_out = pd.DataFrame(columns=df.columns)
+    return df_out
 
 def lambda_handler(event, context):
-    client_prefix = os.environ.get("CLIENT_PREFIX", "client/")
     processed = []
+    client_prefix = "client/"
 
     for record in event.get("Records", []):
         bucket = record["s3"]["bucket"]["name"]
         key = unquote_plus(record["s3"]["object"]["key"])
 
-        if not key.startswith("trusted/") or not key.lower().endswith(".csv"):
+        if not key.lower().endswith(".csv"):
             continue
 
-        df = _read_csv(bucket, key)
-
         lower_key = key.lower()
-        if "datatran" in lower_key:
-            df_out = _refine_datatran(df)
-            out_name = "client_datatran_sp_falhas_mecanicas.csv"
-        elif "feriado" in lower_key or "feriados" in lower_key:
-            df_out = _refine_feriados(df)
-            out_name = "client_feriados_sp.csv"
+
+        # usa SOMENTE os consolidados do trusted
+        if lower_key == "datatran/trusted_datatran.csv":
+            df = _read_csv(bucket, key)
+
+            outputs = {
+                f"{client_prefix}datatran/refined_datatran_sp.csv": _refine_datatran_sp(df),
+                f"{client_prefix}datatran/refined_datatran_sp_falhas_mecanicas.csv": _refine_datatran_sp_falhas_mecanicas(df),
+            }
+
+        elif lower_key == "feriados/trusted_feriados.csv":
+            df = _read_csv(bucket, key)
+
+            outputs = {
+                f"{client_prefix}feriados/refined_feriados_sp.csv": _refine_feriados_sp(df),
+                f"{client_prefix}feriados/refined_feriados_mes.csv": _refine_feriados_mes(df),
+                f"{client_prefix}feriados/refined_feriados_nacional.csv": _refine_feriados_nacional(df),
+                f"{client_prefix}feriados/refined_feriados_por_tipo.csv": _refine_feriados_qtd_por_tipo(df),
+                f"{client_prefix}feriados/refined_feriados_por_estado.csv": _refine_feriados_qtd_por_estado(df),
+                f"{client_prefix}feriados/refined_feriados_por_mes.csv": _refine_feriados_qtd_por_mes(df),
+            }
+
         else:
             continue
 
-        out_key = f"{client_prefix}{out_name}"
-        _write_csv(DEST_BUCKET, out_key, df_out)
-
-        processed.append({"in": key, "out": out_key, "rows": len(df_out)})
+        for out_key, df_out in outputs.items():
+            _write_csv(DEST_BUCKET, out_key, df_out)
+            processed.append({"in": key, "out": out_key, "rows": len(df_out)})
 
     return {"statusCode": 200, "processed": processed}
