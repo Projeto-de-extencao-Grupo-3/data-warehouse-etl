@@ -10,14 +10,17 @@ DEST_BUCKET = "grotrack-bucket-client"
 
 def _read_csv(bucket: str, key: str) -> pd.DataFrame:
     obj = s3.get_object(Bucket=bucket, Key=key)
-    df = pd.read_csv(io.BytesIO(obj["Body"].read()))
-    df.columns = (
-        df.columns
-        .astype(str)
-        .str.replace("\ufeff", "", regex=False)
-        .str.strip()
-        .str.upper()
-    )
+    content = obj["Body"].read().decode("utf-8-sig")
+    
+    df = pd.read_csv(io.StringIO(content), sep=None, engine='python')
+    
+    if isinstance(df.columns[0], int) or df.columns[0] == '0':
+        df.columns = df.iloc[0] 
+        df = df[1:].reset_index(drop=True) 
+    
+    df.columns = [str(col).strip().upper() for col in df.columns]
+    
+    print(f"DEBUG: Colunas finais após correção: {df.columns.tolist()}")
     return df
 
 
@@ -38,31 +41,15 @@ def _refine_datatran_sp(df: pd.DataFrame) -> pd.DataFrame:
     df_out = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
     return df_out
 
-def _refine_feriados_sp(df: pd.DataFrame) -> pd.DataFrame:
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
-    # client: somente SP
-    if "ESTADO" in df.columns:
-        df = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
-    return df
-
 def _refine_feriados_mes(df: pd.DataFrame) -> pd.DataFrame:
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
     return df
 
 def _refine_feriados_nacional(df: pd.DataFrame) -> pd.DataFrame:
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
-    # client: somente feriados nacionais (sem estado específico)
     if "TIPO" in df.columns:
         df = df[df["TIPO"].isna() | (df["TIPO"].astype(str).str.upper().str.strip().eq("NACIONAL"))].copy()
     return df
 
 def _refine_feriados_qtd_por_tipo(df: pd.DataFrame) -> pd.DataFrame:
-    # client: quantidade de feriados por tipo (nacional, estadual, municipal)
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
     if "TIPO" in df.columns:
         df_out = df.groupby("TIPO").size().reset_index(name="QTD_FERIADOS")
     else:
@@ -70,9 +57,6 @@ def _refine_feriados_qtd_por_tipo(df: pd.DataFrame) -> pd.DataFrame:
     return df_out
 
 def _refine_feriados_qtd_por_estado(df: pd.DataFrame) -> pd.DataFrame:
-    # client: quantidade de feriados por estado
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
     if "ESTADO" in df.columns:
         df_out = df.groupby("ESTADO").size().reset_index(name="QTD_FERIADOS")
     else:
@@ -80,16 +64,10 @@ def _refine_feriados_qtd_por_estado(df: pd.DataFrame) -> pd.DataFrame:
     return df_out
 
 def _refine_feriados_qtd_por_mes(df: pd.DataFrame) -> pd.DataFrame:
-    # client: quantidade de feriados por mês
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
     df_out = df.groupby("MES").size().reset_index(name="QTD_FERIADOS")
     return df_out
 
 def _refine_feriados_sp(df: pd.DataFrame) -> pd.DataFrame:
-    df["DATA"] = pd.to_datetime(df["DATA"], errors="coerce", dayfirst=True)
-    df["MES"] = df["DATA"].dt.month
-    # client: somente SP
     if "ESTADO" in df.columns:
         df_out = df[df["ESTADO"].astype(str).str.upper().str.strip().eq("SP")].copy()
     else:
@@ -119,15 +97,22 @@ def lambda_handler(event, context):
             }
 
         elif lower_key == "feriados/trusted_feriados.csv":
-            df = _read_csv(bucket, key)
+            df_raw = _read_csv(bucket, key)
+            
+            if "DATA" not in df_raw.columns:
+                print(f"ERRO: Coluna DATA não encontrada. Colunas: {df_raw.columns.tolist()}")
+                continue
+            
+            df_raw["DATA"] = pd.to_datetime(df_raw["DATA"], errors="coerce", dayfirst=True)
+            df_raw["MES"] = df_raw["DATA"].dt.month
 
             outputs = {
-                f"{client_prefix}feriados/refined_feriados_sp.csv": _refine_feriados_sp(df),
-                f"{client_prefix}feriados/refined_feriados_mes.csv": _refine_feriados_mes(df),
-                f"{client_prefix}feriados/refined_feriados_nacional.csv": _refine_feriados_nacional(df),
-                f"{client_prefix}feriados/refined_feriados_por_tipo.csv": _refine_feriados_qtd_por_tipo(df),
-                f"{client_prefix}feriados/refined_feriados_por_estado.csv": _refine_feriados_qtd_por_estado(df),
-                f"{client_prefix}feriados/refined_feriados_por_mes.csv": _refine_feriados_qtd_por_mes(df),
+                f"{client_prefix}feriados/refined_feriados_sp.csv": _refine_feriados_sp(df_raw.copy()),
+                f"{client_prefix}feriados/refined_feriados_mes.csv": _refine_feriados_mes(df_raw.copy()),
+                f"{client_prefix}feriados/refined_feriados_nacional.csv": _refine_feriados_nacional(df_raw.copy()),
+                f"{client_prefix}feriados/refined_feriados_por_tipo.csv": _refine_feriados_qtd_por_tipo(df_raw.copy()),
+                f"{client_prefix}feriados/refined_feriados_por_estado.csv": _refine_feriados_qtd_por_estado(df_raw.copy()),
+                f"{client_prefix}feriados/refined_feriados_por_mes.csv": _refine_feriados_qtd_por_mes(df_raw.copy()),
             }
 
         else:
