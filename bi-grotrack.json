@@ -1,1302 +1,2341 @@
 {
-  "apiVersion": "dashboard.grafana.app/v2",
-  "kind": "Dashboard",
-  "metadata": {
-    "name": "adqwzp8",
-    "namespace": "default",
-    "uid": "0baf2c06-c851-4eda-8621-efdbe83033b2",
-    "resourceVersion": "1777859837364001",
-    "generation": 8,
-    "creationTimestamp": "2026-05-04T01:34:18Z",
-    "labels": {
-      "grafana.app/deprecatedInternalID": "1975323927289856"
-    },
-    "annotations": {
-      "grafana.app/createdBy": "user:ffl01tpvz0j5sd",
-      "grafana.app/folder": "",
-      "grafana.app/saved-from-ui": "Grafana v13.0.1 (a100054f)",
-      "grafana.app/updatedBy": "user:ffl01tpvz0j5sd",
-      "grafana.app/updatedTimestamp": "2026-05-04T01:57:17Z"
-    }
-  },
-  "spec": {
-    "annotations": [
-      {
-        "kind": "AnnotationQuery",
-        "spec": {
-          "query": {
-            "kind": "DataQuery",
-            "group": "grafana",
-            "version": "v0",
-            "datasource": {
-              "name": "-- Grafana --"
-            },
-            "spec": {}
-          },
-          "enable": true,
-          "hide": true,
-          "iconColor": "rgba(0, 211, 255, 1)",
-          "name": "Annotations & Alerts",
-          "builtIn": true
-        }
-      }
-    ],
-    "cursorSync": "Off",
-    "editable": true,
-    "elements": {
-      "panel-1": {
-        "kind": "Panel",
-        "spec": {
-          "id": 1,
-          "title": "Histórico de Serviços",
-          "description": "Nesta tabela exibe todos os serviços que passaram pela oficina no ano e mês selecionado",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n    o.id_ordem_servico id,\n    CONCAT('R$', IFNULL(o.valor_total,0)) total,\n    CONCAT('R$', IFNULL(o.valor_total_servicos,0)) total_servico,\n    CONCAT('R$', IFNULL(o.valor_total_produtos,0)) total_produto,\n    IFNULL(DATE_FORMAT(e.data_entrada_prevista, '%d/%m/%Y'), 'DATA NÃO DEFINIDA') data_entrada_prevista,\n    IFNULL(DATE_FORMAT(e.data_entrada_efetiva, '%d/%m/%Y'), 'AGUARDANDO VEICULO') data_entrada_efetiva,\n    IFNULL(DATE_FORMAT(o.data_saida_prevista, '%d/%m/%Y'), 'DATA NÃO DEFINIDA') data_saida_prevista,\n    IFNULL(DATE_FORMAT(o.data_saida_efetiva, '%d/%m/%Y'), 'AGUARDANDO FINALIZAÇÃO') data_saida_efetiva,\n    o.status status_servico,\n    CASE\n        WHEN o.pagt_realizado = 1 THEN 'REALIZADO'\n        ELSE 'PENDENTE'\n    END as status_pagamento,    \n    CASE\n        WHEN o.nf_realizada = 1 THEN 'EMITIDA'\n        ELSE 'PENDENTE'\n    END as status_nota_fiscal\nFROM grotrack.ordem_de_servicos o\nJOIN grotrack.registro_entrada e ON e.fk_ordem_servico = o.id_ordem_servico\nWHERE MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND YEAR(e.data_entrada_efetiva) IN ($ano)\n  AND o.status NOT IN ('CANCELADO');",
-                        "sql": {
-                          "columns": [
-                            {
-                              "name": "SUM",
-                              "parameters": [
-                                {
-                                  "name": "valor_total",
-                                  "type": "functionParameter"
-                                }
-                              ],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "name": "data_saida_efetiva",
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50
-                        },
-                        "table": "ordem_de_servicos"
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "table",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "cellHeight": "sm",
-                "enablePagination": true,
-                "showHeader": true,
-                "sortBy": [
-                  {
-                    "desc": false,
-                    "displayName": "id"
-                  }
-                ]
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "green"
-                      },
-                      {
-                        "value": 80,
-                        "color": "red"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "palette-classic"
-                  },
-                  "custom": {
-                    "align": "auto",
-                    "cellOptions": {
-                      "type": "color-text"
-                    },
-                    "filterable": false,
-                    "footer": {
-                      "reducers": []
-                    },
-                    "inspect": false,
-                    "styleField": "id",
-                    "tooltip": {
-                      "field": "id",
-                      "placement": "top"
-                    },
-                    "wrapHeaderText": false
-                  }
-                },
-                "overrides": [
-                  {
-                    "matcher": {
-                      "id": "byName",
-                      "options": "id"
-                    },
-                    "properties": [
-                      {
-                        "id": "custom.width",
-                        "value": 54
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          }
-        }
-      },
-      "panel-2": {
-        "kind": "Panel",
-        "spec": {
-          "id": 2,
-          "title": "Faturamento em Aguardo",
-          "description": "Valor totabilizado de serviços que estão aguardando orçamento, aguardando autorização ou aguardando vaga para entrar em produção",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('AGUARDANDO_ORCAMENTO', 'AGUARDANDO_AUTORIZACAO', 'AGUARDANDO_VAGA')",
-                        "sql": {
-                          "columns": [
-                            {
-                              "name": "SUM",
-                              "parameters": [
-                                {
-                                  "name": "valor_total",
-                                  "type": "functionParameter"
-                                }
-                              ],
-                              "type": "function"
-                            },
-                            {
-                              "parameters": [],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "name": "MONTH(data_saida_efetiva)",
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            },
-                            {
-                              "property": {
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50,
-                          "whereJsonTree": {
-                            "children1": [
-                              {
-                                "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
-                                "properties": {
-                                  "fieldSrc": "field",
-                                  "value": [],
-                                  "valueSrc": []
-                                },
-                                "type": "rule"
-                              }
-                            ],
-                            "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
-                            "type": "group"
-                          }
-                        },
-                        "table": "ordem_de_servicos"
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "stat",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "colorMode": "value",
-                "graphMode": "area",
-                "justifyMode": "auto",
-                "orientation": "auto",
-                "percentChangeColorMode": "standard",
-                "reduceOptions": {
-                  "calcs": [
-                    "lastNotNull"
-                  ],
-                  "fields": "",
-                  "values": false
-                },
-                "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "unit": "currencyBRL",
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "green"
-                      },
-                      {
-                        "value": 1000,
-                        "color": "orange"
-                      },
-                      {
-                        "value": 7500,
-                        "color": "dark-orange"
-                      },
-                      {
-                        "value": 15000,
-                        "color": "dark-red"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "thresholds"
-                  }
-                },
-                "overrides": []
-              }
-            }
-          }
-        }
-      },
-      "panel-3": {
-        "kind": "Panel",
-        "spec": {
-          "id": 3,
-          "title": "Faturamento Recebido",
-          "description": "Valor totabilizado de serviços que foram finalizados com o pagamento realizado",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('FINALIZADO')\n  AND o.pagt_realizado = 1",
-                        "sql": {
-                          "columns": [
-                            {
-                              "name": "SUM",
-                              "parameters": [
-                                {
-                                  "name": "valor_total",
-                                  "type": "functionParameter"
-                                }
-                              ],
-                              "type": "function"
-                            },
-                            {
-                              "parameters": [],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "name": "MONTH(data_saida_efetiva)",
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            },
-                            {
-                              "property": {
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50,
-                          "whereJsonTree": {
-                            "children1": [
-                              {
-                                "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
-                                "properties": {
-                                  "fieldSrc": "field",
-                                  "value": [],
-                                  "valueSrc": []
-                                },
-                                "type": "rule"
-                              }
-                            ],
-                            "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
-                            "type": "group"
-                          }
-                        },
-                        "table": "ordem_de_servicos"
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "stat",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "colorMode": "value",
-                "graphMode": "area",
-                "justifyMode": "auto",
-                "orientation": "auto",
-                "percentChangeColorMode": "standard",
-                "reduceOptions": {
-                  "calcs": [
-                    "lastNotNull"
-                  ],
-                  "fields": "",
-                  "values": false
-                },
-                "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "unit": "currencyBRL",
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "dark-red"
-                      },
-                      {
-                        "value": 2500,
-                        "color": "orange"
-                      },
-                      {
-                        "value": 5000,
-                        "color": "yellow"
-                      },
-                      {
-                        "value": 10000,
-                        "color": "green"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "thresholds"
-                  }
-                },
-                "overrides": []
-              }
-            }
-          }
-        }
-      },
-      "panel-4": {
-        "kind": "Panel",
-        "spec": {
-          "id": 4,
-          "title": "Faturamento a Receber",
-          "description": "Valor totabilizado de serviços que foram finalizados mas o pagamento não foi realizado",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('FINALIZADO')\n  AND o.pagt_realizado = 0",
-                        "sql": {
-                          "columns": [
-                            {
-                              "name": "SUM",
-                              "parameters": [
-                                {
-                                  "name": "valor_total",
-                                  "type": "functionParameter"
-                                }
-                              ],
-                              "type": "function"
-                            },
-                            {
-                              "parameters": [],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "name": "MONTH(data_saida_efetiva)",
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            },
-                            {
-                              "property": {
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50,
-                          "whereJsonTree": {
-                            "children1": [
-                              {
-                                "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
-                                "properties": {
-                                  "fieldSrc": "field",
-                                  "value": [],
-                                  "valueSrc": []
-                                },
-                                "type": "rule"
-                              }
-                            ],
-                            "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
-                            "type": "group"
-                          }
-                        },
-                        "table": "ordem_de_servicos"
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "stat",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "colorMode": "value",
-                "graphMode": "area",
-                "justifyMode": "auto",
-                "orientation": "auto",
-                "percentChangeColorMode": "standard",
-                "reduceOptions": {
-                  "calcs": [
-                    "lastNotNull"
-                  ],
-                  "fields": "",
-                  "values": false
-                },
-                "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "unit": "currencyBRL",
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "green"
-                      },
-                      {
-                        "value": 1000,
-                        "color": "orange"
-                      },
-                      {
-                        "value": 7500,
-                        "color": "dark-orange"
-                      },
-                      {
-                        "value": 15000,
-                        "color": "dark-red"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "thresholds"
-                  }
-                },
-                "overrides": []
-              }
-            }
-          }
-        }
-      },
-      "panel-5": {
-        "kind": "Panel",
-        "spec": {
-          "id": 5,
-          "title": "Faturamento em Produção",
-          "description": "Valor totabilizado de serviços que estão em produção",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('EM_PRODUCAO')",
-                        "sql": {
-                          "columns": [
-                            {
-                              "name": "SUM",
-                              "parameters": [
-                                {
-                                  "name": "valor_total",
-                                  "type": "functionParameter"
-                                }
-                              ],
-                              "type": "function"
-                            },
-                            {
-                              "parameters": [],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "name": "MONTH(data_saida_efetiva)",
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            },
-                            {
-                              "property": {
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50,
-                          "whereJsonTree": {
-                            "children1": [
-                              {
-                                "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
-                                "properties": {
-                                  "fieldSrc": "field",
-                                  "value": [],
-                                  "valueSrc": []
-                                },
-                                "type": "rule"
-                              }
-                            ],
-                            "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
-                            "type": "group"
-                          }
-                        },
-                        "table": "ordem_de_servicos"
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "stat",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "colorMode": "value",
-                "graphMode": "area",
-                "justifyMode": "auto",
-                "orientation": "auto",
-                "percentChangeColorMode": "standard",
-                "reduceOptions": {
-                  "calcs": [
-                    "lastNotNull"
-                  ],
-                  "fields": "",
-                  "values": false
-                },
-                "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "unit": "currencyBRL",
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "green"
-                      },
-                      {
-                        "value": 1000,
-                        "color": "orange"
-                      },
-                      {
-                        "value": 7500,
-                        "color": "dark-orange"
-                      },
-                      {
-                        "value": 15000,
-                        "color": "dark-red"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "thresholds"
-                  }
-                },
-                "overrides": []
-              }
-            }
-          }
-        }
-      },
-      "panel-6": {
-        "kind": "Panel",
-        "spec": {
-          "id": 6,
-          "title": "Faturamento por Tipo de Serviço",
-          "description": "",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n    s.tipo_servico tipo_servico,\n    SUM(os.valor_total_servicos) AS faturamento\nFROM grotrack.ordem_de_servicos os\nJOIN grotrack.itens_servicos s ON s.fk_ordem_servico = os.id_ordem_servico\nJOIN grotrack.registro_entrada re ON re.fk_ordem_servico = os.id_ordem_servico\nWHERE MONTH(re.data_entrada_efetiva) IN ($mes) \nAND YEAR(re.data_entrada_efetiva) IN ($ano) \nAND os.status = 'FINALIZADO' \nGROUP BY s.tipo_servico\nORDER BY faturamento DESC;",
-                        "sql": {
-                          "columns": [
-                            {
-                              "parameters": [],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50
-                        }
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "barchart",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "barRadius": 0,
-                "barWidth": 0.97,
-                "colorByField": "faturamento",
-                "fullHighlight": true,
-                "groupWidth": 0.7,
-                "legend": {
-                  "calcs": [],
-                  "displayMode": "list",
-                  "placement": "right",
-                  "showLegend": true
-                },
-                "orientation": "auto",
-                "showValue": "never",
-                "stacking": "none",
-                "tooltip": {
-                  "hideZeros": false,
-                  "mode": "single",
-                  "sort": "none"
-                },
-                "xTickLabelRotation": 0,
-                "xTickLabelSpacing": 0
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "unit": "currencyBRL",
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "green"
-                      },
-                      {
-                        "value": 80,
-                        "color": "red"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "palette-classic"
-                  },
-                  "custom": {
-                    "axisBorderShow": false,
-                    "axisCenteredZero": false,
-                    "axisColorMode": "text",
-                    "axisLabel": "",
-                    "axisPlacement": "auto",
-                    "fillOpacity": 80,
-                    "gradientMode": "none",
-                    "hideFrom": {
-                      "legend": false,
-                      "tooltip": false,
-                      "viz": false
-                    },
-                    "lineWidth": 1,
-                    "scaleDistribution": {
-                      "type": "linear"
-                    },
-                    "thresholdsStyle": {
-                      "mode": "off"
-                    }
-                  }
-                },
-                "overrides": []
-              }
-            }
-          }
-        }
-      },
-      "panel-7": {
-        "kind": "Panel",
-        "spec": {
-          "id": 7,
-          "title": "Mediana de Duração por Tipo de Serviço",
-          "description": "",
-          "links": [],
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [
-                {
-                  "kind": "PanelQuery",
-                  "spec": {
-                    "query": {
-                      "kind": "DataQuery",
-                      "group": "mysql",
-                      "version": "v0",
-                      "datasource": {
-                        "name": "afl02y4af6a68e"
-                      },
-                      "spec": {
-                        "dataset": "grotrack",
-                        "editorMode": "code",
-                        "format": "table",
-                        "rawQuery": true,
-                        "rawSql": "SELECT \n    tipo_servico, \n    AVG(dias_servico) AS mediana_dias\nFROM (\n    SELECT \n        s.tipo_servico, \n        DATEDIFF(os.data_saida_efetiva, re.data_entrada_efetiva) AS dias_servico,\n        ROW_NUMBER() OVER (PARTITION BY s.tipo_servico ORDER BY DATEDIFF(os.data_saida_efetiva, re.data_entrada_efetiva)) AS rn,\n        COUNT(*) OVER (PARTITION BY s.tipo_servico) AS total_count\n    FROM grotrack.ordem_de_servicos os\n    JOIN grotrack.itens_servicos s ON s.fk_ordem_servico = os.id_ordem_servico\n    JOIN grotrack.registro_entrada re ON re.fk_ordem_servico = os.id_ordem_servico\n    WHERE os.data_saida_efetiva IS NOT NULL \n      AND re.data_entrada_efetiva IS NOT NULL\n      AND MONTH(re.data_entrada_efetiva) IN ($mes) \n    AND YEAR(re.data_entrada_efetiva) IN ($ano) \n    AND os.status = 'FINALIZADO' \n\n) AS subquery\nWHERE rn IN (FLOOR((total_count + 1) / 2), CEIL((total_count + 1) / 2))\nGROUP BY tipo_servico\nORDER BY mediana_dias DESC\nLIMIT 5;",
-                        "sql": {
-                          "columns": [
-                            {
-                              "parameters": [],
-                              "type": "function"
-                            }
-                          ],
-                          "groupBy": [
-                            {
-                              "property": {
-                                "type": "string"
-                              },
-                              "type": "groupBy"
-                            }
-                          ],
-                          "limit": 50
-                        }
-                      }
-                    },
-                    "refId": "A",
-                    "hidden": false
-                  }
-                }
-              ],
-              "transformations": [],
-              "queryOptions": {}
-            }
-          },
-          "vizConfig": {
-            "kind": "VizConfig",
-            "group": "barchart",
-            "version": "13.0.1",
-            "spec": {
-              "options": {
-                "barRadius": 0,
-                "barWidth": 0.97,
-                "colorByField": "faturamento",
-                "fullHighlight": true,
-                "groupWidth": 0.7,
-                "legend": {
-                  "calcs": [],
-                  "displayMode": "list",
-                  "placement": "right",
-                  "showLegend": true
-                },
-                "orientation": "auto",
-                "showValue": "never",
-                "stacking": "none",
-                "tooltip": {
-                  "hideZeros": false,
-                  "mode": "single",
-                  "sort": "none"
-                },
-                "xTickLabelRotation": 0,
-                "xTickLabelSpacing": 0
-              },
-              "fieldConfig": {
-                "defaults": {
-                  "unit": "d",
-                  "thresholds": {
-                    "mode": "absolute",
-                    "steps": [
-                      {
-                        "value": 0,
-                        "color": "green"
-                      },
-                      {
-                        "value": 80,
-                        "color": "red"
-                      }
-                    ]
-                  },
-                  "color": {
-                    "mode": "palette-classic"
-                  },
-                  "custom": {
-                    "axisBorderShow": false,
-                    "axisCenteredZero": false,
-                    "axisColorMode": "text",
-                    "axisLabel": "",
-                    "axisPlacement": "auto",
-                    "fillOpacity": 80,
-                    "gradientMode": "none",
-                    "hideFrom": {
-                      "legend": false,
-                      "tooltip": false,
-                      "viz": false
-                    },
-                    "lineWidth": 1,
-                    "scaleDistribution": {
-                      "type": "linear"
-                    },
-                    "thresholdsStyle": {
-                      "mode": "off"
-                    }
-                  }
-                },
-                "overrides": []
-              }
-            }
-          }
-        }
-      }
-    },
-    "layout": {
-      "kind": "TabsLayout",
+  "annotations": [
+    {
+      "kind": "AnnotationQuery",
       "spec": {
-        "tabs": [
-          {
-            "kind": "TabsLayoutTab",
-            "spec": {
-              "title": "Visão Financeira",
-              "layout": {
-                "kind": "GridLayout",
+        "builtIn": true,
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "query": {
+          "datasource": {
+            "name": "-- Grafana --"
+          },
+          "group": "grafana",
+          "kind": "DataQuery",
+          "spec": {},
+          "version": "v0"
+        }
+      }
+    }
+  ],
+  "cursorSync": "Off",
+  "editable": true,
+  "elements": {
+    "panel-1": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
                 "spec": {
-                  "items": [
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n    o.id_ordem_servico id,\n    CONCAT('R$', IFNULL(o.valor_total,0)) total,\n    CONCAT('R$', IFNULL(o.valor_total_servicos,0)) total_servico,\n    CONCAT('R$', IFNULL(o.valor_total_produtos,0)) total_produto,\n    IFNULL(DATE_FORMAT(e.data_entrada_prevista, '%d/%m/%Y'), 'DATA NÃO DEFINIDA') data_entrada_prevista,\n    IFNULL(DATE_FORMAT(e.data_entrada_efetiva, '%d/%m/%Y'), 'AGUARDANDO VEICULO') data_entrada_efetiva,\n    IFNULL(DATE_FORMAT(o.data_saida_prevista, '%d/%m/%Y'), 'DATA NÃO DEFINIDA') data_saida_prevista,\n    IFNULL(DATE_FORMAT(o.data_saida_efetiva, '%d/%m/%Y'), 'AGUARDANDO FINALIZAÇÃO') data_saida_efetiva,\n    o.status status_servico,\n    CASE\n        WHEN o.pagt_realizado = 1 THEN 'REALIZADO'\n        ELSE 'PENDENTE'\n    END as status_pagamento,    \n    CASE\n        WHEN o.nf_realizada = 1 THEN 'EMITIDA'\n        ELSE 'PENDENTE'\n    END as status_nota_fiscal\nFROM grotrack.ordem_de_servicos o\nJOIN grotrack.registro_entrada e ON e.fk_ordem_servico = o.id_ordem_servico\nWHERE MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND YEAR(e.data_entrada_efetiva) IN ($ano)\n  AND o.status NOT IN ('CANCELADO');",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "data_saida_efetiva",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Nesta tabela exibe todos os serviços que passaram pela oficina no ano e mês selecionado",
+        "id": 1,
+        "links": [],
+        "title": "Histórico de Serviços",
+        "vizConfig": {
+          "group": "table",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "palette-classic"
+                },
+                "custom": {
+                  "align": "auto",
+                  "cellOptions": {
+                    "type": "color-text"
+                  },
+                  "filterable": false,
+                  "footer": {
+                    "reducers": []
+                  },
+                  "inspect": false,
+                  "styleField": "id",
+                  "tooltip": {
+                    "field": "id",
+                    "placement": "top"
+                  },
+                  "wrapHeaderText": false
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
                     {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 6,
-                        "height": 4,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-2"
-                        }
-                      }
+                      "color": "green",
+                      "value": 0
                     },
                     {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 6,
-                        "y": 0,
-                        "width": 6,
-                        "height": 4,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-5"
-                        }
-                      }
-                    },
-                    {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 12,
-                        "y": 0,
-                        "width": 6,
-                        "height": 4,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-4"
-                        }
-                      }
-                    },
-                    {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 18,
-                        "y": 0,
-                        "width": 6,
-                        "height": 4,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-3"
-                        }
-                      }
-                    },
-                    {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 0,
-                        "y": 4,
-                        "width": 12,
-                        "height": 8,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-6"
-                        }
-                      }
-                    },
-                    {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 12,
-                        "y": 4,
-                        "width": 12,
-                        "height": 8,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-7"
-                        }
-                      }
-                    },
-                    {
-                      "kind": "GridLayoutItem",
-                      "spec": {
-                        "x": 0,
-                        "y": 12,
-                        "width": 24,
-                        "height": 8,
-                        "element": {
-                          "kind": "ElementReference",
-                          "name": "panel-1"
-                        }
-                      }
+                      "color": "red",
+                      "value": 80
                     }
                   ]
                 }
-              }
+              },
+              "overrides": [
+                {
+                  "matcher": {
+                    "id": "byName",
+                    "options": "id"
+                  },
+                  "properties": [
+                    {
+                      "id": "custom.width",
+                      "value": 54
+                    }
+                  ]
+                }
+              ]
+            },
+            "options": {
+              "cellHeight": "sm",
+              "enablePagination": true,
+              "showHeader": true,
+              "sortBy": [
+                {
+                  "desc": false,
+                  "displayName": "id"
+                }
+              ]
             }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-10": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  UNIX_TIMESTAMP(DATE(os.data_saida_efetiva)) as time,\n  SUM(os.valor_total) as faturamento\nFROM grotrack.ordem_de_servicos os\nJOIN grotrack.registro_entrada re ON re.fk_ordem_servico = os.id_ordem_servico\nWHERE MONTH(re.data_entrada_efetiva) IN ($mes) \n  AND YEAR(re.data_entrada_efetiva) IN ($ano) \n  AND os.valor_total > 0\nGROUP BY time\nORDER BY time ASC",
+                      "sql": {
+                        "columns": [
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50
+                      }
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
           }
-        ]
-      }
-    },
-    "links": [
-      {
-        "title": "Sistema Grotrack",
-        "type": "link",
-        "icon": "external link",
-        "tooltip": "",
-        "url": "http://localhost:5173/",
-        "tags": [],
-        "asDropdown": true,
-        "targetBlank": false,
-        "includeVars": false,
-        "keepTime": false
-      }
-    ],
-    "liveNow": false,
-    "preload": false,
-    "tags": [],
-    "timeSettings": {
-      "timezone": "browser",
-      "from": "2026-05-03T16:35:34.040Z",
-      "to": "2026-05-04T04:35:34.040Z",
-      "autoRefresh": "",
-      "autoRefreshIntervals": [
-        "5s",
-        "10s",
-        "30s",
-        "1m",
-        "5m",
-        "15m",
-        "30m",
-        "1h",
-        "2h",
-        "1d"
-      ],
-      "hideTimepicker": false,
-      "fiscalYearStartMonth": 0
-    },
-    "title": "BI - GROTRACK",
-    "variables": [
-      {
-        "kind": "QueryVariable",
-        "spec": {
-          "name": "ano",
-          "current": {
-            "text": "2026",
-            "value": "2026"
-          },
-          "label": "Ano",
-          "hide": "dontHide",
-          "refresh": "onDashboardLoad",
-          "skipUrlSync": false,
-          "description": "Aqui estão os anos com dados disponíveis para consulta",
-          "query": {
-            "kind": "DataQuery",
-            "group": "mysql",
-            "version": "v0",
-            "datasource": {
-              "name": "afl02y4af6a68e"
-            },
-            "spec": {
-              "dataset": "grotrack",
-              "editorMode": "code",
-              "format": "table",
-              "meta": {
-                "textField": "ano",
-                "valueField": "ano"
-              },
-              "query": "SELECT distinct year(o.data_saida_efetiva) as ano from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
-              "rawQuery": true,
-              "rawSql": "SELECT distinct year(o.data_saida_efetiva) as ano from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
-              "refId": "SQLVariableQueryEditor-VariableQuery",
-              "sql": {
-                "columns": [
-                  {
-                    "parameters": [],
-                    "type": "function"
+        },
+        "description": "",
+        "id": 10,
+        "links": [],
+        "title": "Faturamento por Dia",
+        "vizConfig": {
+          "group": "barchart",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "palette-classic"
+                },
+                "custom": {
+                  "axisBorderShow": false,
+                  "axisCenteredZero": false,
+                  "axisColorMode": "text",
+                  "axisLabel": "",
+                  "axisPlacement": "auto",
+                  "fillOpacity": 80,
+                  "gradientMode": "none",
+                  "hideFrom": {
+                    "legend": false,
+                    "tooltip": false,
+                    "viz": false
+                  },
+                  "lineWidth": 1,
+                  "scaleDistribution": {
+                    "type": "linear"
+                  },
+                  "thresholdsStyle": {
+                    "mode": "off"
                   }
-                ],
-                "groupBy": [
-                  {
-                    "property": {
-                      "type": "string"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
                     },
-                    "type": "groupBy"
-                  }
-                ],
-                "limit": 50
+                    {
+                      "color": "red",
+                      "value": 80
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
               },
-              "table": "ordem_de_servicos"
+              "overrides": []
+            },
+            "options": {
+              "barRadius": 0,
+              "barWidth": 0.97,
+              "fullHighlight": false,
+              "groupWidth": 0.7,
+              "legend": {
+                "calcs": [],
+                "displayMode": "list",
+                "placement": "bottom",
+                "showLegend": true
+              },
+              "orientation": "auto",
+              "showValue": "auto",
+              "stacking": "none",
+              "tooltip": {
+                "hideZeros": false,
+                "mode": "single",
+                "sort": "none"
+              },
+              "xField": "moment",
+              "xTickLabelRotation": 0,
+              "xTickLabelSpacing": 100
             }
           },
-          "regex": "",
-          "regexApplyTo": "value",
-          "sort": "numericalAsc",
-          "definition": "SELECT distinct year(o.data_saida_efetiva) as ano from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
-          "options": [],
-          "multi": false,
-          "includeAll": false,
-          "allowCustomValue": true
+          "version": "13.0.1"
         }
-      },
-      {
-        "kind": "QueryVariable",
-        "spec": {
-          "name": "mes",
-          "current": {
-            "text": "All",
-            "value": "$__all"
-          },
-          "label": "Mês",
-          "hide": "dontHide",
-          "refresh": "onDashboardLoad",
-          "skipUrlSync": false,
-          "description": "Aqui estão os meses com dados disponíveis para consulta",
-          "query": {
-            "kind": "DataQuery",
-            "group": "mysql",
-            "version": "v0",
-            "datasource": {
-              "name": "afl02y4af6a68e"
-            },
-            "spec": {
-              "dataset": "grotrack",
-              "editorMode": "code",
-              "format": "table",
-              "meta": {
-                "textField": "mes",
-                "valueField": "mes"
-              },
-              "query": "SELECT distinct month(o.data_saida_efetiva) as mes from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
-              "rawQuery": true,
-              "rawSql": "SELECT distinct month(o.data_saida_efetiva) as mes from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
-              "refId": "SQLVariableQueryEditor-VariableQuery",
-              "sql": {
-                "columns": [
-                  {
-                    "parameters": [],
-                    "type": "function"
-                  }
-                ],
-                "groupBy": [
-                  {
-                    "property": {
-                      "type": "string"
+      }
+    },
+    "panel-11": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
                     },
-                    "type": "groupBy"
-                  }
-                ],
-                "limit": 50
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  COUNT(o.id_ordem_servico)\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) IN ($ano)\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.data_saida_efetiva <= o.data_saida_prevista \n  AND o.status IN ('FINALIZADO')",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
               }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "O total de serviços que foram concluídos sem atraso",
+        "id": 11,
+        "links": [],
+        "title": "Serviços concluídos sem atraso",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "semi-dark-red",
+                      "value": 0
+                    },
+                    {
+                      "color": "#EF843C",
+                      "value": 1
+                    },
+                    {
+                      "color": "green",
+                      "value": 3
+                    }
+                  ]
+                },
+                "unit": "Servicos"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
             }
           },
-          "regex": "",
-          "regexApplyTo": "value",
-          "sort": "numericalAsc",
-          "definition": "SELECT distinct month(o.data_saida_efetiva) as mes from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
-          "options": [],
-          "multi": false,
-          "includeAll": true,
-          "allValue": "1,2,3,4,5,6,7,8,9,10,11,12",
-          "allowCustomValue": false
+          "version": "13.0.1"
         }
       }
-    ],
-    "preferences": {
-      "layout": {
-        "kind": "GridLayout",
-        "spec": {
-          "items": []
+    },
+    "panel-12": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  COUNT(o.id_ordem_servico)\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) IN ($ano)\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.data_saida_efetiva > o.data_saida_prevista \n  AND o.status IN ('FINALIZADO')",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "O total de serviços que foram concluídos mas com atraso no prazo estipulado",
+        "id": 12,
+        "links": [],
+        "title": "Serviços concluídos com atraso",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "#EAB839",
+                      "value": 1
+                    },
+                    {
+                      "color": "#EF843C",
+                      "value": 3
+                    },
+                    {
+                      "color": "#E24D42",
+                      "value": 5
+                    }
+                  ]
+                },
+                "unit": "Servicos"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-13": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  AVG(DATEDIFF(o.data_saida_efetiva, o.data_saida_prevista)) as media\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) IN ($ano)\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.data_saida_efetiva > o.data_saida_prevista \n  AND o.status IN ('FINALIZADO')",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Valor totabilizado de serviços que estão aguardando orçamento, aguardando autorização ou aguardando vaga para entrar em produção",
+        "id": 13,
+        "links": [],
+        "title": "Tempo Médio do atraso",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "semi-dark-red",
+                      "value": 0
+                    },
+                    {
+                      "color": "#EF843C",
+                      "value": 1
+                    },
+                    {
+                      "color": "green",
+                      "value": 3
+                    }
+                  ]
+                },
+                "unit": "d"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-14": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n    status, \n    COUNT(os.id_ordem_servico) AS quantidade\nFROM ordem_de_servicos os\nJOIN registro_entrada re\nON re.fk_ordem_servico = os.id_ordem_servico\nAND YEAR(re.data_entrada_prevista) IN ($ano)\nAND MONTH(re.data_entrada_prevista) IN ($mes) \nGROUP BY status;",
+                      "sql": {
+                        "columns": [
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50
+                      }
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "",
+        "id": 14,
+        "links": [],
+        "title": "Serviços por Status",
+        "vizConfig": {
+          "group": "barchart",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "palette-classic"
+                },
+                "custom": {
+                  "axisBorderShow": false,
+                  "axisCenteredZero": false,
+                  "axisColorMode": "text",
+                  "axisLabel": "",
+                  "axisPlacement": "auto",
+                  "fillOpacity": 80,
+                  "gradientMode": "none",
+                  "hideFrom": {
+                    "legend": false,
+                    "tooltip": false,
+                    "viz": false
+                  },
+                  "lineWidth": 1,
+                  "scaleDistribution": {
+                    "type": "linear"
+                  },
+                  "thresholdsStyle": {
+                    "mode": "off"
+                  }
+                },
+                "displayName": "Dias",
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "red",
+                      "value": 80
+                    }
+                  ]
+                }
+              },
+              "overrides": []
+            },
+            "options": {
+              "barRadius": 0,
+              "barWidth": 0.97,
+              "colorByField": "faturamento",
+              "fullHighlight": true,
+              "groupWidth": 0.7,
+              "legend": {
+                "calcs": [],
+                "displayMode": "list",
+                "placement": "bottom",
+                "showLegend": true
+              },
+              "orientation": "horizontal",
+              "showValue": "never",
+              "stacking": "none",
+              "tooltip": {
+                "hideZeros": false,
+                "mode": "single",
+                "sort": "none"
+              },
+              "xTickLabelRotation": 0,
+              "xTickLabelSpacing": 0
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-2": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('AGUARDANDO_ORCAMENTO', 'AGUARDANDO_AUTORIZACAO', 'AGUARDANDO_VAGA')",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Valor totabilizado de serviços que estão aguardando orçamento, aguardando autorização ou aguardando vaga para entrar em produção",
+        "id": 2,
+        "links": [],
+        "title": "Faturamento em Aguardo",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "orange",
+                      "value": 1000
+                    },
+                    {
+                      "color": "dark-orange",
+                      "value": 7500
+                    },
+                    {
+                      "color": "dark-red",
+                      "value": 15000
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-3": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('FINALIZADO')\n  AND o.pagt_realizado = 1",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Valor totabilizado de serviços que foram finalizados com o pagamento realizado",
+        "id": 3,
+        "links": [],
+        "title": "Faturamento Recebido",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "dark-red",
+                      "value": 0
+                    },
+                    {
+                      "color": "orange",
+                      "value": 2500
+                    },
+                    {
+                      "color": "yellow",
+                      "value": 5000
+                    },
+                    {
+                      "color": "green",
+                      "value": 10000
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-4": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('FINALIZADO')\n  AND o.pagt_realizado = 0",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Valor totabilizado de serviços que foram finalizados mas o pagamento não foi realizado",
+        "id": 4,
+        "links": [],
+        "title": "Faturamento a Receber",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "orange",
+                      "value": 1000
+                    },
+                    {
+                      "color": "dark-orange",
+                      "value": 7500
+                    },
+                    {
+                      "color": "dark-red",
+                      "value": 15000
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-5": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  IFNULL(SUM(o.valor_total), 0) as faturamento\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) = $ano\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND o.status IN ('EM_PRODUCAO')",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Valor totabilizado de serviços que estão em produção",
+        "id": 5,
+        "links": [],
+        "title": "Faturamento em Produção",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "orange",
+                      "value": 1000
+                    },
+                    {
+                      "color": "dark-orange",
+                      "value": 7500
+                    },
+                    {
+                      "color": "dark-red",
+                      "value": 15000
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-6": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n    s.tipo_servico tipo_servico,\n    SUM(os.valor_total_servicos) AS faturamento\nFROM grotrack.ordem_de_servicos os\nJOIN grotrack.itens_servicos s ON s.fk_ordem_servico = os.id_ordem_servico\nJOIN grotrack.registro_entrada re ON re.fk_ordem_servico = os.id_ordem_servico\nWHERE MONTH(re.data_entrada_efetiva) IN ($mes) \nAND YEAR(re.data_entrada_efetiva) IN ($ano) \nAND os.status = 'FINALIZADO' \nGROUP BY s.tipo_servico\nORDER BY faturamento DESC;",
+                      "sql": {
+                        "columns": [
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50
+                      }
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "",
+        "id": 6,
+        "links": [],
+        "title": "Faturamento por Tipo de Serviço",
+        "vizConfig": {
+          "group": "barchart",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "custom": {
+                  "axisBorderShow": false,
+                  "axisCenteredZero": false,
+                  "axisColorMode": "text",
+                  "axisLabel": "",
+                  "axisPlacement": "auto",
+                  "fillOpacity": 80,
+                  "gradientMode": "none",
+                  "hideFrom": {
+                    "legend": false,
+                    "tooltip": false,
+                    "viz": false
+                  },
+                  "lineWidth": 1,
+                  "scaleDistribution": {
+                    "type": "linear"
+                  },
+                  "thresholdsStyle": {
+                    "mode": "off"
+                  }
+                },
+                "displayName": "Faturamento",
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
+              },
+              "overrides": []
+            },
+            "options": {
+              "barRadius": 0,
+              "barWidth": 0.97,
+              "colorByField": "faturamento",
+              "fullHighlight": true,
+              "groupWidth": 0.7,
+              "legend": {
+                "calcs": [],
+                "displayMode": "list",
+                "placement": "bottom",
+                "showLegend": true
+              },
+              "orientation": "auto",
+              "showValue": "never",
+              "stacking": "none",
+              "text": {
+                "valueSize": 5
+              },
+              "tooltip": {
+                "hideZeros": false,
+                "mode": "single",
+                "sort": "none"
+              },
+              "xTickLabelRotation": 0,
+              "xTickLabelSpacing": 0
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-7": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n    tipo_servico, \n    AVG(dias_servico) AS mediana_dias\nFROM (\n    SELECT \n        s.tipo_servico, \n        DATEDIFF(os.data_saida_efetiva, re.data_entrada_efetiva) AS dias_servico,\n        ROW_NUMBER() OVER (PARTITION BY s.tipo_servico ORDER BY DATEDIFF(os.data_saida_efetiva, re.data_entrada_efetiva)) AS rn,\n        COUNT(*) OVER (PARTITION BY s.tipo_servico) AS total_count\n    FROM grotrack.ordem_de_servicos os\n    JOIN grotrack.itens_servicos s ON s.fk_ordem_servico = os.id_ordem_servico\n    JOIN grotrack.registro_entrada re ON re.fk_ordem_servico = os.id_ordem_servico\n    WHERE os.data_saida_efetiva IS NOT NULL \n      AND re.data_entrada_efetiva IS NOT NULL\n      AND MONTH(re.data_entrada_efetiva) IN ($mes) \n    AND YEAR(re.data_entrada_efetiva) IN ($ano) \n    AND os.status = 'FINALIZADO' \n\n) AS subquery\nWHERE rn IN (FLOOR((total_count + 1) / 2), CEIL((total_count + 1) / 2))\nGROUP BY tipo_servico\nORDER BY mediana_dias DESC\nLIMIT 5;",
+                      "sql": {
+                        "columns": [
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50
+                      }
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "",
+        "id": 7,
+        "links": [],
+        "title": "Mediana de Duração por Tipo de Serviço",
+        "vizConfig": {
+          "group": "barchart",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "palette-classic"
+                },
+                "custom": {
+                  "axisBorderShow": false,
+                  "axisCenteredZero": false,
+                  "axisColorMode": "text",
+                  "axisLabel": "",
+                  "axisPlacement": "auto",
+                  "fillOpacity": 80,
+                  "gradientMode": "none",
+                  "hideFrom": {
+                    "legend": false,
+                    "tooltip": false,
+                    "viz": false
+                  },
+                  "lineWidth": 1,
+                  "scaleDistribution": {
+                    "type": "linear"
+                  },
+                  "thresholdsStyle": {
+                    "mode": "off"
+                  }
+                },
+                "displayName": "Dias",
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "red",
+                      "value": 80
+                    }
+                  ]
+                },
+                "unit": "d"
+              },
+              "overrides": []
+            },
+            "options": {
+              "barRadius": 0,
+              "barWidth": 0.97,
+              "colorByField": "faturamento",
+              "fullHighlight": true,
+              "groupWidth": 0.7,
+              "legend": {
+                "calcs": [],
+                "displayMode": "list",
+                "placement": "right",
+                "showLegend": true
+              },
+              "orientation": "auto",
+              "showValue": "never",
+              "stacking": "none",
+              "tooltip": {
+                "hideZeros": false,
+                "mode": "single",
+                "sort": "none"
+              },
+              "xTickLabelRotation": 0,
+              "xTickLabelSpacing": 0
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-8": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n  COUNT(o.id_ordem_servico)\nFROM ordem_de_servicos o\nJOIN registro_entrada e\nON e.fk_ordem_servico = o.id_ordem_servico\nWHERE YEAR(e.data_entrada_efetiva) IN ($ano)\n  AND MONTH(e.data_entrada_efetiva) IN ($mes)\n  AND NOW() > o.data_saida_prevista \n  AND o.status IN ('EM_PRODUCAO')",
+                      "sql": {
+                        "columns": [
+                          {
+                            "name": "SUM",
+                            "parameters": [
+                              {
+                                "name": "valor_total",
+                                "type": "functionParameter"
+                              }
+                            ],
+                            "type": "function"
+                          },
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "name": "MONTH(data_saida_efetiva)",
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          },
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50,
+                        "whereJsonTree": {
+                          "children1": [
+                            {
+                              "id": "b8baab8a-cdef-4012-b456-719dd43444b6",
+                              "properties": {
+                                "fieldSrc": "field",
+                                "value": [],
+                                "valueSrc": []
+                              },
+                              "type": "rule"
+                            }
+                          ],
+                          "id": "9a8aa99b-0123-4456-b89a-b19dd40fc370",
+                          "type": "group"
+                        }
+                      },
+                      "table": "ordem_de_servicos"
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "Indicador de total de serviços que estão em atraso",
+        "id": 8,
+        "links": [],
+        "title": "Serviços em produção atrasado",
+        "vizConfig": {
+          "group": "stat",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "thresholds"
+                },
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    },
+                    {
+                      "color": "#EAB839",
+                      "value": 1
+                    },
+                    {
+                      "color": "#EF843C",
+                      "value": 3
+                    },
+                    {
+                      "color": "#E24D42",
+                      "value": 5
+                    }
+                  ]
+                },
+                "unit": "Servicos"
+              },
+              "overrides": []
+            },
+            "options": {
+              "colorMode": "value",
+              "graphMode": "area",
+              "justifyMode": "auto",
+              "orientation": "auto",
+              "percentChangeColorMode": "standard",
+              "reduceOptions": {
+                "calcs": [
+                  "lastNotNull"
+                ],
+                "fields": "",
+                "values": false
+              },
+              "showPercentChange": false,
+              "textMode": "auto",
+              "wideLayout": true
+            }
+          },
+          "version": "13.0.1"
+        }
+      }
+    },
+    "panel-9": {
+      "kind": "Panel",
+      "spec": {
+        "data": {
+          "kind": "QueryGroup",
+          "spec": {
+            "queries": [
+              {
+                "kind": "PanelQuery",
+                "spec": {
+                  "hidden": false,
+                  "query": {
+                    "datasource": {
+                      "name": "afl02y4af6a68e"
+                    },
+                    "group": "mysql",
+                    "kind": "DataQuery",
+                    "spec": {
+                      "dataset": "grotrack",
+                      "editorMode": "code",
+                      "format": "table",
+                      "rawQuery": true,
+                      "rawSql": "SELECT \n    os.valor_total as faturamento,\n    cl.nome as cliente\nFROM grotrack.ordem_de_servicos os\nJOIN grotrack.registro_entrada re\nON re.fk_ordem_servico = os.id_ordem_servico\nJOIN grotrack.veiculos ve\nON re.fk_veiculo = ve.id_veiculo\nJOIN grotrack.clientes cl\nON ve.fk_proprietario = cl.id_cliente\nWHERE MONTH(re.data_entrada_efetiva) IN ($mes) \nAND YEAR(re.data_entrada_efetiva) IN ($ano) \nORDER BY faturamento DESC\nLIMIT 10",
+                      "sql": {
+                        "columns": [
+                          {
+                            "parameters": [],
+                            "type": "function"
+                          }
+                        ],
+                        "groupBy": [
+                          {
+                            "property": {
+                              "type": "string"
+                            },
+                            "type": "groupBy"
+                          }
+                        ],
+                        "limit": 50
+                      }
+                    },
+                    "version": "v0"
+                  },
+                  "refId": "A"
+                }
+              }
+            ],
+            "queryOptions": {},
+            "transformations": []
+          }
+        },
+        "description": "",
+        "id": 9,
+        "links": [],
+        "title": "Clientes com Maior Faturamento",
+        "vizConfig": {
+          "group": "barchart",
+          "kind": "VizConfig",
+          "spec": {
+            "fieldConfig": {
+              "defaults": {
+                "color": {
+                  "mode": "palette-classic"
+                },
+                "custom": {
+                  "axisBorderShow": false,
+                  "axisCenteredZero": false,
+                  "axisColorMode": "text",
+                  "axisLabel": "",
+                  "axisPlacement": "left",
+                  "fillOpacity": 80,
+                  "gradientMode": "none",
+                  "hideFrom": {
+                    "legend": false,
+                    "tooltip": false,
+                    "viz": false
+                  },
+                  "lineWidth": 1,
+                  "scaleDistribution": {
+                    "type": "linear"
+                  },
+                  "thresholdsStyle": {
+                    "mode": "off"
+                  }
+                },
+                "displayName": "Faturamento",
+                "fieldMinMax": false,
+                "thresholds": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": 0
+                    }
+                  ]
+                },
+                "unit": "currencyBRL"
+              },
+              "overrides": []
+            },
+            "options": {
+              "barRadius": 0,
+              "barWidth": 0.97,
+              "colorByField": "faturamento",
+              "fullHighlight": true,
+              "groupWidth": 0.7,
+              "legend": {
+                "calcs": [],
+                "displayMode": "list",
+                "placement": "bottom",
+                "showLegend": true
+              },
+              "orientation": "auto",
+              "showValue": "never",
+              "stacking": "none",
+              "tooltip": {
+                "hideZeros": false,
+                "mode": "single",
+                "sort": "none"
+              },
+              "xTickLabelRotation": 0,
+              "xTickLabelSpacing": 0
+            }
+          },
+          "version": "13.0.1"
         }
       }
     }
-  }
+  },
+  "layout": {
+    "kind": "TabsLayout",
+    "spec": {
+      "tabs": [
+        {
+          "kind": "TabsLayoutTab",
+          "spec": {
+            "layout": {
+              "kind": "GridLayout",
+              "spec": {
+                "items": [
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-2"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-5"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 6,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-4"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 12,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-3"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 18,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-6"
+                      },
+                      "height": 8,
+                      "width": 12,
+                      "x": 0,
+                      "y": 4
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-10"
+                      },
+                      "height": 8,
+                      "width": 12,
+                      "x": 12,
+                      "y": 4
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-1"
+                      },
+                      "height": 8,
+                      "width": 24,
+                      "x": 0,
+                      "y": 12
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-9"
+                      },
+                      "height": 8,
+                      "width": 12,
+                      "x": 11,
+                      "y": 20
+                    }
+                  }
+                ]
+              }
+            },
+            "title": "Visão Financeira"
+          }
+        },
+        {
+          "kind": "TabsLayoutTab",
+          "spec": {
+            "layout": {
+              "kind": "GridLayout",
+              "spec": {
+                "items": [
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-8"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-12"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 6,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-11"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 12,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-13"
+                      },
+                      "height": 4,
+                      "width": 6,
+                      "x": 18,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-7"
+                      },
+                      "height": 8,
+                      "width": 12,
+                      "x": 0,
+                      "y": 4
+                    }
+                  },
+                  {
+                    "kind": "GridLayoutItem",
+                    "spec": {
+                      "element": {
+                        "kind": "ElementReference",
+                        "name": "panel-14"
+                      },
+                      "height": 8,
+                      "width": 12,
+                      "x": 12,
+                      "y": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "title": "Visão Operacional"
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "asDropdown": true,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": true,
+      "title": "Sistema Grotrack",
+      "tooltip": "",
+      "type": "link",
+      "url": "http://localhost:5173/"
+    }
+  ],
+  "liveNow": false,
+  "preferences": {
+    "layout": {
+      "kind": "GridLayout",
+      "spec": {
+        "items": []
+      }
+    }
+  },
+  "preload": false,
+  "tags": [],
+  "timeSettings": {
+    "autoRefresh": "",
+    "autoRefreshIntervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ],
+    "fiscalYearStartMonth": 0,
+    "from": "2026-01-15T00:00:00.000Z",
+    "hideTimepicker": false,
+    "timezone": "browser",
+    "to": "2026-07-10T00:00:00.000Z"
+  },
+  "title": "BI - GROTRACK",
+  "variables": [
+    {
+      "kind": "QueryVariable",
+      "spec": {
+        "allowCustomValue": true,
+        "current": {
+          "text": "2026",
+          "value": "2026"
+        },
+        "definition": "SELECT distinct year(o.data_saida_efetiva) as ano from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
+        "description": "Aqui estão os anos com dados disponíveis para consulta",
+        "hide": "dontHide",
+        "includeAll": false,
+        "label": "Ano",
+        "multi": false,
+        "name": "ano",
+        "options": [],
+        "query": {
+          "datasource": {
+            "name": "afl02y4af6a68e"
+          },
+          "group": "mysql",
+          "kind": "DataQuery",
+          "spec": {
+            "dataset": "grotrack",
+            "editorMode": "code",
+            "format": "table",
+            "meta": {
+              "textField": "ano",
+              "valueField": "ano"
+            },
+            "query": "SELECT distinct year(o.data_saida_efetiva) as ano from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
+            "rawQuery": true,
+            "rawSql": "SELECT distinct year(o.data_saida_efetiva) as ano from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
+            "refId": "SQLVariableQueryEditor-VariableQuery",
+            "sql": {
+              "columns": [
+                {
+                  "parameters": [],
+                  "type": "function"
+                }
+              ],
+              "groupBy": [
+                {
+                  "property": {
+                    "type": "string"
+                  },
+                  "type": "groupBy"
+                }
+              ],
+              "limit": 50
+            },
+            "table": "ordem_de_servicos"
+          },
+          "version": "v0"
+        },
+        "refresh": "onDashboardLoad",
+        "regex": "",
+        "regexApplyTo": "value",
+        "skipUrlSync": false,
+        "sort": "numericalAsc"
+      }
+    },
+    {
+      "kind": "QueryVariable",
+      "spec": {
+        "allValue": "1,2,3,4,5,6,7,8,9,10,11,12",
+        "allowCustomValue": false,
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "definition": "SELECT distinct month(o.data_saida_efetiva) as mes from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
+        "description": "Aqui estão os meses com dados disponíveis para consulta",
+        "hide": "dontHide",
+        "includeAll": true,
+        "label": "Mês",
+        "multi": false,
+        "name": "mes",
+        "options": [],
+        "query": {
+          "datasource": {
+            "name": "afl02y4af6a68e"
+          },
+          "group": "mysql",
+          "kind": "DataQuery",
+          "spec": {
+            "dataset": "grotrack",
+            "editorMode": "code",
+            "format": "table",
+            "meta": {
+              "textField": "mes",
+              "valueField": "mes"
+            },
+            "query": "SELECT distinct month(o.data_saida_efetiva) as mes from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
+            "rawQuery": true,
+            "rawSql": "SELECT distinct month(o.data_saida_efetiva) as mes from ordem_de_servicos o WHERE o.status = 'FINALIZADO';",
+            "refId": "SQLVariableQueryEditor-VariableQuery",
+            "sql": {
+              "columns": [
+                {
+                  "parameters": [],
+                  "type": "function"
+                }
+              ],
+              "groupBy": [
+                {
+                  "property": {
+                    "type": "string"
+                  },
+                  "type": "groupBy"
+                }
+              ],
+              "limit": 50
+            }
+          },
+          "version": "v0"
+        },
+        "refresh": "onDashboardLoad",
+        "regex": "",
+        "regexApplyTo": "value",
+        "skipUrlSync": false,
+        "sort": "numericalAsc"
+      }
+    }
+  ]
 }
