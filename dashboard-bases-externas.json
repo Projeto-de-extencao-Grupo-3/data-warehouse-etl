@@ -4,19 +4,19 @@
   "metadata": {
     "name": "adxfgqf",
     "namespace": "default",
-    "uid": "3944f1ef-06ed-48b4-91d9-d100cd5e3114",
-    "resourceVersion": "1778188077898997",
-    "generation": 4,
-    "creationTimestamp": "2026-05-07T20:55:52Z",
+    "uid": "abcd6e85-9b5d-411d-b231-70b117d27678",
+    "resourceVersion": "1778955170738004",
+    "generation": 6,
+    "creationTimestamp": "2026-05-16T17:47:48Z",
     "labels": {
-      "grafana.app/deprecatedInternalID": "3354803560210432"
+      "grafana.app/deprecatedInternalID": "2065368502255616"
     },
     "annotations": {
-      "grafana.app/createdBy": "user:afla4ypsiq5fkc",
+      "grafana.app/createdBy": "user:cfm5vokjuv400c",
       "grafana.app/folder": "",
-      "grafana.app/saved-from-ui": "Grafana v13.0.1 (a100054f)",
-      "grafana.app/updatedBy": "user:afla4ypsiq5fkc",
-      "grafana.app/updatedTimestamp": "2026-05-07T21:07:57Z"
+      "grafana.app/saved-from-ui": "Grafana v13.0.1+security-01 (9bbe672d)",
+      "grafana.app/updatedBy": "user:cfm5vokjuv400c",
+      "grafana.app/updatedTimestamp": "2026-05-16T18:12:50Z"
     }
   },
   "spec": {
@@ -48,7 +48,7 @@
         "kind": "Panel",
         "spec": {
           "id": 1,
-          "title": "Base de Dados Externos",
+          "title": "Indicadores",
           "description": "",
           "links": [],
           "data": {
@@ -60,10 +60,10 @@
                   "spec": {
                     "query": {
                       "kind": "DataQuery",
-                      "group": "yesoreyeram-infinity-datasource",
+                      "group": "marcusolsson-csv-datasource",
                       "version": "v0",
                       "datasource": {
-                        "name": "afldjvl8ttv5se"
+                        "name": "efm5ztie1kbggc"
                       },
                       "spec": {
                         "columns": [],
@@ -90,10 +90,10 @@
                   "spec": {
                     "query": {
                       "kind": "DataQuery",
-                      "group": "yesoreyeram-infinity-datasource",
+                      "group": "marcusolsson-csv-datasource",
                       "version": "v0",
                       "datasource": {
-                        "name": "afldjvl8ttv5se"
+                        "name": "efm5ztie1kbggc"
                       },
                       "spec": {
                         "columns": [],
@@ -103,6 +103,12 @@
                         "key": "Q-4fa93bfd-2e02-4877-b27e-89db0d0fb332-1",
                         "parser": "backend",
                         "root_selector": "",
+                        "schema": [
+                          {
+                            "name": "",
+                            "type": "string"
+                          }
+                        ],
                         "source": "url",
                         "type": "csv",
                         "url": "https://github.com/Projeto-de-extencao-Grupo-3/data-warehouse-etl/blob/main/refined/refined_feriados.csv",
@@ -124,7 +130,7 @@
           "vizConfig": {
             "kind": "VizConfig",
             "group": "table",
-            "version": "13.0.1",
+            "version": "13.0.1+security-01",
             "spec": {
               "options": {
                 "cellHeight": "sm",
@@ -168,6 +174,142 @@
             }
           }
         }
+      },
+      "panel-2": {
+        "kind": "Panel",
+        "spec": {
+          "id": 2,
+          "title": "OS Atrasada Por Mês",
+          "description": "",
+          "links": [],
+          "data": {
+            "kind": "QueryGroup",
+            "spec": {
+              "queries": [
+                {
+                  "kind": "PanelQuery",
+                  "spec": {
+                    "query": {
+                      "kind": "DataQuery",
+                      "group": "yesoreyeram-infinity-datasource",
+                      "version": "v0",
+                      "datasource": {
+                        "name": "efm5zvh2j4rnkb"
+                      },
+                      "spec": {
+                        "columns": [
+                          {
+                            "selector": "mes_nome",
+                            "text": "mes_nome",
+                            "type": "string"
+                          },
+                          {
+                            "selector": "pct_atrasadas",
+                            "text": "pct_atrasadas",
+                            "type": "number"
+                          }
+                        ],
+                        "filters": [],
+                        "format": "table",
+                        "global_query_id": "",
+                        "parser": "backend",
+                        "root_selector": "",
+                        "source": "url",
+                        "type": "csv",
+                        "url": "https://github.com/Projeto-de-extencao-Grupo-3/data-warehouse-etl/blob/main/os_atrasadas_grafana.csv",
+                        "url_options": {
+                          "data": "",
+                          "method": "GET"
+                        }
+                      }
+                    },
+                    "refId": "OS Atrasada Por Mês",
+                    "hidden": false
+                  }
+                }
+              ],
+              "transformations": [],
+              "queryOptions": {}
+            }
+          },
+          "vizConfig": {
+            "kind": "VizConfig",
+            "group": "barchart",
+            "version": "13.0.1+security-01",
+            "spec": {
+              "options": {
+                "barRadius": 0,
+                "barWidth": 0.5,
+                "fullHighlight": false,
+                "groupWidth": 0.7,
+                "legend": {
+                  "calcs": [],
+                  "displayMode": "list",
+                  "placement": "bottom",
+                  "showLegend": true
+                },
+                "orientation": "horizontal",
+                "showValue": "always",
+                "stacking": "none",
+                "tooltip": {
+                  "hideZeros": false,
+                  "mode": "single",
+                  "sort": "none"
+                },
+                "xField": "mes_nome",
+                "xTickLabelRotation": 0,
+                "xTickLabelSpacing": 0
+              },
+              "fieldConfig": {
+                "defaults": {
+                  "unit": "percent",
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "value": 0,
+                        "color": "green"
+                      },
+                      {
+                        "value": 35,
+                        "color": "#EAB839"
+                      },
+                      {
+                        "value": 45,
+                        "color": "red"
+                      }
+                    ]
+                  },
+                  "color": {
+                    "mode": "thresholds"
+                  },
+                  "custom": {
+                    "axisBorderShow": false,
+                    "axisCenteredZero": false,
+                    "axisColorMode": "text",
+                    "axisLabel": "",
+                    "axisPlacement": "auto",
+                    "fillOpacity": 80,
+                    "gradientMode": "none",
+                    "hideFrom": {
+                      "legend": false,
+                      "tooltip": false,
+                      "viz": false
+                    },
+                    "lineWidth": 1,
+                    "scaleDistribution": {
+                      "type": "linear"
+                    },
+                    "thresholdsStyle": {
+                      "mode": "off"
+                    }
+                  }
+                },
+                "overrides": []
+              }
+            }
+          }
+        }
       }
     },
     "layout": {
@@ -184,6 +326,19 @@
               "element": {
                 "kind": "ElementReference",
                 "name": "panel-1"
+              }
+            }
+          },
+          {
+            "kind": "GridLayoutItem",
+            "spec": {
+              "x": 12,
+              "y": 8,
+              "width": 12,
+              "height": 8,
+              "element": {
+                "kind": "ElementReference",
+                "name": "panel-2"
               }
             }
           }
@@ -214,7 +369,7 @@
       "hideTimepicker": false,
       "fiscalYearStartMonth": 0
     },
-    "title": "Feriados",
+    "title": "Dashboard: Impacto de Feriados no Tempo de Entrega",
     "variables": [],
     "preferences": {
       "layout": {
